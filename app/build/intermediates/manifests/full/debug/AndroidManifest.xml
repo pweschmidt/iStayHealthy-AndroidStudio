@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pweschmidt.healthapps"
+    android:versionCode="23"
+    android:versionName="3.1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+<!-- 	<uses-permission android:name="android.permission.READ_PHONE_STATE" android:required="false" />	 -->
+    <!-- android:debuggable="true" -->
+    <application
+        android:name="com.pweschmidt.healthapps.iStayHealthy"
+        android:allowBackup="true"
+        android:backupAgent="com.pweschmidt.healthapps.iStayHealthyBackupAgent"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:restoreAnyVersion="true" >
+        <activity
+            android:name="com.pweschmidt.healthapps.iStayHealthyTabActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/CustomThemePortrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.istayhealthy.uk.com/parameters"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:scheme="file" />
+                <data android:pathPattern=".*\\.isth" />
+                <data android:pathPattern=".*\\..*\\.isth" />
+                <data android:pathPattern=".*\\..*\\..*\\.isth" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.isth" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.isth" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.isth" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.isth" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.pweschmidt.healthapps.AlarmReceiver" />
+        <receiver android:name="com.pweschmidt.healthapps.AlertSetter" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.pweschmidt.healthapps.iStayHealthyContentProvider"
+            android:authorities="com.pweschmidt.healthapps.iStayHealthy.iStayHealthyContentProvider"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="com.pweschmidt.healthapps.DashboardActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.pweschmidt.healthapps.ResultsListActivity" />
+        <activity android:name="com.pweschmidt.healthapps.MedicationListActivity" />
+        <activity android:name="com.pweschmidt.healthapps.AlertListActivity" />
+        <activity android:name="com.pweschmidt.healthapps.GeneralMedActivity" />
+        <activity
+            android:name="com.pweschmidt.healthapps.OtherMedsListActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.EditResultsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.AddHIVDrugsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ModifyHIVDrugsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.EffectsListActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.MissedListActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.PreviousListActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.AddOtherMedsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ModifyOtherMedsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.WebViewActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ModifyAlarmNotificationActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.EditPreviousActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.EditEffectsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.SelectEffects"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.EditMissedActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ToolsActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.AddAlarmNotificationActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.GlossaryActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.SetPasswordActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.DropboxActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ContactsListActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.AddClinicActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ModifyClinicActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ProceduresListActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.AddProceduresActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.ModifyProceduresActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.pweschmidt.healthapps.LoginActivity"
+            android:theme="@style/CustomThemePortrait" />
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask" >
+            <intent-filter>
+
+                <!-- Change this to be db- followed by your app key -->
+                <data android:scheme="db-sekt4gbt7526j0y" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pweschmidt.healthapps.AndroidBackupRestoreActivity"
+            android:theme="@style/CustomThemePortrait" />
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIwYEwBNNE24yoTNfuzLx5cGp6uBjv_zqbm_hpnw" />
+    </application>
+
+</manifest>

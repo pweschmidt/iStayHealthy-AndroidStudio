@@ -68,7 +68,10 @@ public class PageControllerView extends View
 		super.onDraw(canvas);
 		int midHeight = parentHeight / 2;
 		int midWidth = parentWidth / 2;
-		float distance = 20;
+
+		float distance;
+        distance = radius * 2 + 10;
+
 		int firstPoint = midWidth - ((pages/2) * (int)distance);
 		int nextX = firstPoint;
 		for(int i = 0 ; i < pages ; i++)

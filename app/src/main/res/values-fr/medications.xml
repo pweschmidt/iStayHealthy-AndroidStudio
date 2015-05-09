@@ -6,6 +6,8 @@
     <string name="PIDrugs">Inhibiteurs de Protéase (PI)</string>
     <string name="EntryDrugs">Inhibiteurs de Fusions/d’Entrée</string>
     <string name="IntegraseDrugs">Inhibiteurs d’Intégrase</string>
+    <string name="Booster">Amplificateur/Interféron</string>
+    <string name="OtherInhibitors">Autres Inhibiteurs</string>
     <string-array name="CombiMeds">
     	<item>atripla:Atripla:Efavirenz, Emtricitabine, Tenofovir:NNRTI, NRTI, NRTI</item>
     	<item>combivir:Combivir:Zidovudine, Lamivudine:NRTI, NRTI</item>
@@ -13,6 +15,7 @@
     	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
     	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
     	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Tenofovir, Emtricitabine:NRTI, NRTI</item>
     	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
     	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
     	<item>stribild:Stribild(US):Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
@@ -39,11 +42,14 @@
     <string-array name="ProteaseInhibitors">
     	<item>aptivus:Aptivus:Tipranavir:PI</item>
     	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
     	<item>invirase:Invirase:Saquinavir:PI</item>
     	<item>lexiva:Lexiva/Telzir:Fosamprenavir:PI</item>
-    	<item>norvir:Norvir:Ritonavir:PI</item>
+        <item>olysio:Olysio:Simeprevir:PI</item>
     	<item>prezista:Prezista:Darunavir:PI</item>
     	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
     	<item>viracept:Viracept:Nelfinavir:PI</item>
     </string-array>
     <string-array name="EntryInhibitors">
@@ -53,6 +59,19 @@
     <string-array name="IntegraseInhibitors">
     	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
     	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
     </string-array>
-    
+    <string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array>
+    <string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array>
+
 </resources>

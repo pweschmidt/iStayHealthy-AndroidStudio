@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="screenType">smallphone</string>
+    <string name="screenType" translatable="false">smallphone</string>
 </resources>

@@ -11,7 +11,7 @@
     </string-array>
     <string name="Cancel">Annuler</string>
     <string name="Save">Enregistrer</string>
-    <string name="HIVDrugs">Médication VIH</string>
+    <string name="HIVDrugs">Médication Antiviral</string>
     <string name="Results">Résultats</string>
     <string name="NoResultsListed">Aucun Résultats</string>
     <string name="Delete">Supprimer</string>
@@ -21,8 +21,8 @@
     <string name="ViralLoad">Charge Viral</string>
     <string name="AddResults">Ajouter\nRésultats</string>
     <string name="EditResults">Modifier\nRésultats</string>
-    <string name="AddHIVDrugs">Ajouter\nMédications VIH</string>
-    <string name="EditHIVDrugs">Modifier\nMéd. VIH</string>
+    <string name="AddHIVDrugs">Ajouter\nMédications</string>
+    <string name="EditHIVDrugs">Modifier\nMéd.</string>
     <string name="AddAlert">Ajouter\nAlerte</string>
     <string name="EditAlert">Modifier\nAlerte</string>
     <string name="AddOtherMeds">Ajouter\nMédicaments</string>
@@ -161,7 +161,7 @@
     <string name="BloodResults">Sang</string>
     <string name="OtherResults">Autre</string>
     <string name="AllResults">Tous</string>
-    <string name="version">iStayHealthy v3.0.4</string>
+    <string name="version">iStayHealthy v3.1.2</string>
     <string name="forgotPassword">Mot de passe oublié? Cliquez ici</string>
     <string name="editSideEffect">Décrirons les effet indésirable</string>
     <string name="effectList">De la Liste</string>

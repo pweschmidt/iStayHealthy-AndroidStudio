@@ -1,21 +1,35 @@
 package com.pweschmidt.healthapps;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.app.DatePickerDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
-//import android.util.Log;
-import android.util.TypedValue;
-import java.util.*;
-import android.widget.*;
-import android.view.*;
-import android.widget.TableRow.LayoutParams;
 import android.text.format.DateFormat;
+import android.util.TypedValue;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.DatePicker;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TableRow.LayoutParams;
+import android.widget.TextView;
 
 import com.pweschmidt.healthapps.datamodel.Medication;
+
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Vector;
+
+//import android.util.Log;
 
 //import android.content.DialogInterface;
 
@@ -101,7 +115,17 @@ public class AddHIVDrugsActivity extends Activity implements View.OnClickListene
         setUpTitle(integraseTitle);
         fillMedicationRows(integraseMeds, FileMaps.integraseInhibitors);
         
-    	
+    	String[] boosterList = getResources().getStringArray(R.array.Boosters);
+        String boosterTitle = getResources().getString(R.string.Booster);
+        Vector<String> boosterMeds = new Vector<String>(Arrays.asList(boosterList));
+        setUpTitle(boosterTitle);
+        fillMedicationRows(boosterMeds, FileMaps.boosters);
+
+        String[] otherList = getResources().getStringArray(R.array.OtherInhibitors);
+        String otherTitle = getResources().getString(R.string.OtherInhibitors);
+        Vector<String> otherMeds = new Vector<String>(Arrays.asList(otherList));
+        setUpTitle(otherTitle);
+        fillMedicationRows(otherMeds, FileMaps.otherInhibitors);
 	}
 
 	/**

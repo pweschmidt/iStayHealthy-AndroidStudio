@@ -22,6 +22,9 @@ import com.pweschmidt.healthapps.datamodel.*;
 import com.pweschmidt.healthapps.documents.*;
 import java.io.*;
 import android.net.*;
+
+import org.xml.sax.SAXParseException;
+
 import java.util.*;
 public class iStayHealthyTabActivity extends TabActivity 
 	implements TabHost.OnTabChangeListener
@@ -482,8 +485,17 @@ public class iStayHealthyTabActivity extends TabActivity
 //        					Log.d(TAG,"We read in "+xmlData.length+ " bytes");
         					if(0 < xmlData.length)
         					{
+
+                                XMLErrorHandler errorHandler = new XMLErrorHandler();
             					XMLParser parser = new XMLParser(xmlData, thisActivity);
-            					parser.parse();        						
+                                try {
+                                    parser.parse(errorHandler);
+                                }
+                                catch (SAXParseException se)
+                                {
+                                    input.close();
+                                    out.close();
+                                }
         					}
         					input.close();
         					out.close();

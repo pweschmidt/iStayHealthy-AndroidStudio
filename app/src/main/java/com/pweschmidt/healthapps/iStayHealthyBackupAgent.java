@@ -15,6 +15,8 @@ import com.pweschmidt.healthapps.datamodel.*;
 
 import com.pweschmidt.healthapps.documents.*;
 
+import org.xml.sax.SAXParseException;
+
 
 public class iStayHealthyBackupAgent extends BackupAgent 
 {
@@ -91,9 +93,17 @@ public class iStayHealthyBackupAgent extends BackupAgent
                 // extract it.
                 byte[] dataBuf = new byte[dataSize];
                 data.readEntityData(dataBuf, 0, dataSize);
-				XMLParser parser = new XMLParser(dataBuf,this);  
-				parser.parse(); 
-            } 
+                XMLErrorHandler errorHandler = new XMLErrorHandler();
+				XMLParser parser = new XMLParser(dataBuf,this);
+                try
+                {
+                    parser.parse(errorHandler);
+                }
+                catch(SAXParseException se)
+                {
+                    break;
+                }
+            }
             else 
             {
                 // Curious!  This entity is data under a key we do not

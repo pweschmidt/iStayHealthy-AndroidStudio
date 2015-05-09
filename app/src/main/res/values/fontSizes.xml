@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="legendTextSize">10sp</dimen>
+    <dimen name="legendExpTextSize">8sp</dimen>
+    <dimen name="smallTextSize">8sp</dimen>
+    <dimen name="smallExpTextSize">7sp</dimen>
+    <dimen name="chartMarginLeft">29sp</dimen>
+    <dimen name="chartMarginRight">27sp</dimen>
+    <dimen name="chartMarginTop">25sp</dimen>
+    <dimen name="chartMarginBottom">25sp</dimen>
+    <dimen name="chartInset">2sp</dimen>
+    <dimen name="roundness">10sp</dimen>
+    <dimen name="strokeWidth">2sp</dimen>
+    <dimen name="majorTickLength">9sp</dimen>
+    <dimen name="titleSize">16sp</dimen>
+    <dimen name="textOffset">3sp</dimen>
+    <dimen name="tickWidth">1sp</dimen>
+    <dimen name="chartInsetOffset">2sp</dimen>
+    <dimen name="textStrokeWidth">1sp</dimen>
+    <dimen name="smallTitleSize">12sp</dimen>
+    <dimen name="bitmapYOffset">15sp</dimen>
+</resources>

@@ -5,21 +5,24 @@ import java.net.URL;
 import java.io.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-//import android.util.Log;
+import android.util.Log;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
+import org.xml.sax.SAXParseException;
 
 import com.pweschmidt.healthapps.*;
 import android.content.*;
+
+import java.text.ParseException;
 import java.util.*;
 import java.text.SimpleDateFormat;
 
 public class XMLParser 
 {
-//	private static final String TAG = "XMLParser";
+	private static final String TAG = "XMLParser";
 	public final SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yy HH:mm:ss");
 	private Context context;
 	private byte[] xmlData;
@@ -27,18 +30,13 @@ public class XMLParser
 	private boolean isTintabee;
 	Document doc;
 	
-	/**
-	 * 
-	 * @param url
-	 * @param context
-	 */
-	public XMLParser(URL url, Context context)
-	{
-		this.context = context;
-		this.url = url;
-		xmlData = null;
-		isTintabee = false;
-	}
+//	public XMLParser(URL url, Context context)
+//	{
+//		this.context = context;
+//		this.url = url;
+//		xmlData = null;
+//		isTintabee = false;
+//	}
 	
 	/**
 	 * 
@@ -48,40 +46,37 @@ public class XMLParser
 	public XMLParser(byte[] xmlBytes, Context context)
 	{
 		this.url = null;
-//		Log.d(TAG,"We are about to read in the bytes "+xmlBytes.length);
+		Log.d(TAG,"We are about to read in the bytes "+xmlBytes.length);
 		this.xmlData = xmlBytes;
 		this.context = context;
 		isTintabee = false;
 	}
 	
-	/**
-	 * 
-	 * @param xmlBytes
-	 * @param context
-	 * @param checkIfTintabee
-	 */
-	public XMLParser(byte[] xmlBytes, Context context, boolean checkIfTintabee)
-	{
-		this.url = null;
-		this.xmlData = xmlBytes;
-		this.context = context;
-		isTintabee = checkIfTintabee;
-	}
+//	public XMLParser(byte[] xmlBytes, Context context, boolean checkIfTintabee)
+//	{
+//		this.url = null;
+//		this.xmlData = xmlBytes;
+//		this.context = context;
+//		isTintabee = checkIfTintabee;
+//	}
 	
 	
-	public void parse()
+	public void parse(XMLErrorHandler errorHandler)throws SAXParseException
 	{
 		try
 		{
-//			Log.d(TAG,"We are about to parse xml data");
+			Log.d(TAG,"We are about to parse xml data of content "+xmlData.length);
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
-			if( null != url )
-				doc = db.parse(new InputSource(url.openStream()));
-			else{
-				doc = db.parse(new ByteArrayInputStream(xmlData));				
-			}
-			doc.getDocumentElement().normalize();
+            db.setErrorHandler(errorHandler);
+                doc = db.parse(new ByteArrayInputStream(xmlData));
+//            if( null != url )
+//				doc = db.parse(new InputSource(url.openStream()));
+//			else{
+//			}
+                Log.d(TAG,"We are AFTER parsing the data set");
+                doc.getDocumentElement().normalize();
+            Log.d(TAG,"We are AFTER normalising the data set");
 			createResults();
 			createMedication();
 			createMissedMedication();
@@ -98,8 +93,6 @@ public class XMLParser
 	
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createResults()throws Exception
 	{
@@ -107,200 +100,184 @@ public class XMLParser
 			return;
 		}
 		NodeList results = getNodes(doc,"Result");
-//		Log.d(TAG,"parse: we have "+results.getLength()+" results");
+		Log.d(TAG,"parse: we have "+results.getLength()+" results");
 		for(int i = 0 ; i < results.getLength(); ++i){
-//			Log.d(TAG,"Result "+i);
+			Log.d(TAG,"Result "+i);
 			Results result = new Results();
 			Element element = (Element)results.item(i);
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(null != guid){
 				result.setGUID(guid);
 			}
-			String resultsDate = getAttributeValue(element, "ResultsDate");
+			String resultsDate = getAttributeValue(element, iStayHealthyDatabaseSchema.RESULTSDATE);
 			if(!resultsDate.equals("")){
-				Date date = dateFormat.parse(resultsDate);
-//				Log.d(TAG,"Date = "+resultsDate);
-				result.setTime(date.getTime());										
+				long date = getDateFromDateString(resultsDate);
+				Log.d(TAG,"Date = "+resultsDate);
+				result.setTime(date);
 			}
 			else
 			{
 				result.setTime((new Date()).getTime());
 			}
-			String cd4 = getAttributeValue(element, "CD4");
+			String cd4 = getAttributeValue(element, iStayHealthyDatabaseSchema.CD4);
 			if(!cd4.equals("")){
-//				Log.d(TAG,"CD4 count = "+cd4);
-				result.setCD4Count(Integer.parseInt(cd4));
+				Log.d(TAG,"CD4 count = "+cd4);
+                int iCD4;
+                iCD4 = getIntegerFromString(cd4);
+                result.setCD4Count(iCD4);
 			}
-			String cd4Percent = getAttributeValue(element, "CD4Percent");
+			String cd4Percent = getAttributeValue(element, iStayHealthyDatabaseSchema.CD4PERCENT);
 			if(!cd4Percent.equals("")){
-//				Log.d(TAG,"CD4 percent = "+cd4Percent);
-				result.setCD4Percent(Float.parseFloat(cd4Percent));
+				Log.d(TAG,"CD4 percent = "+cd4Percent);
+                float fCD4;
+                fCD4 = getFloatFromString(cd4Percent);
+				result.setCD4Percent(fCD4);
 			}
-			String vl = getAttributeValue(element, "ViralLoad");
+			String vl = getAttributeValue(element, iStayHealthyDatabaseSchema.VIRALLOAD);
 			if(!vl.equals("")){
-//				Log.d(TAG,"Viral Load = "+vl);
-				if(vl.equalsIgnoreCase("undetectable"))
-					result.setViralLoad(10);
-				else if(vl.startsWith("undetectable"))
-				{
+                int iVL;
+                iVL = getIntegerFromString(vl);
+                result.setViralLoad(iVL);
+//                Log.d(TAG,"Viral Load = "+vl+ " integer value = "+iVL);
+//				if(vl.equalsIgnoreCase("undetectable"))
+//					result.setViralLoad(10);
+//				else if(vl.startsWith("undetectable"))
+//				{
 //					Log.d(TAG,"Viral Load = "+vl+" and we recognised it as undetectable");
-					result.setViralLoad(10);
-				}
-				else{
-					if(isTintabee){
-						float value = Float.parseFloat(vl);
-						result.setViralLoad((int)value);
-					}
-					else{
-						result.setViralLoad(Integer.parseInt(vl));						
-					}
-				}
+//					result.setViralLoad(10);
+//				}
+//				else{
+//                  int iVL;
+//                    iVL = getIntegerFromString(vl);
+//                    result.setViralLoad(iVL);
+//                }
 			}
-//			Log.d(TAG,"after vl");
-			String hepCVl = getAttributeValue(element, "HepCViralLoad");
-			if(!hepCVl.equals("")){
-				if(hepCVl.equalsIgnoreCase("undetectable"))
-					result.setHepCViralLoad(10);
-				else{
-					if(isTintabee){
-						float value = Float.parseFloat(hepCVl);
-						result.setHepCViralLoad((int)value);
-					}
-					else{
-						result.setHepCViralLoad(Integer.parseInt(hepCVl));										
-					}
-				}
+			Log.d(TAG,"after vl");
+			String hepCVl = getAttributeValue(element, iStayHealthyDatabaseSchema.HEPCVIRALLOAD);
+			if(!hepCVl.equals(""))
+            {
+                int iVL;
+                iVL = getIntegerFromString(hepCVl);
+                result.setHepCViralLoad(iVL);
 			}
-			String glucose = getAttributeValue(element, "Glucose");
+			String glucose = getAttributeValue(element, iStayHealthyDatabaseSchema.GLUCOSE);
 			if(!glucose.equals("")){
-//				Log.d(TAG,"Glucose = "+glucose);
-				result.setGlucose(Float.parseFloat(glucose));
+				Log.d(TAG,"Glucose = "+glucose);
+                float fGlucose;
+                fGlucose = getFloatFromString(glucose);
+				result.setGlucose(fGlucose);
 			}
-			String ldl = getAttributeValue(element, "LDL");
+			String ldl = getAttributeValue(element, iStayHealthyDatabaseSchema.LDL);
 			if(!ldl.equals("")){
-//				Log.d(TAG,"LDL  = "+ldl);
-				result.setLDL(Float.parseFloat(ldl));
+				Log.d(TAG,"LDL  = "+ldl);
+                float fLDL;
+                fLDL = getFloatFromString(ldl);
+				result.setLDL(fLDL);
 			}
-			String hdl = getAttributeValue(element, "HDL");
+			String hdl = getAttributeValue(element, iStayHealthyDatabaseSchema.HDL);
 			if(!hdl.equals("")){
-//				Log.d(TAG,"HDL  = "+hdl);
-				result.setHDL(Float.parseFloat(hdl));
+				Log.d(TAG,"HDL  = "+hdl);
+                float fHDL;
+                fHDL = getFloatFromString(hdl);
+				result.setHDL(fHDL);
 			}
-			String systole = getAttributeValue(element, "Systole");
+			String systole = getAttributeValue(element, iStayHealthyDatabaseSchema.SYSTOLE);
 			if(!systole.equals("")){
-				result.setSystole(Integer.parseInt(systole));
-//				Log.d(TAG,"Systole = "+systole);
+                int iSystole;
+                iSystole = getIntegerFromString(systole);
+				result.setSystole(iSystole);
+				Log.d(TAG,"Systole = "+systole);
 			}
-			String diastole = getAttributeValue(element, "Diastole");
+			String diastole = getAttributeValue(element, iStayHealthyDatabaseSchema.DIASTOLE);
 			if(!diastole.equals("")){
-				result.setDiastole(Integer.parseInt(diastole));
-//				Log.d(TAG,"Diastole = "+diastole);
+                int iDiastole;
+                iDiastole = getIntegerFromString(diastole);
+				result.setDiastole(iDiastole);
+				Log.d(TAG,"Diastole = "+diastole);
 			}
-			String rate = getAttributeValue(element, "HeartRate");
+			String rate = getAttributeValue(element, iStayHealthyDatabaseSchema.HEARTRATE);
 			if(!rate.equals("")){
-				result.setHeartRate(Integer.parseInt(rate));
-//				Log.d(TAG,"HeartRate = "+rate);
+                int iHR;
+                iHR = getIntegerFromString(rate);
+				result.setHeartRate(iHR);
+				Log.d(TAG,"HeartRate = "+rate);
 			}
-//			Log.d(TAG,"after heartRate");
+			Log.d(TAG,"after heartRate");
 			
 			String weight = getAttributeValue(element, iStayHealthyDatabaseSchema.WEIGHT);
 			if(!weight.equals("")){
-				result.setWeight(Float.parseFloat(weight));
+                float fW;
+                fW = getFloatFromString(weight);
+				result.setWeight(fW);
 			}
 
 			String haemo = getAttributeValue(element, iStayHealthyDatabaseSchema.HAEMOGLOBULIN);
 			if(!haemo.equals(""))
 			{
-				if(haemo.contains("."))
-				{
-					float value = Float.parseFloat(haemo);
-					result.setHaemoglobulin((int)value);
-				}
-				else
-				{
-					result.setHaemoglobulin(Integer.parseInt(haemo));					
-				}
+                int iHaemo;
+                iHaemo = getIntegerFromString(haemo);
+                result.setHaemoglobulin(iHaemo);
 			}
 			String platelets = getAttributeValue(element, iStayHealthyDatabaseSchema.PLATELETCOUNT);
 			if(!platelets.equals(""))
 			{
-				if(platelets.contains("."))
-				{
-					float value = Float.parseFloat(platelets);
-					result.setPlateletCount((int)value);
-				}
-				else
-				{
-					result.setPlateletCount(Integer.parseInt(platelets));					
-				}
+                int fP = getIntegerFromString(platelets);
+                result.setPlateletCount(fP);
 			}
 			String redCells = getAttributeValue(element, iStayHealthyDatabaseSchema.REDCELLCOUNT);
 			if(!redCells.equals(""))
 			{
-				if(redCells.contains("."))
-				{
-					float value = Float.parseFloat(redCells);
-					result.setRedCellCount((int)value);
-				}
-				else
-				{
-					result.setRedCellCount(Integer.parseInt(redCells));					
-				}
+                int rC = getIntegerFromString(redCells);
+                result.setRedCellCount(rC);
 			}
-//			Log.d(TAG,"after redcellcount");
+			Log.d(TAG,"after redcellcount");
 			String whitecells = getAttributeValue(element, iStayHealthyDatabaseSchema.WHITECELLCOUNT);
 			if(!whitecells.equals(""))
 			{
-				if(whitecells.contains("."))
-				{
-					float value = Float.parseFloat(whitecells);
-					result.setWhiteCellCount((int)value);
-				}
-				else
-				{
-					result.setWhiteCellCount(Integer.parseInt(whitecells));					
-				}
-			}	
-//			Log.d(TAG,"WRITING RESULT TO SQL DATABASE");
+                int wC = getIntegerFromString(whitecells);
+                result.setWhiteCellCount(wC);
+			}
+			Log.d(TAG,"WRITING RESULT TO SQL DATABASE");
 			ContentValues values = result.contentValuesForResult();
-			context.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, values);
-//			android.net.Uri uri = context.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, values);
-//			Log.d(TAG,"in the XML parsing we added the row to the URI = "+uri.getPath());
+//			context.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, values);
+			android.net.Uri uri = context.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, values);
+			Log.d(TAG,"in the XML parsing we added the row to the URI = "+uri.getPath());
 		}
 	}
 	
 	
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createMedication()throws Exception{
 		if(null == doc){
 			return;
 		}
 		NodeList meds = getNodes(doc,"Medication");
+        Log.d(TAG,"parse: we have "+meds.getLength()+" meds");
 		for(int i = 0 ; i < meds.getLength(); ++i){
 			Element element = (Element)meds.item(i);
 			Medication med = new Medication();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				med.setGUID(guid);
 			}
-			String startDate = getAttributeValue(element, "StartDate");
+			String startDate = getAttributeValue(element, iStayHealthyDatabaseSchema.STARTDATE);
 			if(!startDate.equals("")){
-				Date date = dateFormat.parse(startDate);
-				med.setTime(date.getTime());					
+				long date = getDateFromDateString(startDate);
+				med.setTime(date);
 			}
-			String name = getAttributeValue(element, "Name");
+			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
+                Log.d(TAG,"name ="+name);
 				med.setName(name);
 			}
-			String drug = getAttributeValue(element, "Drug");
+			String drug = getAttributeValue(element, iStayHealthyDatabaseSchema.DRUG);
 			if(!drug.equals("")){
+                Log.d(TAG,"drug ="+drug);
 				med.setDrug(drug);
 			}
-			String form = getAttributeValue(element, "MedicationForm");
+			String form = getAttributeValue(element, iStayHealthyDatabaseSchema.MEDICATIONFORM);
 			if(!form.equals("")){
 				med.setMedicationForm(form);
 			}
@@ -310,31 +287,30 @@ public class XMLParser
 	
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createMissedMedication()throws Exception{
 		if(null == doc){
 			return;
 		}
 		NodeList misseds = getNodes(doc, "MissedMedication");
+        Log.d(TAG,"parse: we have "+misseds.getLength()+" missed");
 		for(int i = 0 ; i < misseds.getLength(); ++i){
 			Element element = (Element)misseds.item(i);
 			MissedMedication missed = new MissedMedication();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				missed.setGUID(guid);
 			}
-			String missedDate = getAttributeValue(element, "MissedDate");
+			String missedDate = getAttributeValue(element, iStayHealthyDatabaseSchema.MISSEDDATE);
 			if(!missedDate.equals("")){
-				Date date = dateFormat.parse(missedDate);
-				missed.setTime(date.getTime());
+				long date = getDateFromDateString(missedDate);
+				missed.setTime(date);
 			}
-			String name = getAttributeValue(element, "Name");
+			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
 				missed.setName(name);
 			}
-			String drug = getAttributeValue(element, "Drug");
+			String drug = getAttributeValue(element, iStayHealthyDatabaseSchema.DRUG);
 			if(!drug.equals("")){
 				missed.setDrug(drug);
 			}
@@ -349,8 +325,6 @@ public class XMLParser
 
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createOtherMedication()throws Exception{
 		if(null == doc){
@@ -360,25 +334,27 @@ public class XMLParser
 		for(int i = 0 ; i < otherMeds.getLength(); ++i){
 			Element element = (Element)otherMeds.item(i);
 			OtherMedication other = new OtherMedication();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				other.setGUID(guid);
 			}
-			String startDate = getAttributeValue(element, "StartDate");
+			String startDate = getAttributeValue(element, iStayHealthyDatabaseSchema.STARTDATE);
 			if(!startDate.equals("")){
-				Date date = dateFormat.parse(startDate);
-				other.setTime(date.getTime());
+				long date = getDateFromDateString(startDate);
+				other.setTime(date);
 			}
-			String name = getAttributeValue(element, "Name");
+			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
+                Log.d(TAG,"name ="+name);
 				other.setName(name);
 			}
-			String drug = getAttributeValue(element, "Drug");
+			String drug = getAttributeValue(element, iStayHealthyDatabaseSchema.DRUG);
 			if(!drug.equals("")){
+                Log.d(TAG,"drug ="+drug);
 				other.setDrug(drug);
 			}
 			
-			String dose = getAttributeValue(element, "Dose");
+			String dose = getAttributeValue(element, iStayHealthyDatabaseSchema.DOSE);
 			if(!dose.equals(""))
 			{
 				other.setDose(Integer.parseInt(dose));
@@ -387,7 +363,7 @@ public class XMLParser
 			String unit = getAttributeValue(element, "Unit");
 					
 			
-			String form = getAttributeValue(element, "MedicationForm");
+			String form = getAttributeValue(element, iStayHealthyDatabaseSchema.MEDICATIONFORM);
 			if(!form.equals("")){
 				other.setMedicationForm(form);
 			}
@@ -397,8 +373,6 @@ public class XMLParser
 	
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createSideEffects()throws Exception{
 		if(null == doc){
@@ -408,24 +382,24 @@ public class XMLParser
 		for(int i = 0 ; i < effects.getLength(); ++i){
 			Element element = (Element)effects.item(i);
 			SideEffects effect = new SideEffects();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				effect.setGUID(guid);
 			}
-			String effectsDate = getAttributeValue(element, "SideEffectsDate");
+			String effectsDate = getAttributeValue(element, iStayHealthyDatabaseSchema.SIDEEFFECTSDATE);
 			if(!effectsDate.equals("")){
-				Date date = dateFormat.parse(effectsDate);
-				effect.setTime(date.getTime());
+				long date = getDateFromDateString(effectsDate);
+				effect.setTime(date);
 			}
-			String name = getAttributeValue(element, "Name");
+			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
 				effect.setName(name);
 			}
-			String drug = getAttributeValue(element, "Drug");
+			String drug = getAttributeValue(element, iStayHealthyDatabaseSchema.DRUG);
 			if(!drug.equals("")){
 				effect.setDrug(drug);
 			}
-			String effectsText = getAttributeValue(element, "SideEffects");
+			String effectsText = getAttributeValue(element, iStayHealthyDatabaseSchema.SIDEEFFECTS);
 			if(!effectsText.equals("")){
 				effect.setSideEffects(effectsText);
 			}
@@ -448,8 +422,6 @@ public class XMLParser
 	
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createContacts()throws Exception{
 		if(null == doc){
@@ -459,95 +431,91 @@ public class XMLParser
 		for(int i = 0 ; i < contacts.getLength(); ++i){
 			Element element = (Element)contacts.item(i);
 			Contacts contact = new Contacts();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				contact.setGUID(guid);
 			}
-			String key = getAttributeValue(element,"key");
-			if(!key.equals("")){
-				contact.setTintabee(key);
-			}
-			String clinicName = getAttributeValue(element,"ClinicName");
+			String clinicName = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICNAME);
 			if(!clinicName.equals("")){
 				contact.setClinicName(clinicName);
 			}
-			String clinicId = getAttributeValue(element,"ClinicID");
+			String clinicId = getAttributeValue(element, iStayHealthyDatabaseSchema.CLINICID);
 			if(!clinicId.equals("")){
 				contact.setClinicID(clinicId);
 			}
-			String consultantName = getAttributeValue(element,"ConsultantName");
+			String consultantName = getAttributeValue(element,iStayHealthyDatabaseSchema.CONSULTANTNAME);
 			if(!consultantName.equals("")){
 				contact.setConsultantName(consultantName);
 			}
-			String clinicNurseName = getAttributeValue(element,"ClinicNurseName");
+			String clinicNurseName = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICNURSENAME);
 			if(!clinicNurseName.equals("")){
 				contact.setClinicNurseName(clinicNurseName);
 			}
-			String contactName = getAttributeValue(element,"ContactName");
+			String contactName = getAttributeValue(element,iStayHealthyDatabaseSchema.CONTACTNAME);
 			if(!contactName.equals("")){
 				contact.setContactName(contactName);
 			}
-			String email = getAttributeValue(element,"ClinicEmailAddress");
+			String email = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICEMAILADDRESS);
 			if(!email.equals("")){
 				contact.setClinicEmailAddress(email);
 			}
-			String web = getAttributeValue(element,"ClinicWebSite");		
+			String web = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICWEBSITE);
 			if(!web.equals("")){
 				contact.setClinicWebSite(web);
 			}
-			String street = getAttributeValue(element,"ClinicStreet");
+			String street = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICSTREET);
 			if(!street.equals("")){
 				contact.setClinicStreet(street);
 			}
-			String city = getAttributeValue(element,"ClinicCity");
+			String city = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICCITY);
 			if(!city.equals("")){
 				contact.setClinicCity(city);
 			}
-			String zip = getAttributeValue(element,"ClinicPostcode");
+			String zip = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICPOSTCODE);
 			if(!zip.equals("")){
 				contact.setClinicPostcode(zip);
 			}
-			String country = getAttributeValue(element,"ClinicCountry");
+			String country = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICCOUNTRY);
 			if(!country.equals("")){
 				contact.setClinicCountry(country);
 			}
-			String number = getAttributeValue(element,"ClinicContactNumber");
+			String number = getAttributeValue(element,iStayHealthyDatabaseSchema.CLINICCONTACTNUMBER);
 			if(!number.equals("")){
 				contact.setClinicContactNumber(number);
 			}
-			String emergency2 = getAttributeValue(element,"EmergencyContactNumber2");
+			String emergency2 = getAttributeValue(element,iStayHealthyDatabaseSchema.EMERGENCYCONTACTNUMBER2);
 			if(!emergency2.equals("")){
 				contact.setEmergencyContactNumber2(emergency2);
 			}
-			String emergency = getAttributeValue(element,"EmergencyContactNumber");
+			String emergency = getAttributeValue(element,iStayHealthyDatabaseSchema.EMERGENCYCONTACTNUMBER);
 			if(!emergency.equals("")){
 				contact.setEmergencyContactNumber(emergency);
 			}
-			String number2 = getAttributeValue(element,"ResultsContactNumber");
+			String number2 = getAttributeValue(element,iStayHealthyDatabaseSchema.RESULTSCONTACTNUMBER);
 			if(!number2.equals("")){
 				contact.setResultsContactNumber(number2);
 			}
-			String number3 = getAttributeValue(element,"AppointmentContactNumber");
+			String number3 = getAttributeValue(element,iStayHealthyDatabaseSchema.APPOINTMENTCONTACTNUMBER);
 			if(!number3.equals("")){
 				contact.setAppointmentContactNumber(number3);
 			}
-			String insuranceID = getAttributeValue(element,"InsuranceID");
+			String insuranceID = getAttributeValue(element,iStayHealthyDatabaseSchema.INSURANCEID);
 			if(!insuranceID.equals("")){
 				contact.setInsuranceID(insuranceID);
 			}
-			String insurance = getAttributeValue(element,"InsuranceName");
+			String insurance = getAttributeValue(element,iStayHealthyDatabaseSchema.INSURANCENAME);
 			if(!insurance.equals("")){
 				contact.setInsuranceName(insurance);
 			}
-			String code = getAttributeValue(element,"InsuranceAuthorisationCode");
+			String code = getAttributeValue(element,iStayHealthyDatabaseSchema.INSURANCEAUTHORISATIONCODE);
 			if(!code.equals("")){
 				contact.setInsuranceAuthorisationCode(code);
 			}
-			String insuranceNumber = getAttributeValue(element,"InsuranceContactNumber");
+			String insuranceNumber = getAttributeValue(element,iStayHealthyDatabaseSchema.INSURANCECONTACTNUMBER);
 			if(!insuranceNumber.equals("")){
 				contact.setInsuranceContactNumber(insuranceNumber);
 			}
-			String insuranceWeb = getAttributeValue(element,"InsuranceWebSite");
+			String insuranceWeb = getAttributeValue(element,iStayHealthyDatabaseSchema.INSURANCEWEBSITE);
 			if(!insuranceWeb.equals("")){
 				contact.setInsuranceWebSite(insuranceWeb);
 			}
@@ -557,8 +525,6 @@ public class XMLParser
 
 	/**
 	 * 
-	 * @param adapter
-	 * @param doc
 	 */
 	private void createProcedures()throws Exception{
 		if(null == doc){
@@ -568,30 +534,30 @@ public class XMLParser
 		for(int i = 0 ; i < procedures.getLength(); ++i){
 			Element element = (Element)procedures.item(i);
 			Procedures procs = new Procedures();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				procs.setGUID(guid);
 			}
-			String procdate = getAttributeValue(element, "Date");
+			String procdate = getAttributeValue(element, iStayHealthyDatabaseSchema.DATE);
 			if(!procdate.equals(""))
 			{
-				Date date = dateFormat.parse(procdate);
-				procs.setTime(date.getTime());
+				long date = getDateFromDateString(procdate);
+				procs.setTime(date);
 			}
-			String name = getAttributeValue(element, "Name");
+			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals(""))
 			{
 				procs.setName(name);
 			}
-			String illness = getAttributeValue(element, "Illness");
+			String illness = getAttributeValue(element, iStayHealthyDatabaseSchema.ILLNESS);
 			if(!illness.equals("")){
 				procs.setIllness(illness);
 			}
-			String caused = getAttributeValue(element, "CausedBy");
+			String caused = getAttributeValue(element, iStayHealthyDatabaseSchema.CAUSEDBY);
 			if(!caused.equals("")){
 				procs.setCausedBy(caused);
 			}			
-			String notes = getAttributeValue(element, "Notes");
+			String notes = getAttributeValue(element, iStayHealthyDatabaseSchema.NOTES);
 			if(!notes.equals("")){
 				procs.setNotes(notes);
 			}
@@ -607,25 +573,25 @@ public class XMLParser
 		for(int i = 0 ; i < procedures.getLength(); ++i){
 			Element element = (Element)procedures.item(i);
 			PreviousMedication previous = new PreviousMedication();
-			String guid = getAttributeValue(element, "GUID");
+			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
 			if(!guid.equals("")){
 				previous.setGUID(guid);
 			}
 						
 			String start = getAttributeValue(element, iStayHealthyDatabaseSchema.STARTDATE);
 			if(!start.equals("")){
-				Date date = dateFormat.parse(start);
-				previous.setTime(date.getTime());					
+				long date = getDateFromDateString(start);
+				previous.setTime(date);
 			}
 			
 			String end = getAttributeValue(element, iStayHealthyDatabaseSchema.ENDDATE);
 			if(!end.equals("")){
-				Date date = dateFormat.parse(end);
-				previous.setEndDate(date.getTime());					
+				long date = getDateFromDateString(end);
+				previous.setEndDate(date);
 			}
 			
 			
-			String name = getAttributeValue(element, "Name");
+			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
 				previous.setName(name);
 			}
@@ -703,5 +669,67 @@ public class XMLParser
 		builder.replace(0, 1, name.toLowerCase());
 		return builder.toString();
 	}
-	
+
+    private int getIntegerFromString(String value)
+    {
+        if (value.contains("undetectable"))
+        {
+            return 10;
+        }
+        String regex = "[0-9]+";
+        boolean matchesNumber = value.matches(regex);
+        int iValue = 0;
+        if (matchesNumber)
+        {
+            try
+            {
+                iValue = Integer.parseInt(value);
+            }
+            catch (NumberFormatException ne)
+            {
+                return 0;
+            }
+        }
+        else
+        {
+            float fValue = getFloatFromString(value);
+            iValue = (int)fValue;
+        }
+        return iValue;
+    }
+
+    private float getFloatFromString(String value)
+    {
+        String regex = "[-+]?([0-9]*\\.[0-9]+|[0-9]+)";
+        boolean matchesNumber = value.matches(regex);
+        float valueFloat = 0;
+        if (matchesNumber)
+        {
+            try
+            {
+                valueFloat = Float.parseFloat(value);
+            }catch(NumberFormatException ne)
+            {
+                return 0;
+            }
+
+        }
+        return valueFloat;
+
+    }
+
+    private long getDateFromDateString(String dateValue)
+    {
+        Date date = new Date();
+        try
+        {
+            date = dateFormat.parse(dateValue);
+        }
+        catch(ParseException ie)
+        {
+            return new Date().getTime();
+        }
+
+        return date.getTime();
+    }
 }

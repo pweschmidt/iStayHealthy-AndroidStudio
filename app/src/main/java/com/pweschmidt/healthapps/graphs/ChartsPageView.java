@@ -35,29 +35,30 @@ public class ChartsPageView extends View
 	private int whichFrame;
 	private Canvas canvas;
 	private boolean isInTestingMode;
-	public static final int MARGINLEFT = 29;
-	public static final int MARGINRIGHT = 25;
-	public static final int MARGINTOP = 25;
-	public static final int MARGINBOTTOM = 25;
-	public static final float INSET = 2;
-	public static final float ROUNDNESS = 10;
-	public static final float INSETOFFSET = (float)1.5;
-	public static final float MAJORTICKLENGTH = 9;
-	public static final float TICKWIDTH = (float)1.5;
-	public static final float TEXTOFFSET = (float)3.5;
-	public static final float TEXTSIZE = 12;
-	public static final float TITLESIZE = 16;
-	public static final float EXPTEXTSIZE = 10;
+	public static int MARGINLEFT;
+	public static int MARGINRIGHT;
+	public static int MARGINTOP;
+	public static int MARGINBOTTOM;
+	public float INSET;
+	public float ROUNDNESS;
+	public float INSETOFFSET;
+	public float MAJORTICKLENGTH;
+	public float TICKWIDTH;
+	public float TEXTOFFSET;
+	public float TEXTSIZE;
+	public float TITLESIZE;
+	public float EXPTEXTSIZE;
 	
-	public static final float SMALLTEXTSIZE = 9;
-	public static final float SMALLEXPTEXTSIZE = 7;
-	public static final float SMALLTITLESIZE = 12;
+	public float SMALLTEXTSIZE;
+	public float SMALLEXPTEXTSIZE;
+	public float SMALLTITLESIZE;
+    public float BITMAPOFFSET;
 	
-	public static final float STROKEWIDTH = 2;
-	public static final float TEXTSTROKEWIDTH = 1;
+	public float STROKEWIDTH;
+	public float TEXTSTROKEWIDTH;
 	public static final int YAXISTICKS = 8;
 	public static final int SMALLYAXISTICKS = 4;
-			
+
 	private int parentWidth;
 	private int parentHeight;
 	private Paint textPaint;
@@ -100,6 +101,7 @@ public class ChartsPageView extends View
 		int ticks = (useSmallSize) ? SMALLYAXISTICKS : YAXISTICKS;
 		firstValueRange = ResultsTrafo.getValueRange(ticks, 0, 100);
 		secondValueRange = ResultsTrafo.getValueRange(ticks, 0, 100);
+        setFontAndOtherSizes();
 		setGraphCharacteristics();
 		setUpAxisPaint();	
 	}
@@ -120,6 +122,7 @@ public class ChartsPageView extends View
 		int ticks = (useSmallSize) ? SMALLYAXISTICKS : YAXISTICKS;
 		firstValueRange = ResultsTrafo.getValueRange(ticks, 0, 100);
 		secondValueRange = ResultsTrafo.getValueRange(ticks, 0, 100);
+        setFontAndOtherSizes();
 		setGraphCharacteristics();
 		setUpAxisPaint();	
 	}
@@ -140,6 +143,7 @@ public class ChartsPageView extends View
 		int ticks = (useSmallSize) ? SMALLYAXISTICKS : YAXISTICKS;
 		firstValueRange = ResultsTrafo.getValueRange(ticks, 0, 100);
 		secondValueRange = ResultsTrafo.getValueRange(ticks, 0, 100);
+        setFontAndOtherSizes();
 		setGraphCharacteristics();
 		setUpAxisPaint();	
 	}
@@ -556,7 +560,7 @@ public class ChartsPageView extends View
 				textPaint.setColor(Color.DKGRAY);
 				canvas.drawText(dateString, x - MARGINLEFT+INSET, MARGINTOP + chartHeight + MARGINBOTTOM - 10, textPaint);
 				float xIcon = x - MARGINLEFT/2;
-				float yIcon = MARGINTOP + chartHeight - 30;
+				float yIcon = MARGINTOP + chartHeight - BITMAPOFFSET;
 				canvas.drawBitmap(bitmap, xIcon, yIcon, null);			
 				
 			}
@@ -587,7 +591,7 @@ public class ChartsPageView extends View
 				textPaint.setColor(Color.DKGRAY);
 				canvas.drawText(dateString, x - MARGINLEFT+INSET, MARGINTOP + chartHeight + MARGINBOTTOM - 10, textPaint);
 				float xIcon = x - MARGINLEFT/2;
-				float yIcon = MARGINTOP + chartHeight - 30;
+				float yIcon = MARGINTOP + chartHeight - BITMAPOFFSET;
 				canvas.drawBitmap(bitmap, xIcon, yIcon, null);			
 				
 			}
@@ -724,7 +728,30 @@ public class ChartsPageView extends View
 			yValue *= 10;
 		}
 	}
-	
+
+    private void setFontAndOtherSizes()
+    {
+        TEXTSIZE = getResources().getDimensionPixelSize(R.dimen.legendTextSize);
+        EXPTEXTSIZE = getResources().getDimensionPixelSize(R.dimen.legendExpTextSize);
+        MARGINBOTTOM = getResources().getDimensionPixelOffset(R.dimen.chartMarginBottom);
+        MARGINTOP = getResources().getDimensionPixelOffset(R.dimen.chartMarginTop);
+        MARGINLEFT = getResources().getDimensionPixelOffset(R.dimen.chartMarginLeft);
+        MARGINRIGHT = getResources().getDimensionPixelOffset(R.dimen.chartMarginRight);
+        INSET = getResources().getDimensionPixelOffset(R.dimen.chartInset);
+        INSETOFFSET = getResources().getDimensionPixelOffset(R.dimen.chartInsetOffset);
+        TITLESIZE = getResources().getDimensionPixelOffset(R.dimen.titleSize);
+        TEXTOFFSET = getResources().getDimensionPixelOffset(R.dimen.textOffset);
+        TICKWIDTH = getResources().getDimensionPixelOffset(R.dimen.tickWidth);
+        MAJORTICKLENGTH = getResources().getDimensionPixelOffset(R.dimen.majorTickLength);
+        ROUNDNESS = getResources().getDimensionPixelOffset(R.dimen.roundness);
+        SMALLTEXTSIZE = getResources().getDimensionPixelOffset(R.dimen.smallTextSize);
+        SMALLEXPTEXTSIZE = getResources().getDimensionPixelOffset(R.dimen.smallExpTextSize);
+        SMALLTITLESIZE = getResources().getDimensionPixelOffset(R.dimen.smallTitleSize);
+        STROKEWIDTH = getResources().getDimensionPixelOffset(R.dimen.strokeWidth);
+        TEXTSTROKEWIDTH = getResources().getDimensionPixelOffset(R.dimen.textStrokeWidth);
+        BITMAPOFFSET = getResources().getDimensionPixelOffset(R.dimen.bitmapYOffset);
+    }
+
 	/**
 	 */
 	private void setGraphCharacteristics()

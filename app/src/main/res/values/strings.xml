@@ -11,7 +11,7 @@
     </string-array>
     <string name="Cancel">Cancel</string>
     <string name="Save">Save</string>
-    <string name="HIVDrugs">HIV Drugs</string>
+    <string name="HIVDrugs">Antiviral Drugs</string>
     <string name="Results">Results</string>
     <string name="NoResultsListed">No Results Listed</string>
     <string name="Delete">Delete</string>
@@ -21,8 +21,8 @@
     <string name="ViralLoad">Viral Load</string>
     <string name="AddResults">Add Results</string>
     <string name="EditResults">Edit Results</string>
-    <string name="AddHIVDrugs">Add HIV Drugs</string>
-    <string name="EditHIVDrugs">Edit HIV Drugs</string>
+    <string name="AddHIVDrugs">Add Drugs</string>
+    <string name="EditHIVDrugs">Edit Drugs</string>
     <string name="AddAlert">Add Alert</string>
     <string name="EditAlert">Edit Alert</string>
     <string name="AddOtherMeds">Add Other Meds</string>

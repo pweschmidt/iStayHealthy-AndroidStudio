@@ -42,6 +42,18 @@ public class FileMaps {
     	allMedImages.put("fuzeon",new Integer(R.drawable.fuzeon));    	
     	allMedImages.put("isentress", new Integer(R.drawable.isentress));
     	allMedImages.put("tivicay", new Integer(R.drawable.tivicay));
+        allMedImages.put("triumeq", new Integer(R.drawable.triumeq));
+        allMedImages.put("vitekta",new Integer(R.drawable.vitekta));
+        allMedImages.put("incivek", new Integer(R.drawable.incivek));
+        allMedImages.put("olysio", new Integer(R.drawable.olysio));
+        allMedImages.put("sunvepra", new Integer(R.drawable.sunvepra));
+        allMedImages.put("victrelis", new Integer(R.drawable.victrelis));
+        allMedImages.put("pegintron", new Integer(R.drawable.pegintron));
+        allMedImages.put("pegasys", new Integer(R.drawable.pegasys));
+        allMedImages.put("tybost", new Integer(R.drawable.tybost));
+        allMedImages.put("ribasphere", new Integer(R.drawable.ribasphere));
+        allMedImages.put("sovaldi", new Integer(R.drawable.sovaldi));
+        allMedImages.put("daklinza", new Integer(R.drawable.daklinza));
     }
     
     public final static HashMap<String, Integer> combiMeds = new HashMap<String, Integer>();
@@ -52,6 +64,7 @@ public class FileMaps {
     	combiMeds.put("kaletra", new Integer(R.drawable.kaletra));
     	combiMeds.put("kivexa", new Integer(R.drawable.kivexa));
     	combiMeds.put("trizivir", new Integer(R.drawable.trizivir));
+        combiMeds.put("triumeq", new Integer(R.drawable.triumeq));
     	combiMeds.put("truvada", new Integer(R.drawable.truvada));
     	combiMeds.put("zidovudine", new Integer(R.drawable.lamivudine));
     	combiMeds.put("stribild", new Integer(R.drawable.stribild));
@@ -86,23 +99,42 @@ public class FileMaps {
     	proteaseInhibitors.put("aptivus", new Integer(R.drawable.aptivus));
     	proteaseInhibitors.put("crixivan", new Integer(R.drawable.crixivan));
     	proteaseInhibitors.put("invirase", new Integer(R.drawable.invirase));
+        proteaseInhibitors.put("incivek", new Integer(R.drawable.incivek));
     	proteaseInhibitors.put("lexiva", new Integer(R.drawable.lexiva));
-    	proteaseInhibitors.put("norvir", new Integer(R.drawable.norvir));
+        proteaseInhibitors.put("olysio", new Integer(R.drawable.olysio));
     	proteaseInhibitors.put("prezista", new Integer(R.drawable.prezista));
     	proteaseInhibitors.put("reyataz", new Integer(R.drawable.reyataz));
+        proteaseInhibitors.put("sunvepra", new Integer(R.drawable.sunvepra));
+        proteaseInhibitors.put("victrelis", new Integer(R.drawable.victrelis));
     	proteaseInhibitors.put("viracept", new Integer(R.drawable.viracept));
     }
 
     public final static HashMap<String, Integer> entryInhibitors = new HashMap<String, Integer>();
     static{
     	entryInhibitors.put("celsentri",new Integer(R.drawable.celsentri));
-    	entryInhibitors.put("fuzeon",new Integer(R.drawable.fuzeon));    	
+    	entryInhibitors.put("fuzeon",new Integer(R.drawable.fuzeon));
+        entryInhibitors.put("vitekta",new Integer(R.drawable.vitekta));
     }
 
     public final static HashMap<String, Integer> integraseInhibitors = new HashMap<String, Integer>();
     static{
     	integraseInhibitors.put("isentress", new Integer(R.drawable.isentress));
     	integraseInhibitors.put("tivicay", new Integer(R.drawable.tivicay));
+    }
+
+    public final static HashMap<String, Integer> boosters = new HashMap<String, Integer>();
+    static {
+        boosters.put("norvir", new Integer(R.drawable.norvir));
+        boosters.put("pegintron", new Integer(R.drawable.pegintron));
+        boosters.put("pegasys", new Integer(R.drawable.pegasys));
+        boosters.put("tybost", new Integer(R.drawable.tybost));
+    }
+
+    public final static HashMap<String, Integer> otherInhibitors = new HashMap<String, Integer>();
+    static {
+        otherInhibitors.put("ribasphere", new Integer(R.drawable.ribasphere));
+        otherInhibitors.put("sovaldi", new Integer(R.drawable.sovaldi));
+        otherInhibitors.put("daklinza", new Integer(R.drawable.daklinza));
     }
 
     /**
@@ -112,24 +144,36 @@ public class FileMaps {
      */
     public static int getResourceIdForName(String name){
     	int resId = R.drawable.combi;
-    	if(null != FileMaps.combiMeds.get(name))
-    		return FileMaps.combiMeds.get(name).intValue();
+    	if(null != FileMaps.combiMeds.get(name)) {
+            return FileMaps.combiMeds.get(name).intValue();
+        }
     	
-    	if(null != FileMaps.nnRTI.get(name))
-    		return FileMaps.nnRTI.get(name).intValue();
+    	if(null != FileMaps.nnRTI.get(name)) {
+            return FileMaps.nnRTI.get(name).intValue();
+        }
     	
-    	if(null != FileMaps.nRTI.get(name))
-    		return FileMaps.nRTI.get(name).intValue();
+    	if(null != FileMaps.nRTI.get(name)) {
+            return FileMaps.nRTI.get(name).intValue();
+        }
+    	if(null != FileMaps.proteaseInhibitors.get(name)) {
+            return FileMaps.proteaseInhibitors.get(name).intValue();
+        }
+    	if(null != FileMaps.entryInhibitors.get(name)) {
+            return FileMaps.entryInhibitors.get(name).intValue();
+        }
     	
-    	if(null != FileMaps.proteaseInhibitors.get(name))
-    		return FileMaps.proteaseInhibitors.get(name).intValue();
-    	
-    	if(null != FileMaps.entryInhibitors.get(name))
-    		return FileMaps.entryInhibitors.get(name).intValue();
-    	
-    	if(null != FileMaps.integraseInhibitors.get(name))
-    		return FileMaps.integraseInhibitors.get(name).intValue();
-    	
+    	if(null != FileMaps.integraseInhibitors.get(name)) {
+            return FileMaps.integraseInhibitors.get(name).intValue();
+        }
+
+        if (null != FileMaps.boosters.get(name)){
+            return FileMaps.boosters.get(name).intValue();
+        }
+
+        if (null != FileMaps.otherInhibitors.get(name)){
+            return FileMaps.otherInhibitors.get(name).intValue();
+        }
+
     	return resId;
     }
 	

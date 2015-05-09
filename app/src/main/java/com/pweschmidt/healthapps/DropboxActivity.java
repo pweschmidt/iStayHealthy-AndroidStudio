@@ -34,11 +34,14 @@ import com.dropbox.client2.session.AppKeyPair;
 import com.dropbox.client2.session.Session.AccessType;
 import com.dropbox.client2.session.TokenPair;
 import com.pweschmidt.healthapps.documents.*;
+
+import org.xml.sax.SAXParseException;
+
 import java.util.*;
 
 public class DropboxActivity extends Activity implements View.OnClickListener
 {
-//    private static final String TAG = "DropboxActivity";
+ //   private static final String TAG = "DropboxActivity";
     ///////////////////////////////////////////////////////////////////////////
     //                      Your Dropbox-specific settings.                      //
     ///////////////////////////////////////////////////////////////////////////
@@ -52,6 +55,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     final static private String ACCOUNT_PREFS_NAME = "prefs";
     final static private String ACCESS_KEY_NAME = "ACCESS_KEY";
     final static private String ACCESS_SECRET_NAME = "ACCESS_SECRET";
+    final static private String OAUTH2_TOKEN = "OAUTH2_TOKEN_DROPBOX";
     // If you'd like to change the access type to the full Dropbox instead of
     // an app folder, change this value.
     final static private AccessType ACCESS_TYPE = AccessType.DROPBOX;
@@ -105,6 +109,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
         connectButton = (Button)findViewById(R.id.LinkDropbox);
         connectButton.setOnClickListener(this);
 
+
         disconnectButton = (Button)findViewById(R.id.UnlinkDropbox);
         disconnectButton.setOnClickListener(this);
         setLoggedIn(dropBoxSession.getSession().isLinked());
@@ -139,7 +144,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     		restore();
     		break;
     	case R.id.LinkDropbox:
-    		dropBoxSession.getSession().startAuthentication(DropboxActivity.this);
+    		dropBoxSession.getSession().startOAuth2Authentication(DropboxActivity.this);
     		break;
     	case R.id.UnlinkDropbox:
     		logOut();
@@ -166,8 +171,8 @@ public class DropboxActivity extends Activity implements View.OnClickListener
                 session.finishAuthentication();
 
                 // Store it locally in our app for later use
-                TokenPair tokens = session.getAccessTokenPair();
-                storeKeys(tokens.key, tokens.secret);
+                String token = session.getOAuth2AccessToken();
+                storeOAuth2Token(token);
                 setLoggedIn(true);
             } catch (IllegalStateException e) {
                 showToast("Couldn't authenticate with Dropbox:" + e.getLocalizedMessage());
@@ -242,7 +247,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     	private String progressMessage;
     	/**
     	 * 
-    	 * @param xml
+    	 * @param upLoadFlag
     	 */
     	public UploadThread(boolean upLoadFlag)
     	{
@@ -283,8 +288,22 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     				try
     				{
         				byte[] array = out.toByteArray();
-        				XMLParser parser = new XMLParser(array,thisContext.getApplicationContext());  
-        				parser.parse();
+                        XMLErrorHandler errorHandler = new XMLErrorHandler();
+        				XMLParser parser = new XMLParser(array,thisContext.getApplicationContext());
+                        try
+                        {
+                            parser.parse(errorHandler);
+                        }catch(SAXParseException se)
+                        {
+                            String type = errorHandler.getType();
+                            if (!type.equals("WARNING"))
+                            {
+                                String message = se.getLocalizedMessage();
+                                showToast(message);
+                                out.close();
+                            }
+
+                        }
         				out.close();
     				}catch(IOException ie){ie.printStackTrace();}
     			}
@@ -310,7 +329,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     /**
      * 
      */
-    private void logOut() 
+    private void logOut()
     {
         // Remove credentials from the session
     	dropBoxSession.getSession().unlink();
@@ -320,6 +339,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
         // Change UI state to display logged out version
         setLoggedIn(false);
     }
+
 
     /**
      * Convenience function to change UI state based on being logged in
@@ -403,18 +423,40 @@ public class DropboxActivity extends Activity implements View.OnClickListener
         }
     }
 
+    private String getOAuth2Token()
+    {
+        SharedPreferences prefs = getSharedPreferences(ACCOUNT_PREFS_NAME, 0);
+        String token = prefs.getString(OAUTH2_TOKEN, null);
+        return token;
+    }
+
+
     /**
      * Shows keeping the access keys returned from Trusted Authenticator in a local
      * store, rather than storing user name & password, and re-authenticating each
      * time (which is not to be done, ever).
      */
-    private void storeKeys(String key, String secret) 
+    private void storeKeys(String key, String secret)
     {
         // Save the access key for later
         SharedPreferences prefs = getSharedPreferences(ACCOUNT_PREFS_NAME, 0);
         Editor edit = prefs.edit();
-        edit.putString(ACCESS_KEY_NAME, key);
-        edit.putString(ACCESS_SECRET_NAME, secret);
+        if (null != key && null != secret)
+        {
+            edit.putString(ACCESS_KEY_NAME, key);
+            edit.putString(ACCESS_SECRET_NAME, secret);
+        }
+        edit.commit();
+    }
+
+    private void storeOAuth2Token(String token)
+    {
+        SharedPreferences prefs = getSharedPreferences(ACCOUNT_PREFS_NAME, 0);
+        Editor edit = prefs.edit();
+        if(null != token)
+        {
+            edit.putString(OAUTH2_TOKEN, token);
+        }
         edit.commit();
     }
 
@@ -439,14 +481,21 @@ public class DropboxActivity extends Activity implements View.OnClickListener
         AndroidAuthSession session;
 
         String[] stored = getKeys();
-        if (stored != null) 
+        String token = getOAuth2Token();
+        if (null != token)
+        {
+            session = new AndroidAuthSession(appKeyPair, token);
+        }
+        else if (stored != null)
         {
             AccessTokenPair accessToken = new AccessTokenPair(stored[0], stored[1]);
-            session = new AndroidAuthSession(appKeyPair, ACCESS_TYPE, accessToken);
-        } 
+            session = new AndroidAuthSession(appKeyPair, accessToken);
+//            session = new AndroidAuthSession(appKeyPair, ACCESS_TYPE, accessToken);
+        }
         else 
         {
-            session = new AndroidAuthSession(appKeyPair, ACCESS_TYPE);
+            session = new AndroidAuthSession(appKeyPair);
+//            session = new AndroidAuthSession(appKeyPair, ACCESS_TYPE);
         }
 
         return session;
@@ -464,6 +513,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     {
 //    	Log.d(TAG,"downloadData");
     	errorMessage = "completed download";
+        boolean success = true;
         try 
         {
         	
@@ -580,20 +630,27 @@ public class DropboxActivity extends Activity implements View.OnClickListener
             if (e.error == DropboxServerException._304_NOT_MODIFIED) {
                 // won't happen since we don't pass in revision with metadata
             } else if (e.error == DropboxServerException._401_UNAUTHORIZED) {
+                success = false;
                 // Unauthorized, so we should unlink them.  You may want to
                 // automatically log the user out in this case.
             } else if (e.error == DropboxServerException._403_FORBIDDEN) {
+                success = false;
                 // Not allowed to access this
             } else if (e.error == DropboxServerException._404_NOT_FOUND) {
+                success = false;
                 // path not found (or if it was the thumbnail, can't be
                 // thumbnailed)
             } else if (e.error == DropboxServerException._406_NOT_ACCEPTABLE) {
+                success = false;
                 // too many entries to return
             } else if (e.error == DropboxServerException._415_UNSUPPORTED_MEDIA) {
+                success = false;
                 // can't be thumbnailed
             } else if (e.error == DropboxServerException._507_INSUFFICIENT_STORAGE) {
+                success = false;
                 // user is over quota
             } else {
+                success = false;
                 // Something else
             }
             // This gets the Dropbox error, translated into the user's language
@@ -604,14 +661,17 @@ public class DropboxActivity extends Activity implements View.OnClickListener
         } catch (DropboxIOException e) {
             // Happens all the time, probably want to retry automatically.
         	errorMessage = "Network error.  Try again.";
+            success = false;
         } catch (DropboxParseException e) {
             // Probably due to Dropbox server restarting, should retry
         	errorMessage = "Dropbox error.  Try again.";
+            success = false;
         } catch (DropboxException e) {
             // Unknown error
         	errorMessage = "Unknown error.  Try again.";
+            success = false;
         }
-        return true;    	
+        return success;
     }
     
 
@@ -627,6 +687,7 @@ public class DropboxActivity extends Activity implements View.OnClickListener
     {
 //    	Log.d(TAG,"uploadData");
     	errorMessage = "completed upload";
+        boolean success = true;
         try 
         {
         	List<Entry> fileList = dropBoxSession.search("/", "iStayHealthy", 1000, false);
@@ -660,18 +721,29 @@ public class DropboxActivity extends Activity implements View.OnClickListener
             if (e.error == DropboxServerException._304_NOT_MODIFIED) {
                 // won't happen since we don't pass in revision with metadata
             } else if (e.error == DropboxServerException._401_UNAUTHORIZED) {
+                errorMessage = "Unauthorized. Please disconnect from Dropbox and login again";
+                success = false;
                 // Unauthorized, so we should unlink them.  You may want to
                 // automatically log the user out in this case.
             } else if (e.error == DropboxServerException._403_FORBIDDEN) {
+                errorMessage = "Action is not allowed";
+                success = false;
                 // Not allowed to access this
             } else if (e.error == DropboxServerException._404_NOT_FOUND) {
+                errorMessage = "File was not found.";
+                success = false;
                 // path not found (or if it was the thumbnail, can't be
                 // thumbnailed)
             } else if (e.error == DropboxServerException._406_NOT_ACCEPTABLE) {
+                errorMessage = "Request was not accepted.";
+                success = false;
                 // too many entries to return
             } else if (e.error == DropboxServerException._415_UNSUPPORTED_MEDIA) {
+                errorMessage = "Uploaded file is of unsupported type.";
+                success = false;
                 // can't be thumbnailed
             } else if (e.error == DropboxServerException._507_INSUFFICIENT_STORAGE) {
+                success = false;
                 // user is over quota
             } else {
                 // Something else
@@ -684,13 +756,16 @@ public class DropboxActivity extends Activity implements View.OnClickListener
         } catch (DropboxIOException e) {
             // Happens all the time, probably want to retry automatically.
         	errorMessage = "Network error.  Try again.";
+            success = false;
         } catch (DropboxParseException e) {
             // Probably due to Dropbox server restarting, should retry
         	errorMessage = "Dropbox error.  Try again.";
+            success = false;
         } catch (DropboxException e) {
             // Unknown error
         	errorMessage = "Unknown error.  Try again.";
+            success = false;
         }
-    	return true;
+    	return success;
     }
 }

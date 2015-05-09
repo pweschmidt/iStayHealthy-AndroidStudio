@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/missedReasons.xml -->
+    <eat-comment/>
+    <string-array name="AllMissedReason">
+	    <item>Oublié</item>
+	    <item>Sans Médicaments</item>
+	    <item>Impossible de prendre Médicament</item>
+	    <item>Ne voulais pas prendre Médicaments</item>
+	    <item>Aucune Raison particulière</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="AllSideEffects">
+		<item>Mal de tête</item>
+		<item>Fatigue</item>
+		<item>Nausée</item>
+		<item>Diarrhée</item>
+		<item>Vomissement</item>
+		<item>Fièvre</item>
+		<item>Eruption Cutanée</item>
+		<item>Lactic acidosis</item>
+		<item>Réaction d\'Hypersensibilité</item>
+		<item>Problèmes Cardiovasculaires</item>
+		<item>Jaunisse</item>
+		<item>Calculs Rénaux</item>
+		<item>Vertiges</item>
+		<item>Insomnie</item>
+		<item>Rêves Vifs</item>
+		<item>Troubles de la Concentration</item>
+		<item>Perte de Mémoire</item>
+		<item>Dépression</item>
+		<item>Dommages au Foie (Hépatite)</item>
+		<item>Problèmes pendant la Grossesse</item>
+		<item>Pigmentation de la Peau sur Paumes, Semelles</item>
+		<item>Douleurs Musculaires</item>
+		<item>Décoloration des Ongles</item>
+		<item>Lipodystrophie</item>
+		<item>Neuropathie périphérique</item>
+		<item>Pancréatite</item>
+		<item>Dommages au Foie</item>
+		<item>Goutte</item>
+		<item>Lésions sur Lèvres, Organes génitaux</item>
+		<item>Rouge Peau enflée ou gonflée</item>
+		<item>Durcissement de la Peau</item>
+		<item>Kystes, Nodules</item>
+		<item>Pneumonie</item>
+		<item>Abcès</item>
+		<item>Syndrome de Lyell (TEN)</item>
+		<item>Cloques</item>
+		<item>Lésions Buccales</item>
+		<item>Peau sèche</item>
+		<item>Croissance anormale des Ongles</item>
+    </string-array>
+    <string-array name="Aptivus">
+        <item/>        
+    </string-array>
+    <string-array name="Atripla">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Celsentri">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabine, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudine, Lamivudine:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabine, Rilpivirine, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+    	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Tenofovir, Emtricitabine:NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
+    	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
+    	<item>stribild:Stribild(US):Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Combivir">
+        <item/>        
+    </string-array>
+    <string-array name="Complera">
+        <item/>        
+    </string-array>
+    <string-array name="Crixivan">
+        <item/>        
+    </string-array>
+    <string-array name="Didanosine">
+        <item/>        
+    </string-array>
+    <string-array name="Edurant">
+        <item/>        
+    </string-array>
+    <string-array name="Emtriva">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Epivir">
+        <item/>        
+    </string-array>
+    <string-array name="Fuzeon">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Intelence">
+        <item/>        
+    </string-array>
+    <string-array name="Invirase">
+        <item/>        
+    </string-array>
+    <string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array>
+    <string-array name="Kaletra">
+        <item/>        
+    </string-array>
+    <string-array name="Kivexa">
+        <item/>        
+    </string-array>
+    <string-array name="Lexiva">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirine:NNRTI</item>
+    	<item>intelence:Intelence:Etravirine:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva/Stocrin:Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapine:NNRTI</item>
+    </string-array>
+    <string-array name="NRTI">
+    	<item>didanosine:Didanosine:Didanosine (generic):NRTI</item>
+    	<item>emtriva:Emtriva:Emtricitabine:NRTI</item>
+    	<item>epivir:Epivir:Lamivudine:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudine:NRTI</item>
+    	<item>stavudine:Stavudine:Stavudine (generic):NRTI</item>
+    	<item>videx:Videx:Didanosine:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudine:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    	<item>zidovudine:Zidovudine:Zidovudine (generic):NRTI</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Norvir">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Prezista">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva/Telzir:Fosamprenavir:PI</item>
+        <item>olysio:Olysio:Simeprevir:PI</item>
+    	<item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml -->
+    <eat-comment/>
+    <string-array name="Rescriptor">
+        <item/>        
+    </string-array>
+    <string-array name="Retrovir">
+        <item/>        
+    </string-array>
+    <string-array name="Reyataz">
+        <item/>        
+    </string-array>
+    <string-array name="Stavudine">
+        <item/>        
+    </string-array>
+    <string-array name="Stribild">
+        <item/>        
+    </string-array>
+    <string-array name="Sustiva">
+        <item/>        
+    </string-array>
+    <string-array name="Trizivir">
+        <item/>        
+    </string-array>
+    <string-array name="Truvada">
+        <item/>        
+    </string-array>
+    <string-array name="Videx">
+        <item/>        
+    </string-array>
+    <string-array name="Viracept">
+        <item/>        
+    </string-array>
+    <string-array name="Viramune">
+        <item/>        
+    </string-array>
+    <string-array name="Viread">
+        <item/>        
+    </string-array>
+    <string-array name="Zerit">
+        <item/>        
+    </string-array>
+    <string-array name="Ziagen">
+        <item/>        
+    </string-array>
+    <string-array name="Zidovudine">
+        <item/>        
+    </string-array>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string-array name="repeats">
+    	<item>Every 24 hours</item>
+    	<item>Every 12 hours</item>
+    	<item>Every 8 hours</item>
+    	<item>Every 6 hours</item>
+    	<item>Never</item>
+    </string-array>
+    <string name="AddAlert">Ajouter\nAlerte</string>
+    <string name="AddClinic">Ajouter Clinique</string>
+    <string name="AddHIVDrugs">Ajouter\nMédications</string>
+    <string name="AddOtherMeds">Ajouter\nMédicaments</string>
+    <string name="AddProcedure">Maladie/Chirurgie</string>
+    <string name="AddResults">Ajouter\nRésultats</string>
+    <string name="Alerts">Alertes</string>
+    <string name="AllResults">Tous</string>
+    <string name="Android">Sauvegarder/Rétablir</string>
+    <string name="Back">Retour</string>
+    <string name="Backup">Sauvegarde</string>
+    <string name="BloodResults">Sang</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="Booster">Amplificateur/Interféron</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="CD4">CD4 </string>
+    <string name="CD4Count">CD4  </string>
+    <string name="CD4Percent">CD4 %</string>
+    <string name="CallClinic">Téléphoner</string>
+    <string name="CallEmergency">D\'Urgence</string>
+    <string name="Cancel">Annuler</string>
+    <string name="ChangeDate">Changer la Date</string>
+    <string name="ChangeDose">Modifier Dose</string>
+    <string name="ChangeName">Modifier Nom</string>
+    <string name="ChangeRepeats">Modifier Répète</string>
+    <string name="ChangeSound">Modifier Son</string>
+    <string name="Charts">Summaire</string>
+    <string name="Clear">Supprimer</string>
+    <string name="ClinicEmail">Email</string>
+    <string name="ClinicID">Votre ID</string>
+    <string name="ClinicName">Clinique</string>
+    <string name="ClinicPhone">Téléphone</string>
+    <string name="ClinicWeb">Web</string>
+    <string name="Clinics">Cliniques</string>
+    <string name="Confirm">Confirmer</string>
+    <string name="ConnectDropbox">Connecter à Dropbox</string>
+    <string name="ConnectTintabee">Connecter à Tintabee</string>
+    <string name="ConsultantName">Docteur</string>
+    <string name="Default">Défaut</string>
+    <string name="DefaultAlertLabelt">iStayHealthy</string>
+    <string name="DefaultAlertMessage">Prendre vos Médicaments</string>
+    <string name="Delete">Supprimer</string>
+    <string name="DeleteMissedMeds">Supprimer tous les Médicaments manqué??</string>
+    <string name="DeleteSideEffects">Supprimer tous les Effets indésirables?</string>
+    <string name="DisconnectDropbox">Séparer de DropBox</string>
+    <string name="DisconnectTintabee">Séparer de Tintabee</string>
+    <string name="Dropbox">Dropbox</string>
+    <string name="Edit">Modifier</string>
+    <string name="EditAlert">Modifier\nAlerte</string>
+    <string name="EditHIVDrugs">Modifier\nMéd.</string>
+    <string name="EditOtherMeds">Modifier\nMédicaments</string>
+    <string name="EditResults">Modifier\nRésultats</string>
+    <string name="Email">Envoyer l\'email</string>
+    <string name="EmergencyPhone">Tel. d\'Urgence</string>
+    <string name="EnterDose">Dose en [mg]</string>
+    <string name="EnterName">Nom</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="EntryDrugs">Inhibiteurs de Fusions/d’Entrée</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="Extras">Suppléments</string>
+    <string name="GoToWeb">Allez au Web</string>
+    <string name="HDL">Cholestérol(HDL)</string>
+    <string name="HIVDrugs">Médication Antiviral</string>
+    <string name="HIVResults">VIH</string>
+    <string name="HepCViralLoad">Char./Vir. HepC</string>
+    <string name="Illness">Maladie</string>
+    <string name="IncorrectPassword">Mot de passe erroné.Réessayez</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="IntegraseDrugs">Inhibiteurs d’Intégrase</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="LDL">Cholestérol(LDL)</string>
+    <string name="ListOfMeds">Médication VIH</string>
+    <string name="Major">Majeur</string>
+    <string name="Minor">Mineur</string>
+    <string name="MissedMedications">Manqués</string>
+    <string name="Missedquery">Médicaments\nManqués?</string>
+    <string name="ModifyClinic">Editer Clinique</string>
+    <string name="ModifyProcedure">Editer Maladie/Chirurgie</string>
+    <string name="More">Plus</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="NNRTIDrugs">Inhibiteurs Non Nucléosidiques de la Transcriptase Inverse(NNRTI)</string>
+    <string name="NRTIDrugs">Inhibiteurs nucléosidiques de la Transcriptase Inverse(NRTI)</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="No">No</string>
+    <string name="NoResultsListed">Aucun Résultats</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="OtherInhibitors">Autres Inhibiteurs</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="OtherMeds">Médicaments</string>
+    <string name="OtherResults">Autre</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="PIDrugs">Inhibiteurs de Protéase (PI)</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="Password">Mot de passe</string>
+    <string name="PasswordText">Mot de passe</string>
+    <string name="PreviousMeds">Méd. précédente</string>
+    <string name="Procedure">Chirurgie</string>
+    <string name="Repeats">Récurrents</string>
+    <string name="Restore">Rétablir</string>
+    <string name="Results">Résultats</string>
+    <string name="Save">Enregistrer</string>
+    <string name="SavePassword">Enregistrer Mot de Passe</string>
+    <string name="Select">Sélectionner</string>
+    <string name="Serious">Grave</string>
+    <string name="SetDate">Régler la Date</string>
+    <string name="SetLabel">Régler Texte</string>
+    <string name="SetMessage">Régler Texte</string>
+    <string name="SetRepeats">Régler Répète</string>
+    <string name="SetSound">Son</string>
+    <string name="SideEffects">Effets\nIndésirables</string>
+    <string name="Sound">Son</string>
+    <string name="Tintabee">Tintabee</string>
+    <string name="TooShortPassword">Mot de passe est trop court.Réessayez</string>
+    <string name="TreatmentEnd">Fin de Thérapie</string>
+    <string name="TreatmentStart">Débuter Thérapie</string>
+    <string name="Tri">Cholestérol(tri.)</string>
+    <string name="UsePassword">Activer?</string>
+    <string name="ViralLoad">Charge Viral</string>
+    <string name="Yes">Oui</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/glossary.xml -->
+    <eat-comment/>
+    <string name="answereight">
+	    La médication contre le VIH doit être prise régulièrement,\n
+	    habituellement entre plus ou moins 1 heure par rapport à l\'heure fixée.\n
+	    S\'en tenir à la prescription des médicaments s\'appelle "adhésion".\n
+	    Il est important d\'éviter que le virus devienne résistant à la médication.
+	</string>
+    <string name="answerfive">
+	    Selon les conseils actuels, il faut débuter un traitement lorsque\n
+	    le taux de CD4 est continuellement à ou en-dessous de 350.
+	</string>
+    <string name="answerfour">
+        Indéctelable se réfère à un taux très faible de virus VIH dans le sang.\n
+        Le seuil nécessaire pour la qualification "d'indécelable"\n
+        dépend du test de Charge Virale et peut aller de 50 à ca 200.\n
+        Indéctelable ne signifie pas que le virus a quitté le corps.
+    </string>
+    <string name="answerone">
+        Les cellules CD4 (ou T4) sont des cellules immunitaires.\n
+        Le taux est mesuré par millimètre de cube de sang (mm3) et indique\n
+        l\'état de santé du système immunitaire.\n
+        Un taux normal est compris entre 500 et 1500 mm3.
+    </string>
+    <string name="answerseven">
+	    Lorsque le VIH contamine une cellule, il "reprogramme"\n
+	    la cellule pour qu\'elle reproduise de nouvelles copies du virus.\n
+	    Cela mène habituellement à la mort de la cellule contaminée.\n
+	    Les médicaments contre le VIH empêchent le virus de se multiplier au sein\n
+	    de la cellule contaminée.
+	</string>
+    <string name="answersix">
+	    Un large éventail de différentes catégories de médicaments est disponible,\n
+	    et de nouveaux médicaments sont constamment développés.\n
+	    Les 5 plus grandes catégories sont :\n
+	    les inhibiteurs de protéase (PI), NRTI (nucléotidiques), NNRTI (non nucléosidiques),\n
+	    inhibiteurs de fusion/d\'entrée et les inhibiteurs d\'intégrase.\n
+	    Souvent, les patients ont des prescriptions de médicaments\n
+	    qui associent plus d\'1 catégorie (exemple : Atripla).
+	</string>
+    <string name="answerthree">
+        Le nombre de virus VIH dans le sang (mesuré en mm3 par unité de sang).
+    </string>
+    <string name="answertwo">
+	    C\'est le rapport entre 2 cellules immunitaires différentes,\n
+	    les cellules T4 (CD4) et T8 (CD8). Le rapport est donné en \u0025.\n
+	    La valeur en  \u0025 du CD4 indique l\'état de santé\n 
+	    du système immunitaire. Le \u0025  du CD4 tend à moins\n
+	    fluctuer que le taux de CD4.  Un pourcentage normal se situe entre 20 et 40 \u0025.</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">iStayHealthy</string>
+    <string name="bannerURL">http://www.poz.com</string>
+    <string name="button">ImageButton</string>
+    <string name="cardiacRisk">Risque Cardiaque</string>
+    <string name="chartname">Chartview in Landscape Mode</string>
+    <string name="cholesterol">Cholestérol</string>
+    <string name="cholesterolRatio">Rapport Cholestérol</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml -->
+    <eat-comment/>
+    <string name="combinationtablets">Comprimés anti-VIH</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="confirmmeds">Confirmer que je prenais Méd\'s.?</string>
+    <string name="deleteentry">Supprimer?</string>
+    <string name="diabetic">Diabétique?</string>
+    <string name="diastole">Diastole</string>
+    <string name="download">Restauration. S\'il vous plaît attendre.</string>
+    <string name="editSideEffect">Décrirons les effet indésirable</string>
+    <string name="effectList">De la Liste</string>
+    <string name="emailResults">Résultats\npar Email</string>
+    <string name="everythreedays">Tous les 3 jours?</string>
+    <string name="everytwodays">Tous les 2 jours?</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/glossary.xml -->
+    <eat-comment/>
+    <string name="faqeight">
+	    Que-est-que l\'Adhésion ?\n
+	    Et pourquoi est-il important que je prenne mes médicaments régulièrement?
+	</string>
+    <string name="faqfive">Quand débuter le traitement VIH ?</string>
+    <string name="faqfour">Que signifie "Indécelable" ?</string>
+    <string name="faqone">Qu\'est-ce que le Taux de CD4 ?</string>
+    <string name="faqseven">Comment agissent les médicaments anti-VIH ?</string>
+    <string name="faqsix">Quels médicaments anti-VIH sont disponibles ?</string>
+    <string name="faqthree">Qu\'est-ce qu\'une Charge Virale ?</string>
+    <string name="faqtwo">Qu\'est-ce que le CD4\u0025 ?</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="forgotPassword">Mot de passe oublié? Cliquez ici</string>
+    <string name="forgotmeds">Je n\'ai pas pris mes Méd\'s.</string>
+    <string name="fromTinabee">Télécharger</string>
+    <string name="general">Méd. Générale</string>
+    <string name="haemo">Hemoglobulin</string>
+    <string name="info">Info</string>
+    <string name="lexicon">Glossaire</string>
+    <string name="loading">Chargement...</string>
+    <string name="login">Connecter</string>
+    <string name="medicationtracker">Moniteur Méd\'s.</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/links.xml -->
+    <eat-comment/>
+    <string name="medslist">http://www.aidsmap.com/v634746760450000000/file/1051857/ARV_drugchart_FRE_Dec2011_Web.pdf</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="none">Aucun</string>
+    <string name="noneListed">none listed</string>
+    <string name="notapplicable">p/a</string>
+    <string name="off">Off</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/links.xml -->
+    <eat-comment/>
+    <string name="officialinfo">http://www.aidsmap.com/translations/fr/Le-BAba-du-VIH-The-basics/page/1330873/</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="on">On</string>
+    <string name="onlyonce">Seule Fois?</string>
+    <string name="passworddisabled">Mot de passe désactivé</string>
+    <string name="passwordenabled">Mot de passe permis</string>
+    <string name="perday">Par Jour?</string>
+    <string name="platelet">Plaquettes</string>
+    <string name="pressure">Pression Artérielle</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/links.xml -->
+    <eat-comment/>
+    <string name="prevention">http://www.aidsmap.com/translations/fr/Le-BAba-du-VIH-The-basics/page/1330873/</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="rate">Rythme Card.</string>
+    <string name="recurring">récurrents</string>
+    <string name="redcells">Globules rouges</string>
+    <string name="sendFeedback">Suggestions?</string>
+    <string name="settime">Régler l\'Heure</string>
+    <string name="showresult">Montrent Résultats</string>
+    <string name="smoking">Fumeur?</string>
+    <string name="sugar">Sucre</string>
+    <string name="systole">Systole</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/links.xml -->
+    <eat-comment/>
+    <string name="testing">http://www.aidsmap.com/translations/fr/Le-BAba-du-VIH-The-basics/page/1330873/</string>
+    <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="toTinabee">Transférer</string>
+    <string name="tookmeds">J\'ai pris mes Méd\'s.</string>
+    <string name="und">ind.</string>
+    <string name="undetectable">indétectable</string>
+    <string name="undetectablequery">indétectable?</string>
+    <string name="unique">uniques</string>
+    <string name="upload">Sauvegarde. S\'il vous plaît attendre</string>
+    <string name="version">iStayHealthy v3.1.2</string>
+    <string name="vibratequery">Vibrer?</string>
+    <string name="view">ImageView</string>
+    <string name="weight">Poids</string>
+    <string name="whitecells">Globules blancs</string>
+    <string name="wrongPassword">Mot de passe erroné.Réessayez</string>
+</resources>
