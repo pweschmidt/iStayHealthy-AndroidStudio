@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/roundedshape"
+    android:orientation="vertical" >
+-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:background="@drawable/roundedshape"
+        android:stretchColumns="*">
+        <TableRow 
+            android:id="@+id/firstHeaderRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7">
+		<TextView 
+		        android:id="@+id/summaryTitle"
+				android:gravity="center_vertical|left"	
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+                android:singleLine="true"
+                android:ellipsize="marquee"	    
+				android:textStyle="bold"
+			    android:textSize="12sp"			    
+			    android:textColor="@color/textcolour"/>   
+		    <TextView 
+		        android:id="@+id/summaryValue"
+				android:gravity="center_vertical|center_horizontal"		
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+                android:singleLine="true"
+                android:ellipsize="marquee"	    
+				android:textStyle="bold"
+			    android:textSize="12sp"/>   
+
+		    <TextView 
+		        android:id="@+id/summaryChange"
+				android:gravity="center_vertical|left"		
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+                android:singleLine="true"
+                android:ellipsize="marquee"	    
+				android:textStyle="bold"
+			    android:textSize="12sp"/>   
+		    		    			    
+		    <com.pweschmidt.healthapps.graphs.IndicatorView
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+		        android:id="@+id/summaryIndicator"/>  
+			    <!-- 
+			     --> 
+        </TableRow>
+        <TableRow 
+            android:id="@+id/secondHeaderRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7">
+		    <TextView 
+		        android:id="@+id/optionalTitle"
+				android:gravity="center_vertical|left"		
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+                android:singleLine="true"
+                android:ellipsize="marquee"	    
+				android:textStyle="bold"
+			    android:textSize="12sp"			    
+			    android:textColor="@color/textcolour"/>   
+		    <TextView 
+		        android:id="@+id/optionalValue"
+				android:gravity="center_vertical|center_horizontal"		
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+                android:singleLine="true"
+                android:ellipsize="marquee"	    
+				android:textStyle="bold"
+			    android:textSize="12sp"
+			    />   
+		    <TextView 
+		        android:id="@+id/optionalChange"
+				android:gravity="center_vertical|left"		
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+                android:singleLine="true"
+                android:ellipsize="marquee"	    
+				android:textStyle="bold"
+			    android:textSize="12sp"/>   
+		    			    
+		    <com.pweschmidt.healthapps.graphs.IndicatorView
+			    android:layout_marginLeft="6dip"
+			    android:layout_marginRight="6dip"
+		        android:id="@+id/optionalIndicator"	/> 
+        </TableRow>
+		<com.pweschmidt.healthapps.graphs.ChartsPageView
+			        android:id="@+id/chartView"
+			        android:layout_weight="1"
+			 		android:layout_marginTop="2dip"/>
+  </TableLayout>
+    <!--         
+</LinearLayout>
+-->
+<!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/iStayHealthy/src/main/res/layout/dashboard_custom_page_view.xml -->

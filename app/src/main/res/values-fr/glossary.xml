@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="faqone">Qu\'est-ce que le Taux de CD4 ?</string>
+    <string name="answerone">
+        Les cellules CD4 (ou T4) sont des cellules immunitaires.\n
+        Le taux est mesuré par millimètre de cube de sang (mm3) et indique\n
+        l\'état de santé du système immunitaire.\n
+        Un taux normal est compris entre 500 et 1500 mm3.
+    </string>
+	<string name="faqtwo">Qu\'est-ce que le CD4\u0025 ?</string>
+	<string name="answertwo">
+	    C\'est le rapport entre 2 cellules immunitaires différentes,\n
+	    les cellules T4 (CD4) et T8 (CD8). Le rapport est donné en \u0025.\n
+	    La valeur en  \u0025 du CD4 indique l\'état de santé\n 
+	    du système immunitaire. Le \u0025  du CD4 tend à moins\n
+	    fluctuer que le taux de CD4.  Un pourcentage normal se situe entre 20 et 40 \u0025.</string>
+    <string name="faqthree">Qu\'est-ce qu\'une Charge Virale ?</string>
+    <string name="answerthree">
+        Le nombre de virus VIH dans le sang (mesuré en mm3 par unité de sang).
+    </string>
+    <string name="faqfour">Que signifie &quot;Indécelable&quot; ?</string>
+    <string name="answerfour">
+        Indéctelable se réfère à un taux très faible de virus VIH dans le sang.\n
+        Le seuil nécessaire pour la qualification &quot;d&apos;indécelable&quot;\n
+        dépend du test de Charge Virale et peut aller de 50 à ca 200.\n
+        Indéctelable ne signifie pas que le virus a quitté le corps.
+    </string>
+	<string name="faqfive">Quand débuter le traitement VIH ?</string>
+	<string name="answerfive">
+	    Selon les conseils actuels, il faut débuter un traitement lorsque\n
+	    le taux de CD4 est continuellement à ou en-dessous de 350.
+	</string>
+	<string name="faqsix">Quels médicaments anti-VIH sont disponibles ?</string>
+	<string name="answersix">
+	    Un large éventail de différentes catégories de médicaments est disponible,\n
+	    et de nouveaux médicaments sont constamment développés.\n
+	    Les 5 plus grandes catégories sont :\n
+	    les inhibiteurs de protéase (PI), NRTI (nucléotidiques), NNRTI (non nucléosidiques),\n
+	    inhibiteurs de fusion/d\'entrée et les inhibiteurs d\'intégrase.\n
+	    Souvent, les patients ont des prescriptions de médicaments\n
+	    qui associent plus d\'1 catégorie (exemple : Atripla).
+	</string>
+	<string name="faqseven">Comment agissent les médicaments anti-VIH ?</string>
+	<string name="answerseven">
+	    Lorsque le VIH contamine une cellule, il &quot;reprogramme&quot;\n
+	    la cellule pour qu\'elle reproduise de nouvelles copies du virus.\n
+	    Cela mène habituellement à la mort de la cellule contaminée.\n
+	    Les médicaments contre le VIH empêchent le virus de se multiplier au sein\n
+	    de la cellule contaminée.
+	</string>
+	<string name="faqeight">
+	    Que-est-que l\'Adhésion ?\n
+	    Et pourquoi est-il important que je prenne mes médicaments régulièrement?
+	</string>
+	<string name="answereight">
+	    La médication contre le VIH doit être prise régulièrement,\n
+	    habituellement entre plus ou moins 1 heure par rapport à l\'heure fixée.\n
+	    S\'en tenir à la prescription des médicaments s\'appelle &quot;adhésion&quot;.\n
+	    Il est important d\'éviter que le virus devienne résistant à la médication.
+	</string>
+</resources>

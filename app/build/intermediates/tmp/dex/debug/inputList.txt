@@ -1,0 +1,6 @@
+/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/classes/debug
+/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-4cdfdfa60ba761a5b6d2492d1f792f7d8ff5a273.jar
+/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/json_simple-1.1-91cfbb2eb0c1d275e04ac2529c2ac184d5b3d0c2.jar
+/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/dropbox-android-sdk-1.6.3-40cfcf15c2abc3c5be9b2a348baca2748725e46d.jar
+/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1f35f386f533069409791b79affdb3830dcdbe8a.jar
+/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/classes-5aa034401aa3dbb56f622af44cc1782794bb6374.jar

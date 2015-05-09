@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:padding="6dip"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+    	   		<CheckBox 
+	    	   	    android:id="@+id/missedCheckButton"
+	    	   	    android:layout_width="wrap_content"
+	    	   	    android:layout_height="wrap_content"
+			       	android:focusableInTouchMode="false"
+			       	android:clickable="false"
+			       	android:focusable="false"	  
+			      	android:layout_marginTop="2dip"
+			      	android:layout_marginBottom="1dip"
+					android:layout_marginLeft="6dip"
+					android:layout_marginRight="10dip"/>
+    			 <TextView 
+			  		android:id="@+id/missedReasonView"
+			       	android:focusableInTouchMode="false"
+			       	android:focusable="false"	  
+			       	android:layout_marginLeft="8dip" 
+		  			android:layout_gravity="left|center_vertical"
+				   	android:textSize="16sp"
+				   	android:textStyle="bold"
+				   	android:textColor="@color/textcolour"				   	
+				   	android:layout_width="wrap_content"
+				   	android:layout_height="wrap_content"/>
+ 	    	  
+</LinearLayout>

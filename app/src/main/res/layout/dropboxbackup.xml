@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="6dip">
+   <TableLayout 
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="6dip"
+    	android:layout_marginBottom="5dip">
+    	<ImageButton android:id="@+id/BackFromDropboxButton"
+		        android:contentDescription="@string/view"		        
+	        android:layout_marginTop="6dip"
+	        android:layout_marginBottom="5dip"
+	        android:layout_marginLeft="6dip"    	
+	        android:textStyle="bold"	        
+	        android:textColor="@color/chartbackground"
+	        android:background="@drawable/back"/>
+    	<TextView 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:textSize="15sp"
+	        android:textStyle="bold"	        
+	        android:layout_marginLeft="0dip"
+	        android:layout_marginRight="0dip"
+			android:layout_gravity="center_vertical|center_horizontal"		
+	        android:layout_marginTop="6dip"
+	        android:layout_marginBottom="5dip"
+			android:maxLines="2" 
+			android:ellipsize="marquee" 
+			android:singleLine="false" 
+	    	android:text="@string/Dropbox"/>
+    	</TableRow>
+    	<TableRow 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content">
+		    <ImageView 
+		        android:contentDescription="@string/view"		        
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_span="2"
+		        android:background="@color/darkgray"
+		        android:maxHeight="2dip"
+		        android:minHeight="2dip"/>   	    
+    	</TableRow>
+    	<TableRow 
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginTop="6dip"
+	    	android:layout_marginBottom="5dip">
+		    <Button android:id="@+id/BackupButton"
+		        android:layout_marginTop="6dip"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="6dip"    	
+		        android:layout_span="2"
+		        android:textSize="13dip"
+		        android:textStyle="bold"		        
+		        android:text="@string/Backup"/>
+    	</TableRow>
+    	
+    	<TableRow 
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginTop="6dip"
+	    	android:layout_marginBottom="5dip">
+    		
+		    <Button android:id="@+id/RestoreButton"
+		        android:layout_marginTop="6dip"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="6dip"    	
+		        android:layout_span="2"
+		        android:textSize="13dip"
+		        android:textStyle="bold"		        
+		        android:text="@string/Restore"/>
+    	</TableRow>
+		    		    	    
+    	</TableLayout>
+    
+    	<Button 
+    		android:id="@+id/LinkDropbox"
+		    android:background="@drawable/custom_button"
+		        android:layout_marginTop="6dip"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="6dip"    	
+		    android:textSize="13dip"
+		    android:textStyle="bold"		    
+    		android:text="@string/ConnectDropbox"		    
+		    android:textColor="@color/chartbackground"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"/>    	
+    	<Button 
+    		android:id="@+id/UnlinkDropbox"
+		    android:background="@drawable/custom_delete_button"
+		        android:layout_marginTop="6dip"
+		        android:layout_marginBottom="5dip"
+		        android:layout_marginLeft="6dip"    	
+		    android:textSize="13dip"
+		    android:textStyle="bold"		    
+    		android:text="@string/DisconnectDropbox"		    
+		    android:textColor="@color/chartbackground"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"/>    	
+    	
+</LinearLayout>

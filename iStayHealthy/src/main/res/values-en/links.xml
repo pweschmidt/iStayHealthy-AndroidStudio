@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="medslist">http://www.aidsmeds.com/list.shtml</string> 
+   <string name="testing">http://www.poz.com/hiv_testing.shtml</string>
+   <string name="prevention">http://www.poz.com/archive/2008_Mar_2168.shtml</string>
+   <string name="officialinfo">http://aids.gov/hiv-aids-basics/</string>
+</resources>

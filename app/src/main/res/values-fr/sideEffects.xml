@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AllSideEffects">
+		<item>Mal de tête</item>
+		<item>Fatigue</item>
+		<item>Nausée</item>
+		<item>Diarrhée</item>
+		<item>Vomissement</item>
+		<item>Fièvre</item>
+		<item>Eruption Cutanée</item>
+		<item>Lactic acidosis</item>
+		<item>Réaction d\'Hypersensibilité</item>
+		<item>Problèmes Cardiovasculaires</item>
+		<item>Jaunisse</item>
+		<item>Calculs Rénaux</item>
+		<item>Vertiges</item>
+		<item>Insomnie</item>
+		<item>Rêves Vifs</item>
+		<item>Troubles de la Concentration</item>
+		<item>Perte de Mémoire</item>
+		<item>Dépression</item>
+		<item>Dommages au Foie (Hépatite)</item>
+		<item>Problèmes pendant la Grossesse</item>
+		<item>Pigmentation de la Peau sur Paumes, Semelles</item>
+		<item>Douleurs Musculaires</item>
+		<item>Décoloration des Ongles</item>
+		<item>Lipodystrophie</item>
+		<item>Neuropathie périphérique</item>
+		<item>Pancréatite</item>
+		<item>Dommages au Foie</item>
+		<item>Goutte</item>
+		<item>Lésions sur Lèvres, Organes génitaux</item>
+		<item>Rouge Peau enflée ou gonflée</item>
+		<item>Durcissement de la Peau</item>
+		<item>Kystes, Nodules</item>
+		<item>Pneumonie</item>
+		<item>Abcès</item>
+		<item>Syndrome de Lyell (TEN)</item>
+		<item>Cloques</item>
+		<item>Lésions Buccales</item>
+		<item>Peau sèche</item>
+		<item>Croissance anormale des Ongles</item>
+    </string-array>
+    <string-array name="Atripla">
+        <item></item>        
+    </string-array>
+    <string-array name="Combivir">
+        <item></item>        
+    </string-array>
+    <string-array name="Complera">
+        <item></item>        
+    </string-array>
+    <string-array name="Kaletra">
+        <item></item>        
+    </string-array>
+    <string-array name="Kivexa">
+        <item></item>        
+    </string-array>
+    <string-array name="Trizivir">
+        <item></item>        
+    </string-array>
+    <string-array name="Truvada">
+        <item></item>        
+    </string-array>
+    <string-array name="Zidovudine">
+        <item></item>        
+    </string-array>
+    <string-array name="Stribild">
+        <item></item>        
+    </string-array>
+    <string-array name="Didanosine">
+        <item></item>        
+    </string-array>
+    <string-array name="Emtriva">
+        <item></item>        
+    </string-array>
+    <string-array name="Epivir">
+        <item></item>        
+    </string-array>
+    <string-array name="Retrovir">
+        <item></item>        
+    </string-array>
+    <string-array name="Stavudine">
+        <item></item>        
+    </string-array>
+    <string-array name="Videx">
+        <item></item>        
+    </string-array>
+    <string-array name="Viread">
+        <item></item>        
+    </string-array>
+    <string-array name="Zerit">
+        <item></item>        
+    </string-array>
+    <string-array name="Ziagen">
+        <item></item>        
+    </string-array>
+    <string-array name="Edurant">
+        <item></item>        
+    </string-array>
+    <string-array name="Intelence">
+        <item></item>        
+    </string-array>
+    <string-array name="Rescriptor">
+        <item></item>        
+    </string-array>
+    <string-array name="Sustiva">
+        <item></item>        
+    </string-array>
+    <string-array name="Viramune">
+        <item></item>        
+    </string-array>
+    <string-array name="Aptivus">
+        <item></item>        
+    </string-array>
+    <string-array name="Crixivan">
+        <item></item>        
+    </string-array>
+    <string-array name="Invirase">
+        <item></item>        
+    </string-array>
+    <string-array name="Lexiva">
+        <item></item>        
+    </string-array>
+    <string-array name="Norvir">
+        <item></item>        
+    </string-array>
+    <string-array name="Prezista">
+        <item></item>        
+    </string-array>
+    <string-array name="Reyataz">
+        <item></item>        
+    </string-array>
+    <string-array name="Viracept">
+        <item></item>        
+    </string-array>
+    <string-array name="Celsentri">
+        <item></item>        
+    </string-array>
+    <string-array name="Fuzeon">
+        <item></item>        
+    </string-array>
+    <string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array>
+</resources>

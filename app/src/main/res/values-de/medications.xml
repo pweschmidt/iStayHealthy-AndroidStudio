@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="combinationtablets">Kombinationspräparate</string>
+    <string name="NNRTIDrugs">Nicht-Nukleosidale Reverse-Transkriptase-Inhibitoren (NNRTI)</string>
+    <string name="NRTIDrugs">Nukleosidanaloge/Nukleotidanaloge Reverse-Transkriptase-Inhibitoren (NRTI)</string>
+    <string name="PIDrugs">Protease-Inhibitoren (PI)</string>
+    <string name="EntryDrugs">Entry-Inhibitoren</string>
+    <string name="IntegraseDrugs">Integrase-Inhibitoren</string>
+    <string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabin, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudin, Lamivudin:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabin, Rilpivirin, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+    	<item>trizivir:Trizivir:Zidovudin, Lamivudin, Abacavir:NRTI, NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabin, Tenofovir:NRTI, NRTI</item>
+    	<item>stribild:Stribild(US):Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    	</string-array>
+    <string-array name="NRTI">
+    	<item>emtriva:Emtriva:Emtricitabin:NRTI</item>
+    	<item>epivir:Epivir:Lamivudin:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudin:NRTI</item>
+    	<item>videx:Videx:Didanosin:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudin:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    </string-array>
+    <string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirin:NNRTI</item>
+    	<item>intelence:Intelence:Etravirin:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva(EU)/Stocrin(US):Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapin:NNRTI</item>
+    </string-array>
+    <string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva(US)/Telzir(EU):Fosamprenavir:PI</item>
+    	<item>norvir:Norvir:Ritonavir:PI</item>
+    	<item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array>
+    <string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array>
+    <string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+    	</string-array>
+    
+</resources>

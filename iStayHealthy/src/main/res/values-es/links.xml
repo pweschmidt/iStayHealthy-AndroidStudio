@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="medslist">http://www.aidsmap.com/v634746756360000000/file/1051858/ARV_drug_chart_Spanish.pdf</string> 
+   <string name="testing">http://www.aidsmap.com/es</string>
+   <string name="prevention">http://www.aidsmap.com/es</string>
+   <string name="officialinfo">http://www.aidsmap.com/es</string>
+</resources>

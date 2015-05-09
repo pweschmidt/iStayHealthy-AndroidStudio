@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="medslist">http://www.catie.ca/fr/guides-pratiques/traitement-antiretroviral/annexes/b</string> 
+   <string name="testing">http://www.catie.ca/fr/prevention/depistage-diagnostic</string>
+   <string name="prevention">http://www.catie.ca/fr/prevention</string>
+   <string name="officialinfo">http://www.catie.ca/fr/essentiel</string>
+</resources>

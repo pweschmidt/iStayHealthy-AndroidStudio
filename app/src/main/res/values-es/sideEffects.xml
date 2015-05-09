@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AllSideEffects">
+		<item>Dolor de cabeza</item>
+		<item>Fatiga</item>
+		<item>Náusea</item>
+		<item>Diarrea</item>
+		<item>Vómitos</item>
+		<item>Fiebre</item>
+		<item>Erupción Cutánea</item>
+		<item>Acidosis Láctica</item>
+		<item>Hipersensibilidad</item>
+		<item>Problemas Cardiovasculares</item>
+		<item>Ictericia</item>
+		<item>Cálculos Renales</item>
+		<item>Mareo</item>
+		<item>Insomnio</item>
+		<item>Sueños Vívidos</item>
+		<item>Deterioro de la Concentración</item>
+		<item>Pérdida de la Memoria</item>
+		<item>Depresión</item>
+		<item>Daño Hepático (hepatitis)</item>
+		<item>Problemas durante Embarazo</item>
+		<item>Pigmentación de la piel en palmas, soles</item>
+		<item>Dolor Muscular</item>
+		<item>Decoloración de Uñas</item>
+		<item>Lipodistrofia</item>
+		<item>Neuropatía Periférica</item>
+		<item>Pancreatitis</item>
+		<item>Daño Hepático</item>
+		<item>Gota</item>
+		<item>Lesiones en Labios, Genitales</item>
+		<item>Piel enrojecida inflamada o hinchada</item>
+		<item>Piel endurecida</item>
+		<item>Quistes, Nódulos</item>
+		<item>Neumonía</item>
+		<item>Absceso</item>
+		<item>Necrólisis epidérmica tóxica (NET)</item>
+		<item>Ampollas</item>
+		<item>Lesiones orales</item>
+		<item>Piel seca</item>
+		<item>Crecimiento de Uñas anormales</item>
+    </string-array>
+    <string-array name="Atripla">
+        <item></item>        
+    </string-array>
+    <string-array name="Combivir">
+        <item></item>        
+    </string-array>
+    <string-array name="Complera">
+        <item></item>        
+    </string-array>
+    <string-array name="Kaletra">
+        <item></item>        
+    </string-array>
+    <string-array name="Kivexa">
+        <item></item>        
+    </string-array>
+    <string-array name="Trizivir">
+        <item></item>        
+    </string-array>
+    <string-array name="Truvada">
+        <item></item>        
+    </string-array>
+    <string-array name="Zidovudine">
+        <item></item>        
+    </string-array>
+    <string-array name="Stribild">
+        <item></item>        
+    </string-array>
+    <string-array name="Didanosine">
+        <item></item>        
+    </string-array>
+    <string-array name="Emtriva">
+        <item></item>        
+    </string-array>
+    <string-array name="Epivir">
+        <item></item>        
+    </string-array>
+    <string-array name="Retrovir">
+        <item></item>        
+    </string-array>
+    <string-array name="Stavudine">
+        <item></item>        
+    </string-array>
+    <string-array name="Videx">
+        <item></item>        
+    </string-array>
+    <string-array name="Viread">
+        <item></item>        
+    </string-array>
+    <string-array name="Zerit">
+        <item></item>        
+    </string-array>
+    <string-array name="Ziagen">
+        <item></item>        
+    </string-array>
+    <string-array name="Edurant">
+        <item></item>        
+    </string-array>
+    <string-array name="Intelence">
+        <item></item>        
+    </string-array>
+    <string-array name="Rescriptor">
+        <item></item>        
+    </string-array>
+    <string-array name="Sustiva">
+        <item></item>        
+    </string-array>
+    <string-array name="Viramune">
+        <item></item>        
+    </string-array>
+    <string-array name="Aptivus">
+        <item></item>        
+    </string-array>
+    <string-array name="Crixivan">
+        <item></item>        
+    </string-array>
+    <string-array name="Invirase">
+        <item></item>        
+    </string-array>
+    <string-array name="Lexiva">
+        <item></item>        
+    </string-array>
+    <string-array name="Norvir">
+        <item></item>        
+    </string-array>
+    <string-array name="Prezista">
+        <item></item>        
+    </string-array>
+    <string-array name="Reyataz">
+        <item></item>        
+    </string-array>
+    <string-array name="Viracept">
+        <item></item>        
+    </string-array>
+    <string-array name="Celsentri">
+        <item></item>        
+    </string-array>
+    <string-array name="Fuzeon">
+        <item></item>        
+    </string-array>
+    <string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array>
+</resources>

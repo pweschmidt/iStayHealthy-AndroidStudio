@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#fdfff0</color>
+	<color name="chartbackground">#ffffff</color>
+	<color name="textcolour">#3366cc</color>
+	<color name="darkyellow">#ff9800</color>
+	<color name="darkgreen">#006600</color>
+	<color name="darkred">#cc0000</color>
+	<color name="darkblue">#000066</color>
+	<color name="cd4colour">#ffff66</color>
+	<color name="viralloadcolour">#ff0066</color>
+	<color name="buttonbackground">#000099</color>
+	<color name="lightlightgray">#eeeeee</color>
+	<color name="lightgray">#dddddd</color>
+	<color name="darkergray">#cccccc</color>
+	<color name="darkgray">#999999</color>
+	<color name="darkdarkgray">#666666</color>
+	<color name="selectedPageColour">#00ccff</color>
+</resources>

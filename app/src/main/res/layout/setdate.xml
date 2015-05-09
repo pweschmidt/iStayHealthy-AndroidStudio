@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1" >
+    	
+    	<TableRow 
+    	    android:id="@+id/setDateTimeRow"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content">
+    		<ImageView 
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+		      	android:layout_marginTop="2dip"
+		      	android:layout_marginBottom="1dip"
+				android:layout_marginLeft="6dip"            
+	  			android:focusableInTouchMode="false"
+	 			android:focusable="false"
+    		    android:background="@null"
+    		    android:src="@drawable/appointments"/>
+			<TextView 
+			    android:id="@+id/dateTimeText"
+		 		android:layout_width="fill_parent"
+		 		android:layout_height="wrap_content"
+		      	android:layout_marginTop="5dip"
+		      	android:layout_marginBottom="5dip"
+				android:layout_marginLeft="6dip"            
+	  			android:focusableInTouchMode="false"
+		       	android:layout_gravity="center_vertical|center_horizontal"
+	 			android:focusable="false"
+		 		android:textSize="15sp"
+		 		android:textStyle="bold"
+		 		android:textColor="@color/textcolour"/>
+		   	<ImageView 
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		      	android:layout_marginTop="2dip"
+		      	android:layout_marginBottom="1dip"
+				android:layout_marginLeft="6dip"            
+	  			android:focusableInTouchMode="false"
+	 			android:focusable="false"
+		        android:textColor="@color/chartbackground"
+		        android:background="@null"
+		        android:src="@drawable/nextitem"/>				    	    
+    	</TableRow>	    	    
+</TableLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CustomThemePortrait" parent="android:Theme.Light">
+	    <item name="android:windowBackground">@color/background</item>
+	    <item name="android:colorBackground">@color/background</item>
+	</style>
+	<style name="CustomeThemeLandscape" parent="android:Theme.Light.NoTitleBar">
+		<item name="android:windowBackground">@color/chartbackground</item>
+		<item name="android:colorBackground">@color/chartbackground</item>
+	</style>
+</resources>

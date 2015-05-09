@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="faqone">What is CD4 Count?</string>
+    <string name="answerone">
+        CD4 (T4 helper) cells are immune cells.\n 
+        The count is measured per unit (mm3) of blood\n 
+        and indicates the health of the immune system.\n 
+        The normal range is between 500 - 1500.
+    </string>
+	<string name="faqtwo">What is CD4\u0025?</string>
+	<string name="answertwo">
+	    The ratio between 2 different immune cells\n, 
+	    T4 (helper CD4) and T8(killer CD8) cells.\n 
+	    The ratio is given in \u0025. The CD4\u0025 value indicates\n 
+	    the health of the immune system.\n 
+	    CD4\u0025 tends to fluctuate less than CD4 count .\n 
+	    The normal range is between 20-40\u0025.
+	</string>
+    <string name="faqthree">What is Viral Load?</string>
+    <string name="answerthree">The amount of HIV virus in blood (measured as per unit blood mm3).</string>
+    <string name="faqfour">What does \'Undetectable\' mean?</string>
+    <string name="answerfour">
+        Undetectable refers to a very low count of HIV virus in blood.\n 
+        The threshold for \'undetectable\' depends on the Viral Load test\n 
+        and may range from 50 to ca 200.\n 
+        Undetectable does not mean\n the virus has left the body.
+    </string>
+	<string name="faqfive">When to start HIV treatment?</string>
+	<string name="answerfive">
+	    Current guidelines recommend the start of treatment \n 
+	    when the CD4 count is persistently at or below 350.
+	</string>
+	<string name="faqsix">What anti-HIV drugs are available?</string>
+	<string name="answersix">
+	    A whole range of different drug types are available \n 
+	    and new ones are developed all the time. The 5 main types are:\n 
+	    protease inhibitors, NRTI (nukes), NNRTI (non-nukes),\n 
+	    fusion/entry inhibitors and integrase inhibitors. \n 
+	    Often patients are prescribed drugs that combine more than 1 type (e.g. Atripla).
+	</string>
+	<string name="faqseven">How do anti-HIV drugs work?</string>
+	<string name="answerseven">
+	    When HIV infects a cell it \'reprogrammes\' the cell to produce new virus copies.\n 
+	    This typically leads to the death of the infected cell.\n 
+	    HIV drugs prevent the virus from multiplying within the infected cell.
+	</string>
+	<string name="faqeight">
+	    What is Adherence?\n
+	    And why is it important that I take my drugs regularly?
+	</string>
+	<string name="answereight">
+	    Anti HIV medication needs to be taken regularly - typically within +/- 1 hour \n 
+	    of the specified time. Sticking to the drug regime is called \'adherence\'. \n
+	    It is important to avoid the virus from becoming resistant to the medication.
+	</string>
+</resources>

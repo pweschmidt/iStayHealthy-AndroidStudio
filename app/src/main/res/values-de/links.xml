@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="medslist">http://www.aidshilfe.de/de/leben-mit-hiv/medizinische-infos/medikamente</string> 
+   <string name="testing">http://www.aidshilfe.de/de/sich-schuetzen/hiv/aids/hiv-test</string>
+   <string name="prevention">http://www.aidshilfe.de/de/sich-schuetzen/hiv/aids/safer-sex</string>
+   <string name="officialinfo">http://www.aidshilfe.de/de/adressen</string>
+</resources>

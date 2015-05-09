@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="medslist">http://i-base.info/guides/category/arvs</string> 
+   <string name="testing">http://www.aidsmap.com/hiv-basics/Testing/page/1412439</string>
+   <string name="prevention">http://www.aidsmap.com/hiv-basics/Transmission/page/1412438/</string>
+   <string name="officialinfo">http://www.aidsmap.com/hiv-basics</string>
+</resources>

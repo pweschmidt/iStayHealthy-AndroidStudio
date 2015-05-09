@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AllMissedReason">
+	    <item>Oublié</item>
+	    <item>Sans Médicaments</item>
+	    <item>Impossible de prendre Médicament</item>
+	    <item>Ne voulais pas prendre Médicaments</item>
+	    <item>Aucune Raison particulière</item>
+    </string-array>
+</resources>

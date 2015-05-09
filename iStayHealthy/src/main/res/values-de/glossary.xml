@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="faqone">Was bedeutet der CD4 Zellen Befund?</string>
+    <string name="answerone">
+        CD4 (T4 Helfer) Zellen sind Immunzellen.\n 
+        Die Anzahl wird pro (mm3) Blut angegeben und ist ein wichtiger Hinweis\n 
+        für den Gesundheitszustand des Immunsystems.\n 
+        Normalwerte liegen typischerweise zwischen 500 - 1500.
+    </string>
+	<string name="faqtwo">Was bedeutet CD4\u0025?</string>
+	<string name="answertwo">
+	    CD4\u0025 Werte spiegeln das zahlenmässige Verhältnis zwischen\n
+	    2 wichtigen Immunzelltypen, T4 Helfer (CD4) und T8 Killer (CD8) Zellen.\n
+	    Wie der CD4 Zellenwert gibt der CD4\u0025 einen Hinweis auf den Zustand\n
+	    des Immunsystems . Der Normalbereich liegt zwischen 20-40\u0025.
+	</string>
+    <string name="faqthree">Was bedeutet die Viruslast?</string>
+    <string name="answerthree">Anzahl von HIV Viruskopien im Blut (gemessen pro mm3).</string>
+    <string name="faqfour">Was bedeutet &quot;nicht nachweisbar&quot;?</string>
+    <string name="answerfour">
+        Nicht nachweisbar bedeutet eine geringe HIV Viruslast.\n
+        Der Schwellenwert hängt vom Testverfahren ab und kann z.B.\n
+        zwischen 50 und ca 200 liegen.\n
+        Wichtig: trotz nicht nachweisbarer Viruslast ist HIV immer noch im Körper.</string>
+	<string name="faqfive">Wann sollte man mit HIV Therapie beginnen?</string>
+	<string name="answerfive">
+	    Die Richtlinien dafür können sich von Land zu Land unterscheiden.\n
+	    Allerdings wird in der Regel empfohlen bei kontinuierlichen\n
+	    CD4 Zellen Werten von 350 oder drunter mit der Therapie zu beginnen.
+	</string>
+	<string name="faqsix">Was für HIV Therapien stehen zur Verfügung?</string>
+	<string name="answersix">
+	    Heutzutage gibt es eine ganze Reihe von HIV Medikamenten\n
+	    und neuere kommen ständig hinzu. In der Regel besteht die HIV Therapie\n
+	    aus einer Kombination von typischerweise 3 verschiedenen Medikamenten.\n
+	    Man kann die Einzelmedikamente grob in 5 Klassen unterteilen:\n
+	    Protease Hemmer, NRTI , NNRTI , Fusions/Eintrittshemmer Integrasehemmer.\n
+	    Einige Präparate wie z.B. Atripla vereinen alle Medikamente\n
+	    in einer Tablette (Kombinationstablette).
+	</string>
+	<string name="faqseven">Wie funktionieren HIV Medikamente?</string>
+	<string name="answerseven">
+	    Vom HIV Virus befallene Zellen werden derart &quot;umprogrammiert&quot;,\n
+	    dass sie neue HIV Kopien erzeugen. Meistens führt das zur Zerstörung\n
+	    der befallenen Zelle. HIV Medikamente stören gezielt die Prozesse,\n
+	    die zum &quot;Umprogrammieren&quot; oder zur Erzeugung neuer HIV Viren führen.
+	</string>
+	<string name="faqeight">Warum ist es wichtig HIV Medikation regelmässig zu nehmen?</string>
+	<string name="answereight">
+	    HIV Viren mutieren häufig und relativ schnell.\n
+	    Um zu verhindern dass die Viren behandlungsresistent werden,\n
+	    müssen HIV Medikamente regelmässig eingenommen werden.\n
+	    Tabletten wie z.B. Atripla sollten alle 24 Stunden einmal eingenommen werden,\n
+	    wobei die Einnahmezeit sich nicht um mehr als +/- 1 Stunde verschieben sollte.
+	</string>
+</resources>

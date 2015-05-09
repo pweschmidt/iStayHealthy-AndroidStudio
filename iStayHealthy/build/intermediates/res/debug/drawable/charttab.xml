@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/chartselected"
+          android:state_selected="true"
+          android:state_pressed="false" />
+    <!-- unselected state (default) -->
+    <item android:drawable="@drawable/charts" />
+    
+</selector>
+<!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/iStayHealthy/src/main/res/drawable/charttab.xml -->
