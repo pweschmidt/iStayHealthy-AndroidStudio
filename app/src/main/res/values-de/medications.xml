@@ -12,8 +12,10 @@
     	<item>atripla:Atripla:Efavirenz, Emtricitabin, Tenofovir:NNRTI, NRTI, NRTI</item>
     	<item>combivir:Combivir:Zidovudin, Lamivudin:NRTI, NRTI</item>
     	<item>complera:Complera/Eviplera:Emtricitabin, Rilpivirin, Tenofovir:NNRTI, NRTI, NRTI</item>
+        <item>evotaz:Evotaz:Atazanavir, Cobicistat:PI, Booster</item>
     	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
     	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+        <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
     	<item>trizivir:Trizivir:Zidovudin, Lamivudin, Abacavir:NRTI, NRTI, NRTI</item>
         <item>triumeq:Triumeq:Tenofovir, Emtricitabine:NRTI, NRTI</item>
     	<item>truvada:Truvada:Emtricitabin, Tenofovir:NRTI, NRTI</item>

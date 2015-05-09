@@ -15,6 +15,8 @@ public class FileMaps {
     	allMedImages.put("truvada", new Integer(R.drawable.truvada));
     	allMedImages.put("zidovudine", new Integer(R.drawable.lamivudine));
     	allMedImages.put("stribild", new Integer(R.drawable.stribild));
+        allMedImages.put("evotaz", new Integer(R.drawable.evotaz));
+        allMedImages.put("prezcobix", new Integer(R.drawable.prezcobix));
     	allMedImages.put("edurant", new Integer(R.drawable.edurant));
     	allMedImages.put("intelence", new Integer(R.drawable.intelence));
     	allMedImages.put("rescriptor", new Integer(R.drawable.rescriptor));
@@ -61,8 +63,10 @@ public class FileMaps {
     	combiMeds.put("atripla", new Integer(R.drawable.atripla));
     	combiMeds.put("combivir", new Integer(R.drawable.combivir));
     	combiMeds.put("complera", new Integer(R.drawable.complera));
+        combiMeds.put("evotaz", new Integer(R.drawable.evotaz));
     	combiMeds.put("kaletra", new Integer(R.drawable.kaletra));
     	combiMeds.put("kivexa", new Integer(R.drawable.kivexa));
+        combiMeds.put("prezcobix", new Integer(R.drawable.prezcobix));
     	combiMeds.put("trizivir", new Integer(R.drawable.trizivir));
         combiMeds.put("triumeq", new Integer(R.drawable.triumeq));
     	combiMeds.put("truvada", new Integer(R.drawable.truvada));
