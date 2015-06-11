@@ -1,31 +1,43 @@
 package com.pweschmidt.healthapps;
 
 
-import android.app.*;
+import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
+import android.app.Dialog;
+import android.app.NotificationManager;
+import android.app.ProgressDialog;
+import android.app.TabActivity;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-//import android.os.Environment;
-//import android.content.res.*;
-import android.content.*;
-import android.content.pm.ActivityInfo;
-//import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
-import android.widget.ImageView;
-import android.database.Cursor;
 
-import com.pweschmidt.healthapps.datamodel.*;
-import com.pweschmidt.healthapps.documents.*;
-import java.io.*;
-import android.net.*;
+import com.pweschmidt.healthapps.datamodel.Medication;
+import com.pweschmidt.healthapps.datamodel.Results;
+import com.pweschmidt.healthapps.documents.XMLErrorHandler;
+import com.pweschmidt.healthapps.documents.XMLParser;
 
 import org.xml.sax.SAXParseException;
 
-import java.util.*;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.util.Date;
+import java.util.StringTokenizer;
+
+//import android.os.Environment;
+//import android.content.res.*;
+//import android.util.Log;
 public class iStayHealthyTabActivity extends TabActivity 
 	implements TabHost.OnTabChangeListener
 {
@@ -387,9 +399,10 @@ public class iStayHealthyTabActivity extends TabActivity
     		
     		String scheme = uri.getScheme();
     		String host = uri.getHost();
+			String path = uri.getPath();
     		if(null != scheme && null != host)
     		{
-        		if(scheme.equalsIgnoreCase("http") && host.equalsIgnoreCase("www.istayhealthy.uk.com/parameters"))
+        		if(scheme.equalsIgnoreCase("http") && host.equalsIgnoreCase("www.istayhealthy.uk.com") && path.contains("results"))
         		{
         			String parameters = uri.getSchemeSpecificPart();
         			StringTokenizer tokenizer = new StringTokenizer(parameters, ";");
@@ -403,6 +416,10 @@ public class iStayHealthyTabActivity extends TabActivity
         			{
         				tokenizer = new StringTokenizer(query,"&");
         			}
+					else
+					{
+						tokenizer = new StringTokenizer(path,"&");
+					}
         			boolean hasData = false;
         			Results results = new Results();
         			results.setTime((new Date()).getTime());
@@ -419,12 +436,12 @@ public class iStayHealthyTabActivity extends TabActivity
         						results.setCD4Count(Integer.parseInt(value));
         						hasData = true;
         					}
-        					else if(key.equalsIgnoreCase("cd4P"))
+        					else if(key.equalsIgnoreCase("cd4Percent"))
         					{
         						results.setCD4Percent(Float.parseFloat(value));
         						hasData = true;
         					}
-        					else if(key.equalsIgnoreCase("vl"))
+        					else if(key.equalsIgnoreCase("viralload"))
         					{
         						results.setViralLoad(Integer.parseInt(value));
         						hasData = true;
@@ -449,12 +466,12 @@ public class iStayHealthyTabActivity extends TabActivity
         						results.setLDL(Float.parseFloat(value));
         						hasData = true;
         					}
-        					else if(key.equalsIgnoreCase("sugar"))
+        					else if(key.equalsIgnoreCase("glucose"))
         					{
         						results.setGlucose(Float.parseFloat(value));
         						hasData = true;
         					}
-        					else if(key.equalsIgnoreCase("hepCVL"))
+        					else if(key.equalsIgnoreCase("hepCViralLoad"))
         					{
         						results.setHepCViralLoad(Integer.parseInt(value));
         						hasData = true;

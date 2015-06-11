@@ -44,8 +44,19 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="www.istayhealthy.uk.com/parameters"
+                    android:host="www.istayhealthy.uk.com"
+                    android:pathPrefix="/results"
                     android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="results"
+                    android:scheme="iStayHealthy" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
