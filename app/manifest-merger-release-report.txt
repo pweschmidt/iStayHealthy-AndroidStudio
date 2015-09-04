@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:7
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:6:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:6:41
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:6:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-feature#android.hardware.telephony
+ADDED from AndroidManifest.xml:7:4
+	android:required
+		ADDED from AndroidManifest.xml:7:60
+	android:name
+		ADDED from AndroidManifest.xml:7:18
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:4
+	android:name
+		ADDED from AndroidManifest.xml:8:21
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:11:4
+	android:name
+		ADDED from AndroidManifest.xml:11:21
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:12:4
+	android:name
+		ADDED from AndroidManifest.xml:12:21
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:13:4
+	android:name
+		ADDED from AndroidManifest.xml:13:21
+application
+ADDED from AndroidManifest.xml:18:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:19:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:20:9
+	android:icon
+		ADDED from AndroidManifest.xml:18:18
+	android:backupAgent
+		ADDED from AndroidManifest.xml:22:9
+	android:restoreAnyVersion
+		ADDED from AndroidManifest.xml:23:9
+	android:name
+		ADDED from AndroidManifest.xml:21:9
+activity#com.pweschmidt.healthapps.iStayHealthyTabActivity
+ADDED from AndroidManifest.xml:24:9
+	android:label
+		ADDED from AndroidManifest.xml:25:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:26:19
+	android:theme
+		ADDED from AndroidManifest.xml:27:19
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:28:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:30:17
+	android:name
+		ADDED from AndroidManifest.xml:30:27
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:27
+data
+ADDED from AndroidManifest.xml:36:17
+	android:host
+		ADDED from AndroidManifest.xml:36:45
+	android:pathPrefix
+		ADDED from AndroidManifest.xml:36:84
+	android:scheme
+		ADDED from AndroidManifest.xml:36:23
+receiver#com.pweschmidt.healthapps.AlarmReceiver
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:58:19
+receiver#com.pweschmidt.healthapps.AlertSetter
+ADDED from AndroidManifest.xml:59:9
+	android:name
+		ADDED from AndroidManifest.xml:59:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:60:12
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:62:21
+provider#com.pweschmidt.healthapps.iStayHealthyContentProvider
+ADDED from AndroidManifest.xml:65:9
+	android:exported
+		ADDED from AndroidManifest.xml:68:13
+	android:authorities
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#com.pweschmidt.healthapps.DashboardActivity
+ADDED from AndroidManifest.xml:70:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:71:19
+	android:name
+		ADDED from AndroidManifest.xml:70:19
+activity#com.pweschmidt.healthapps.ResultsListActivity
+ADDED from AndroidManifest.xml:72:9
+	android:name
+		ADDED from AndroidManifest.xml:72:19
+activity#com.pweschmidt.healthapps.MedicationListActivity
+ADDED from AndroidManifest.xml:73:9
+	android:name
+		ADDED from AndroidManifest.xml:73:19
+activity#com.pweschmidt.healthapps.AlertListActivity
+ADDED from AndroidManifest.xml:74:9
+	android:name
+		ADDED from AndroidManifest.xml:74:19
+activity#com.pweschmidt.healthapps.GeneralMedActivity
+ADDED from AndroidManifest.xml:75:9
+	android:name
+		ADDED from AndroidManifest.xml:75:19
+activity#com.pweschmidt.healthapps.OtherMedsListActivity
+ADDED from AndroidManifest.xml:76:9
+	android:theme
+		ADDED from AndroidManifest.xml:77:11
+	android:name
+		ADDED from AndroidManifest.xml:76:19
+activity#com.pweschmidt.healthapps.EditResultsActivity
+ADDED from AndroidManifest.xml:78:9
+	android:theme
+		ADDED from AndroidManifest.xml:79:9
+	android:name
+		ADDED from AndroidManifest.xml:78:19
+activity#com.pweschmidt.healthapps.AddHIVDrugsActivity
+ADDED from AndroidManifest.xml:80:9
+	android:theme
+		ADDED from AndroidManifest.xml:81:9
+	android:name
+		ADDED from AndroidManifest.xml:80:19
+activity#com.pweschmidt.healthapps.ModifyHIVDrugsActivity
+ADDED from AndroidManifest.xml:82:9
+	android:theme
+		ADDED from AndroidManifest.xml:83:9
+	android:name
+		ADDED from AndroidManifest.xml:82:19
+activity#com.pweschmidt.healthapps.EffectsListActivity
+ADDED from AndroidManifest.xml:84:9
+	android:theme
+		ADDED from AndroidManifest.xml:85:9
+	android:name
+		ADDED from AndroidManifest.xml:84:19
+activity#com.pweschmidt.healthapps.MissedListActivity
+ADDED from AndroidManifest.xml:86:9
+	android:theme
+		ADDED from AndroidManifest.xml:87:9
+	android:name
+		ADDED from AndroidManifest.xml:86:19
+activity#com.pweschmidt.healthapps.PreviousListActivity
+ADDED from AndroidManifest.xml:88:9
+	android:theme
+		ADDED from AndroidManifest.xml:89:9
+	android:name
+		ADDED from AndroidManifest.xml:88:19
+activity#com.pweschmidt.healthapps.AddOtherMedsActivity
+ADDED from AndroidManifest.xml:90:9
+	android:theme
+		ADDED from AndroidManifest.xml:91:9
+	android:name
+		ADDED from AndroidManifest.xml:90:19
+activity#com.pweschmidt.healthapps.ModifyOtherMedsActivity
+ADDED from AndroidManifest.xml:92:9
+	android:theme
+		ADDED from AndroidManifest.xml:93:9
+	android:name
+		ADDED from AndroidManifest.xml:92:19
+activity#com.pweschmidt.healthapps.WebViewActivity
+ADDED from AndroidManifest.xml:94:9
+	android:theme
+		ADDED from AndroidManifest.xml:95:9
+	android:name
+		ADDED from AndroidManifest.xml:94:19
+activity#com.pweschmidt.healthapps.ModifyAlarmNotificationActivity
+ADDED from AndroidManifest.xml:96:9
+	android:theme
+		ADDED from AndroidManifest.xml:97:9
+	android:name
+		ADDED from AndroidManifest.xml:96:19
+activity#com.pweschmidt.healthapps.EditPreviousActivity
+ADDED from AndroidManifest.xml:98:9
+	android:theme
+		ADDED from AndroidManifest.xml:99:13
+	android:name
+		ADDED from AndroidManifest.xml:98:19
+activity#com.pweschmidt.healthapps.EditEffectsActivity
+ADDED from AndroidManifest.xml:100:9
+	android:theme
+		ADDED from AndroidManifest.xml:101:9
+	android:name
+		ADDED from AndroidManifest.xml:100:19
+activity#com.pweschmidt.healthapps.SelectEffects
+ADDED from AndroidManifest.xml:102:9
+	android:theme
+		ADDED from AndroidManifest.xml:103:9
+	android:name
+		ADDED from AndroidManifest.xml:102:19
+activity#com.pweschmidt.healthapps.EditMissedActivity
+ADDED from AndroidManifest.xml:104:9
+	android:theme
+		ADDED from AndroidManifest.xml:105:9
+	android:name
+		ADDED from AndroidManifest.xml:104:19
+activity#com.pweschmidt.healthapps.ToolsActivity
+ADDED from AndroidManifest.xml:107:9
+	android:theme
+		ADDED from AndroidManifest.xml:108:9
+	android:name
+		ADDED from AndroidManifest.xml:107:19
+activity#com.pweschmidt.healthapps.AddAlarmNotificationActivity
+ADDED from AndroidManifest.xml:109:9
+	android:theme
+		ADDED from AndroidManifest.xml:110:9
+	android:name
+		ADDED from AndroidManifest.xml:109:19
+activity#com.pweschmidt.healthapps.GlossaryActivity
+ADDED from AndroidManifest.xml:111:9
+	android:theme
+		ADDED from AndroidManifest.xml:112:9
+	android:name
+		ADDED from AndroidManifest.xml:111:19
+activity#com.pweschmidt.healthapps.SetPasswordActivity
+ADDED from AndroidManifest.xml:113:9
+	android:theme
+		ADDED from AndroidManifest.xml:114:9
+	android:name
+		ADDED from AndroidManifest.xml:113:19
+activity#com.pweschmidt.healthapps.DropboxActivity
+ADDED from AndroidManifest.xml:115:9
+	android:theme
+		ADDED from AndroidManifest.xml:116:9
+	android:name
+		ADDED from AndroidManifest.xml:115:19
+activity#com.pweschmidt.healthapps.ContactsListActivity
+ADDED from AndroidManifest.xml:117:9
+	android:theme
+		ADDED from AndroidManifest.xml:118:9
+	android:name
+		ADDED from AndroidManifest.xml:117:19
+activity#com.pweschmidt.healthapps.AddClinicActivity
+ADDED from AndroidManifest.xml:119:9
+	android:theme
+		ADDED from AndroidManifest.xml:120:9
+	android:name
+		ADDED from AndroidManifest.xml:119:19
+activity#com.pweschmidt.healthapps.ModifyClinicActivity
+ADDED from AndroidManifest.xml:121:9
+	android:theme
+		ADDED from AndroidManifest.xml:122:9
+	android:name
+		ADDED from AndroidManifest.xml:121:19
+activity#com.pweschmidt.healthapps.ProceduresListActivity
+ADDED from AndroidManifest.xml:123:9
+	android:theme
+		ADDED from AndroidManifest.xml:124:9
+	android:name
+		ADDED from AndroidManifest.xml:123:19
+activity#com.pweschmidt.healthapps.AddProceduresActivity
+ADDED from AndroidManifest.xml:125:9
+	android:theme
+		ADDED from AndroidManifest.xml:126:9
+	android:name
+		ADDED from AndroidManifest.xml:125:19
+activity#com.pweschmidt.healthapps.ModifyProceduresActivity
+ADDED from AndroidManifest.xml:127:9
+	android:theme
+		ADDED from AndroidManifest.xml:128:9
+	android:name
+		ADDED from AndroidManifest.xml:127:19
+activity#com.pweschmidt.healthapps.LoginActivity
+ADDED from AndroidManifest.xml:129:9
+	android:theme
+		ADDED from AndroidManifest.xml:130:9
+	android:name
+		ADDED from AndroidManifest.xml:129:19
+activity#com.dropbox.client2.android.AuthActivity
+ADDED from AndroidManifest.xml:131:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:134:11
+	android:name
+		ADDED from AndroidManifest.xml:132:11
+	android:launchMode
+		ADDED from AndroidManifest.xml:133:11
+activity#com.pweschmidt.healthapps.AndroidBackupRestoreActivity
+ADDED from AndroidManifest.xml:143:9
+	android:theme
+		ADDED from AndroidManifest.xml:144:9
+	android:name
+		ADDED from AndroidManifest.xml:143:19
+meta-data#com.google.android.backup.api_key
+ADDED from AndroidManifest.xml:145:14
+	android:name
+		ADDED from AndroidManifest.xml:145:25
+	android:value
+		ADDED from AndroidManifest.xml:146:10

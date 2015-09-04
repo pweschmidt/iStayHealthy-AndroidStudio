@@ -161,11 +161,11 @@
     <string name="BloodResults">Sangre</string>
     <string name="OtherResults">Otro</string>
     <string name="AllResults">Todo</string>
-    <string name="version">iStayHealthy v3.1.2</string>
+    <string name="version">iStayHealthy v3.1.3</string>
      <string name="forgotPassword">¿Olvidó su contraseña? Click aquí</string>
     <string name="editSideEffect">Decribe Efectos Adversos</string>
     <string name="effectList">De Lista</string>
     <string name="info">Info</string>
     <string name="loading">Carga...</string>
-    
+    <string name="importData">¿Importar Datos?</string>
 </resources>

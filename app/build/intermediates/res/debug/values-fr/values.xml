@@ -484,6 +484,7 @@
     <string name="fromTinabee">Télécharger</string>
     <string name="general">Méd. Générale</string>
     <string name="haemo">Hemoglobulin</string>
+    <string name="importData">Importer Données?</string>
     <string name="info">Info</string>
     <string name="lexicon">Glossaire</string>
     <string name="loading">Chargement...</string>
@@ -536,7 +537,7 @@
     <string name="undetectablequery">indétectable?</string>
     <string name="unique">uniques</string>
     <string name="upload">Sauvegarde. S\'il vous plaît attendre</string>
-    <string name="version">iStayHealthy v3.1.2</string>
+    <string name="version">iStayHealthy v3.1.3</string>
     <string name="vibratequery">Vibrer?</string>
     <string name="view">ImageView</string>
     <string name="weight">Poids</string>

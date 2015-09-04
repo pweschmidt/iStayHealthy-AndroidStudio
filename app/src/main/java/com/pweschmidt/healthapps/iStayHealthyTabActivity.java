@@ -24,16 +24,6 @@ import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 
 import com.pweschmidt.healthapps.datamodel.Medication;
-import com.pweschmidt.healthapps.datamodel.Results;
-import com.pweschmidt.healthapps.documents.XMLErrorHandler;
-import com.pweschmidt.healthapps.documents.XMLParser;
-
-import org.xml.sax.SAXParseException;
-
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.util.Date;
-import java.util.StringTokenizer;
 
 //import android.os.Environment;
 //import android.content.res.*;
@@ -41,6 +31,7 @@ import java.util.StringTokenizer;
 public class iStayHealthyTabActivity extends TabActivity 
 	implements TabHost.OnTabChangeListener
 {
+	public static final int RESULTS_ACTIVITY_REQUEST_CODE = 100;
 	protected static final int LOGIN_ACTIVITY_REQUEST_CODE = 1000;
 //	private static final String TAG = "iStayHealthyTabActivity";
     static final Object[] sDataLock = new Object[0];
@@ -50,10 +41,13 @@ public class iStayHealthyTabActivity extends TabActivity
 	private Medication[] medications;
 	private boolean confirmedIsChecked;
 	private static iStayHealthyTabActivity thisActivity;
-	private ImportThread thread;
+//	private ImportThread thread;
     private static ProgressDialog progressDialog;
     private static Handler handler;
     private boolean isTablet;
+	private Uri importData;
+	private boolean isImported;
+    private Intent resultsIntent;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) 
@@ -62,6 +56,7 @@ public class iStayHealthyTabActivity extends TabActivity
         thisActivity = this;
         handler = new Handler();
         isTablet = false;
+		isImported = false;
         String screen = getResources().getString(R.string.screenType);
         if(null != screen && screen.startsWith("tablet"))
         {
@@ -88,8 +83,13 @@ public class iStayHealthyTabActivity extends TabActivity
         setNewTab(this, tabHost, "charts", R.string.Charts, R.drawable.charts, statusIntent);
         
         //Results activity
-        Intent resultsIntent = new Intent().setClass(this, ResultsListActivity.class);
+        resultsIntent = new Intent().setClass(this, ResultsListActivity.class);
+        importData = getIntent().getData();
         setNewTab(this, tabHost, "results", R.string.Results, R.drawable.list, resultsIntent);
+        if (null != importData)
+        {
+            resultsIntent.setData(importData);
+        }
 
         //Medication activity
         Intent medIntent = new Intent().setClass(this, MedicationListActivity.class);
@@ -103,49 +103,14 @@ public class iStayHealthyTabActivity extends TabActivity
         Intent otherIntent = new Intent().setClass(this, GeneralMedActivity.class);
         setNewTab(this, tabHost, "general", R.string.general, R.drawable.cross, otherIntent);
         
-        //Landscape Charts Activity. This is only activated when in landscape mode
-        // but for this we never show the tabbar
-//        Intent landscapeIntent = new Intent().setClass(this, DashboardLandscapeActivity.class);
-//        setNewTab(this, tabHost, "", R.string.Charts, R.drawable.charts, landscapeIntent);
-//        TabHost.TabSpec landscapeSpec = tabHost.newTabSpec("").setIndicator(null,
-//        		null).setContent(landscapeIntent);
-//        tabHost.addTab(landscapeSpec);
-//        tabHost.getTabWidget().getChildAt(5).setVisibility(View.GONE);
-        tabHost.setOnTabChangedListener(this);        
+        tabHost.setOnTabChangedListener(this);
 
         if(!isTablet)
         {
         	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
-        /*
-        Configuration config = getResources().getConfiguration();  
-        if(isTablet)
-        {
-        	showTabbars();
-            tabHost.setCurrentTab(whichTab);        	        	
-        }
-        else
-        {
-            if (config.orientation == Configuration.ORIENTATION_LANDSCAPE) 
-            {
-                hideTabbars();
-                tabHost.setCurrentTab(0);        		
-            }
-            else
-            {
-            	showTabbars();
-                tabHost.setCurrentTab(whichTab);        	
-            }        	
-        }
-        */
-        tabHost.setCurrentTab(whichTab);        	
-        thread = (ImportThread) getLastNonConfigurationInstance();
-		if (thread != null && thread.isAlive()) 
-		{
-	    	progressDialog = ProgressDialog.show(this, "", "Importing...");
-		}
-        
-        
+        tabHost.setCurrentTab(whichTab);
+
     }
     
     private void setNewTab(Context context, TabHost tabHost, String tag, int title, int icon, Intent content)
@@ -167,25 +132,6 @@ public class iStayHealthyTabActivity extends TabActivity
     	return view;
     }
     
-    /*
-    private void hideTabbars()
-    {
-        tabHost.getTabWidget().getChildAt(0).setVisibility(View.GONE);
-        tabHost.getTabWidget().getChildAt(1).setVisibility(View.GONE);
-        tabHost.getTabWidget().getChildAt(2).setVisibility(View.GONE);
-        tabHost.getTabWidget().getChildAt(3).setVisibility(View.GONE);
-        tabHost.getTabWidget().getChildAt(4).setVisibility(View.GONE);
-    }
-    
-    private void showTabbars()
-    {
-        tabHost.getTabWidget().getChildAt(0).setVisibility(View.VISIBLE);
-        tabHost.getTabWidget().getChildAt(1).setVisibility(View.VISIBLE);
-        tabHost.getTabWidget().getChildAt(2).setVisibility(View.VISIBLE);
-        tabHost.getTabWidget().getChildAt(3).setVisibility(View.VISIBLE);
-        tabHost.getTabWidget().getChildAt(4).setVisibility(View.VISIBLE);    	
-    }
-     */
     /**
      * 
      */
@@ -236,28 +182,6 @@ public class iStayHealthyTabActivity extends TabActivity
 		editor.commit();
     }
     
-   /* 
-    public void onConfigurationChanged(Configuration newConfig) 
-    {
-        super.onConfigurationChanged(newConfig);
-        if(isTablet)
-        	return;
-        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE)
-        {
-        	hideTabbars();
-        	tabHost.setCurrentTab(0);
-        	overridePendingTransition(R.anim.transition, R.anim.phaseout);
-        }
-        if(newConfig.orientation == Configuration.ORIENTATION_PORTRAIT)
-        {
-            SharedPreferences prefs = getSharedPreferences(iStayHealthy.ISTAYHEALTHY_PREFS, 0);
-            int whichTab = prefs.getInt("whichTab", 0);
-        	showTabbars();
-            tabHost.setCurrentTab(whichTab);        	        	
-        	overridePendingTransition(R.anim.transition, R.anim.phaseout);
-        }
-    } 
-    */
 
     public void onResume()
     {
@@ -288,18 +212,39 @@ public class iStayHealthyTabActivity extends TabActivity
     	    	medCursor.close();
     		}
     	}
-        Uri data = getIntent().getData();
-        if(null != data)
+        importData = getIntent().getData();
+        if(null != importData)
         {
-        	if(null != thread && thread.isAlive())
-        	{
-        		thread.stop();
-        		thread = null;
-        	}
-    	    progressDialog = ProgressDialog.show(this, "", "Importing...");
-        	thread = new ImportThread(getIntent().getData());
-        	thread.start();
-        }
+            Uri resultData = resultsIntent.getData();
+            if (null == resultData)
+            {
+                isImported = false;
+            }
+            resultsIntent.setData(importData);
+            if (!isImported)
+            {
+                Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage(R.string.importData);
+                builder.setCancelable(false);
+                builder.setPositiveButton(R.string.Yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int index) {
+                        tabHost.setCurrentTab(1);
+                        isImported = true;
+                    }
+                });
+                builder.setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int index)
+                    {
+                        isImported = true;
+                    }
+                });
+
+                AlertDialog importDialog = builder.create();
+                importDialog.show();
+
+            }
+
+       }
     	NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
     	notificationManager.cancelAll();    	
     }
@@ -331,10 +276,10 @@ public class iStayHealthyTabActivity extends TabActivity
     	return super.onCreateDialog(DIALOG_MEDICATION);
     }
     
-	public Object onRetainNonConfigurationInstance() 
-	{
-		return thread;
-	}
+//	public Object onRetainNonConfigurationInstance()
+//	{
+//		return thread;
+//	}
     
     protected void onDestroy()
     {
@@ -371,161 +316,5 @@ public class iStayHealthyTabActivity extends TabActivity
 			}
 			
 		}    	
-    }    
-    
-    static public class ImportRunnable implements Runnable
-    {
-    	public void run()
-    	{
-    		progressDialog.dismiss();
-    	}
     }
-    
-    
-    static public class ImportThread extends Thread
-    {
-    	private Uri uri;
-    	
-    	public ImportThread(Uri uri)
-    	{
-    		super();
-    		this.uri = uri;    		
-    	}
-    	
-    	public void run()
-    	{
-    		if(null == uri)
-    			return;
-    		
-    		String scheme = uri.getScheme();
-    		String host = uri.getHost();
-			String path = uri.getPath();
-    		if(null != scheme && null != host)
-    		{
-        		if(scheme.equalsIgnoreCase("http") && host.equalsIgnoreCase("www.istayhealthy.uk.com") && path.contains("results"))
-        		{
-        			String parameters = uri.getSchemeSpecificPart();
-        			StringTokenizer tokenizer = new StringTokenizer(parameters, ";");
-        			String query = null;
-        			if(2 == tokenizer.countTokens())
-        			{
-        				tokenizer.nextToken();
-        				query = tokenizer.nextToken();
-        			}
-        			if(null != query)
-        			{
-        				tokenizer = new StringTokenizer(query,"&");
-        			}
-					else
-					{
-						tokenizer = new StringTokenizer(path,"&");
-					}
-        			boolean hasData = false;
-        			Results results = new Results();
-        			results.setTime((new Date()).getTime());
-        			while(tokenizer.hasMoreTokens())
-        			{
-        				String parameterSet = tokenizer.nextToken();
-        				StringTokenizer params = new StringTokenizer(parameterSet,"=");
-        				if(2 == params.countTokens())
-        				{
-        					String key = params.nextToken();
-        					String value = params.nextToken();
-        					if(key.equalsIgnoreCase("cd4"))
-        					{
-        						results.setCD4Count(Integer.parseInt(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("cd4Percent"))
-        					{
-        						results.setCD4Percent(Float.parseFloat(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("viralload"))
-        					{
-        						results.setViralLoad(Integer.parseInt(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("risk"))
-        					{
-        						results.setCardiacRiskFactor(Float.parseFloat(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("cholesterol"))
-        					{
-        						results.setTotalCholesterol(Float.parseFloat(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("hdl"))
-        					{
-        						results.setHDL(Float.parseFloat(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("ldl"))
-        					{
-        						results.setLDL(Float.parseFloat(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("glucose"))
-        					{
-        						results.setGlucose(Float.parseFloat(value));
-        						hasData = true;
-        					}
-        					else if(key.equalsIgnoreCase("hepCViralLoad"))
-        					{
-        						results.setHepCViralLoad(Integer.parseInt(value));
-        						hasData = true;
-        					}
-        				}
-        			}
-        			if(hasData)
-        			{
-        				thisActivity.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, results.contentValuesForResult());        				
-        			}
-        		} 
-        		else //could be file/email attachment
-        		{
-//        			Log.d(TAG,"it could be that we have an email attachment at path "+uri.getPath());
-        			try
-        			{
-        				InputStream input = thisActivity.getContentResolver().openInputStream(uri);
-        				if(null != input)
-        				{
-//        					Log.d(TAG,"read in the data from the attachment");
-        					ByteArrayOutputStream out = new ByteArrayOutputStream();
-        					byte[] buffer = new byte[4];
-        					while(input.read(buffer) > 0)
-        					{
-        						out.write(buffer);
-        					}
-        					byte[] xmlData = out.toByteArray();
-//        					Log.d(TAG,"We read in "+xmlData.length+ " bytes");
-        					if(0 < xmlData.length)
-        					{
-
-                                XMLErrorHandler errorHandler = new XMLErrorHandler();
-            					XMLParser parser = new XMLParser(xmlData, thisActivity);
-                                try {
-                                    parser.parse(errorHandler);
-                                }
-                                catch (SAXParseException se)
-                                {
-                                    input.close();
-                                    out.close();
-                                }
-        					}
-        					input.close();
-        					out.close();
-        					
-        				}
-        				
-        			}catch(Exception e){};
-        		}
-    		}
-        	handler.post(new ImportRunnable());
-    	}
-    	
-    }
-    
-    
 }

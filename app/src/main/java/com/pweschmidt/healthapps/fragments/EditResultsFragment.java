@@ -1,27 +1,35 @@
 package com.pweschmidt.healthapps.fragments;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-//import android.support.v4.app.FragmentTransaction;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.net.Uri;
-import android.os.Bundle;
-import android.text.format.DateFormat;
-import java.util.*;
-
-import android.widget.*;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
-//import android.content.Intent;
 import android.database.Cursor;
-//import android.util.*;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.text.format.DateFormat;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.RadioButton;
+import android.widget.TableRow;
+import android.widget.TextView;
 
 import com.pweschmidt.healthapps.R;
-import com.pweschmidt.healthapps.iStayHealthyContentProvider;
 import com.pweschmidt.healthapps.datamodel.Results;
+import com.pweschmidt.healthapps.iStayHealthyContentProvider;
+
+import java.util.Calendar;
+import java.util.Date;
+
+//import android.support.v4.app.FragmentTransaction;
+//import android.content.Intent;
+//import android.util.*;
 
 public class EditResultsFragment extends Fragment 
 	implements View.OnClickListener, DatePickerDialog.OnDateSetListener
@@ -108,6 +116,12 @@ public class EditResultsFragment extends Fragment
     	View view = getView();
     	setUpRowsAndTextFields(view);
     	String title = getResources().getString(R.string.AddResults);
+		Uri data = getActivity().getIntent().getData();
+		if (null != data)
+		{
+			results = new Results(data);
+			prefillTextFields();
+		}
     	if(isInEditMode)
     	{
     		

@@ -1,12 +1,20 @@
 package com.pweschmidt.healthapps;
 
-import android.support.v4.app.*;
-import android.view.View;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.widget.*;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.RadioButton;
+import android.widget.TextView;
 
-import com.pweschmidt.healthapps.fragments.*;
+import com.pweschmidt.healthapps.fragments.AllResultsFragment;
+import com.pweschmidt.healthapps.fragments.BloodResultFragment;
+import com.pweschmidt.healthapps.fragments.HIVResultsListFragment;
+import com.pweschmidt.healthapps.fragments.OtherResultFragment;
+import com.pweschmidt.healthapps.fragments.ResultsLoader;
 //import android.util.*;
 public class ResultsListActivity extends FragmentActivity 
 	implements View.OnClickListener
@@ -22,11 +30,14 @@ public class ResultsListActivity extends FragmentActivity
 	private static final int ALL = 3;
 	private int whichFragment;
 	private ResultsLoader currentFragmentLoader;
-	
+	private Uri importData;
+	private boolean isImported;
+
 	public void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.resultslist);
+		isImported = false;
     	ImageButton addButton = (ImageButton)findViewById(R.id.TitleActionButton);
     	addButton.setImageResource(R.drawable.addselector);
     	addButton.setOnClickListener(this);
@@ -61,7 +72,22 @@ public class ResultsListActivity extends FragmentActivity
     		getSupportFragmentManager().beginTransaction().add(R.id.resultsFragmentContainer, fragment).commit();
     	}
 	}
-	
+
+	public void onResume()
+	{
+		super.onResume();
+		importData = getIntent().getData();
+		if(null != importData && !isImported)
+		{
+			Intent addResult = new Intent(ResultsListActivity.this, EditResultsActivity.class);
+			addResult.setData(importData);
+			startActivityForResult(addResult, RESULTS_ACTIVITY_REQUEST_CODE);
+			isImported = true;
+		}
+
+//		currentFragmentLoader.reloadResults();
+	}
+
     public void onActivityResult(int requestCode, int resultCode, Intent data)
     {
 //		Log.d(TAG,"Being called: onActivityResult. The request code is "+requestCode+" and the result code is "+resultCode);
