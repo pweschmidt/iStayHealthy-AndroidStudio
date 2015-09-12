@@ -21,6 +21,7 @@
     <string name="ViralLoad">Carga Viral</string>
     <string name="AddResults">Añadir\nResultado</string>
     <string name="EditResults">Editar\nResultado</string>
+    <string name="ImportResults">Importar\nResultado</string>
     <string name="AddHIVDrugs">Añadir\nFármacos</string>
     <string name="EditHIVDrugs">Ajustar\nFármacos</string>
     <string name="AddAlert">Añadir\nAlarma</string>

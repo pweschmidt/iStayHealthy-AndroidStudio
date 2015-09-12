@@ -18,19 +18,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff29eca2-c878-45b1-ba2c-d89ff1fb3cab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/test/debug/com/pweschmidt/healthapps/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$ImportRunnable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$ImportThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/aidl/test/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/test/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/test/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-test.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/AddHIVDrugsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/AddHIVDrugsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/AlertsListFragment$AlertsCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/AlertsListFragment$AlertsCursorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/AlertsListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/AlertsListFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/AllResultsFragment$ResultsCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/AllResultsFragment$ResultsCursorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/AndroidBackupRestoreActivity$iStayHealthyBackupObserver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/AndroidBackupRestoreActivity$iStayHealthyBackupObserver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/BloodResultFragment$BloodResultsCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/BloodResultFragment$BloodResultsCursorAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/ChartsPageView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/ChartsPageView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/DashboardActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/DashboardActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/DashboardCustomPageViewLayout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/DashboardCustomPageViewLayout.class" />
@@ -38,48 +33,63 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/DropboxActivity$UploadThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/DropboxActivity$UploadThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/DropboxActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/DropboxActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditEffectsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditEffectsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditMissedActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditMissedActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditPreviousActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditPreviousActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditResultsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/EditResultsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EditResultsFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EditResultsFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EditResultsFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EditResultsFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EditResultsFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EditResultsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EffectsListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/EffectsListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/GeneralMedActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/GeneralMedActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/HIVResultsListFragment$HIVResultsCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/HIVResultsListFragment$HIVResultsCursorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/MedicationListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/MedicationListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/MissedListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/MissedListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyAlarmNotificationActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyAlarmNotificationActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyClinicActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyClinicActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyHIVDrugsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyHIVDrugsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyOtherMedsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyOtherMedsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyProceduresActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ModifyProceduresActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/OtherMedicationListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/OtherMedicationListFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/OtherResultFragment$OtherResultsCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/OtherResultFragment$OtherResultsCursorAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/PreviousListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/PreviousListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/ProceduresListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/ProceduresListFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/datamodel/Results.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/datamodel/Results.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/ResultsFilter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/ResultsFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ResultsListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ResultsListActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/ResultsTrafo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/graphs/ResultsTrafo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/SetPasswordActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/SetPasswordActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ToolsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/ToolsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/WebViewActivity$BannerWebViewClient.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/WebViewActivity$BannerWebViewClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/WellnessListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/fragments/WellnessListFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-5aa034401aa3dbb56f622af44cc1782794bb6374.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-5aa034401aa3dbb56f622af44cc1782794bb6374.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/dropbox-android-sdk-1.6.3-40cfcf15c2abc3c5be9b2a348baca2748725e46d.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/dropbox-android-sdk-1.6.3-40cfcf15c2abc3c5be9b2a348baca2748725e46d.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$NoOnClickListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity$NoOnClickListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pweschmidt/healthapps/iStayHealthyTabActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1f35f386f533069409791b79affdb3830dcdbe8a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1f35f386f533069409791b79affdb3830dcdbe8a.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/json_simple-1.1-91cfbb2eb0c1d275e04ac2529c2ac184d5b3d0c2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/json_simple-1.1-91cfbb2eb0c1d275e04ac2529c2ac184d5b3d0c2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-4cdfdfa60ba761a5b6d2492d1f792f7d8ff5a273.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-4cdfdfa60ba761a5b6d2492d1f792f7d8ff5a273.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/pweschmidt/healthapps/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/pweschmidt/healthapps/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable-hdpi-v4/triumeq.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable-hdpi-v4/triumeq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable-ldpi-v4/triumeq.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable-ldpi-v4/triumeq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable-mdpi-v4/triumeq.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable-mdpi-v4/triumeq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/triumeq.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/triumeq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/triumeq.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/triumeq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/triumeq.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/triumeq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/EditResultsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/EditResultsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/pweschmidt/healthapps/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/pweschmidt/healthapps/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/datamodel/Results.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/datamodel/Results.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/ResultsListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/ResultsListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/iStayHealthyTabActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/iStayHealthyTabActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/medications.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/medications.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-de/medications.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-de/medications.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-en/medications.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/medications.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-es/medications.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/medications.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-fr/medications.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-fr/medications.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" />
@@ -138,38 +148,22 @@
       <file leaf-file-name="ResultsListActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/ResultsListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0">
-              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-              <folding>
-                <element signature="e#1801#1843#0" expanded="true" />
-                <element signature="e#4357#4401#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-8.04">
+              <caret line="79" column="44" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iStayHealthyTabActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/iStayHealthyTabActivity.java">
+      <file leaf-file-name="EditResultsFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5535714">
-              <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7735426">
+              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
               <folding>
-                <element signature="e#2039#2084#0" expanded="true" />
-                <element signature="e#3092#3107#0" expanded="true" />
-                <element signature="e#3347#3363#0" expanded="true" />
-                <element signature="e#3659#3676#0" expanded="true" />
-                <element signature="e#3868#3883#0" expanded="true" />
-                <element signature="e#4071#4087#0" expanded="true" />
-                <element signature="e#7590#7609#0" expanded="true" />
-                <element signature="e#7700#7712#0" expanded="true" />
-                <element signature="e#7714#7963#0" expanded="true" />
-                <element signature="e#7962#7963#0" expanded="true" />
-                <element signature="e#8008#8019#0" expanded="true" />
-                <element signature="e#8021#8240#0" expanded="true" />
-                <element signature="e#8239#8240#0" expanded="true" />
-                <element signature="e#8834#8854#0" expanded="true" />
-                <element signature="e#8941#8953#0" expanded="true" />
-                <element signature="e#9187#9198#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3658#3703#0" expanded="true" />
+                <element signature="e#3791#3839#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1332,14 +1326,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/datamodel/Results.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/EditResultsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/datamodel/Results.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/medications.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-de/medications.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-en/medications.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-es/medications.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-fr/medications.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/ResultsListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/iStayHealthyTabActivity.java" />
       </list>
@@ -1356,8 +1356,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="23" />
+    <option name="x" value="69" />
+    <option name="y" value="38" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -1388,9 +1388,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1426,10 +1423,6 @@
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strings.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1447,6 +1440,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medications.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1527,6 +1524,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1763,28 +1763,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="23" width="1400" height="860" extended-state="0" />
+    <frame x="69" y="38" width="1400" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20967741" sideWeight="0.49410897" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20967741" sideWeight="0.49116346" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20967741" sideWeight="0.5088365" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.48821798" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.505891" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.52798235" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951613" sideWeight="0.49116346" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.4779087" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.47201768" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23343152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.49410897" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.48821798" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1814,7 +1814,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2006,38 +2006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-fr/medications.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-es/medications.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/medications.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-de/medications.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/zerit.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2064,7 +2032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="219" column="16" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2076,59 +2043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/medications.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/iStayHealthyDatabaseSchema.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-de/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8515982">
-          <caret line="170" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7810219">
-          <caret line="170" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8630137">
-          <caret line="169" column="40" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.32">
-          <caret line="170" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-es/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.72">
-          <caret line="169" column="55" selection-start-line="169" selection-start-column="55" selection-end-line="169" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2136,9 +2054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="731" column="0" selection-start-line="723" selection-start-column="0" selection-end-line="731" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2146,14 +2061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10714286">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/EditResultsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13392857">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2178,48 +2085,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/EditResultsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33271027">
-          <caret line="295" column="0" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39252338">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#3658#3703#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.4">
+          <caret line="24" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-de/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.2">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.4">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-es/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.8">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7735426">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/medications.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="97" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/medications.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-de/medications.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-es/medications.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-fr/medications.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/ResultsListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-          <folding>
-            <element signature="e#1801#1843#0" expanded="true" />
-            <element signature="e#4357#4401#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.04">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/iStayHealthyTabActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5535714">
-          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49327356">
+          <caret line="215" column="44" selection-start-line="215" selection-start-column="30" selection-end-line="215" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pweschmidt/healthapps/fragments/EditResultsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7735426">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
           <folding>
-            <element signature="e#2039#2084#0" expanded="true" />
-            <element signature="e#3092#3107#0" expanded="true" />
-            <element signature="e#3347#3363#0" expanded="true" />
-            <element signature="e#3659#3676#0" expanded="true" />
-            <element signature="e#3868#3883#0" expanded="true" />
-            <element signature="e#4071#4087#0" expanded="true" />
-            <element signature="e#7590#7609#0" expanded="true" />
-            <element signature="e#7700#7712#0" expanded="true" />
-            <element signature="e#7714#7963#0" expanded="true" />
-            <element signature="e#7962#7963#0" expanded="true" />
-            <element signature="e#8008#8019#0" expanded="true" />
-            <element signature="e#8021#8240#0" expanded="true" />
-            <element signature="e#8239#8240#0" expanded="true" />
-            <element signature="e#8834#8854#0" expanded="true" />
-            <element signature="e#8941#8953#0" expanded="true" />
-            <element signature="e#9187#9198#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3658#3703#0" expanded="true" />
+            <element signature="e#3791#3839#0" expanded="true" />
           </folding>
         </state>
       </provider>

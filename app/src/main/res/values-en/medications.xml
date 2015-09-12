@@ -17,7 +17,7 @@
     	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
         <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
     	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
-        <item>triumeq:Triumeq:Tenofovir, Emtricitabine:NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
     	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
     	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
     	<item>stribild:Stribild:Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>

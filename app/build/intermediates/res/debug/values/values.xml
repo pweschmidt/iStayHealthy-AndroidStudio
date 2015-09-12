@@ -83,7 +83,7 @@
     	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
         <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
     	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
-        <item>triumeq:Triumeq:Tenofovir, Emtricitabine:NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
     	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
     	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
     	<item>stribild:Stribild:Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
@@ -371,6 +371,7 @@
     <string name="HIVResults">HIV</string>
     <string name="HepCViralLoad">HepC Viral L.</string>
     <string name="Illness">Illness</string>
+    <string name="ImportResults">Import Results</string>
     <string name="IncorrectPassword">Inconsistent password. Re-enter</string>
     <!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/medications.xml -->
     <eat-comment/>

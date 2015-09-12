@@ -2,6 +2,7 @@ package com.pweschmidt.healthapps;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+
 //import android.content.Intent;
 //import android.util.Log;
 public class EditResultsActivity extends FragmentActivity 
@@ -12,5 +13,6 @@ public class EditResultsActivity extends FragmentActivity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.editresult);
 	}
-	
+
+
 }

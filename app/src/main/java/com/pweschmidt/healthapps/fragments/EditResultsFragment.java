@@ -117,8 +117,10 @@ public class EditResultsFragment extends Fragment
     	setUpRowsAndTextFields(view);
     	String title = getResources().getString(R.string.AddResults);
 		Uri data = getActivity().getIntent().getData();
+
 		if (null != data)
 		{
+			title = getResources().getString(R.string.ImportResults);
 			results = new Results(data);
 			prefillTextFields();
 		}
@@ -169,8 +171,8 @@ public class EditResultsFragment extends Fragment
     	
     	hepCCheckBox = (CheckBox)view.findViewById(R.id.isHepCUndetectableCheckButton);
     	hepCCheckBox.setOnClickListener(this);
-    	
-    	
+
+
     	return view;
     }	
     

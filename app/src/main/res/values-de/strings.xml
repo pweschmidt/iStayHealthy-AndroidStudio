@@ -21,6 +21,7 @@
     <string name="ViralLoad">Viruslast</string>
     <string name="AddResults">Neue\nWerte</string>
     <string name="EditResults">Werte\nBearbeiten</string>
+    <string name="ImportResults">Werte\nImportieren</string>
     <string name="AddHIVDrugs">Neue \nTherapie</string>
     <string name="EditHIVDrugs">Therapie\nBearbeiten</string>
     <string name="AddAlert">Neuer\nWecker</string>

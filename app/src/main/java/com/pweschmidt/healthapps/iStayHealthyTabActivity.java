@@ -213,38 +213,12 @@ public class iStayHealthyTabActivity extends TabActivity
     		}
     	}
         importData = getIntent().getData();
-        if(null != importData)
+        if(null != importData && !isImported)
         {
-            Uri resultData = resultsIntent.getData();
-            if (null == resultData)
-            {
-                isImported = false;
-            }
             resultsIntent.setData(importData);
-            if (!isImported)
-            {
-                Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage(R.string.importData);
-                builder.setCancelable(false);
-                builder.setPositiveButton(R.string.Yes, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int index) {
-                        tabHost.setCurrentTab(1);
-                        isImported = true;
-                    }
-                });
-                builder.setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int index)
-                    {
-                        isImported = true;
-                    }
-                });
-
-                AlertDialog importDialog = builder.create();
-                importDialog.show();
-
-            }
-
-       }
+			tabHost.setCurrentTab(1);
+			isImported = true;
+        }
     	NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
     	notificationManager.cancelAll();    	
     }
