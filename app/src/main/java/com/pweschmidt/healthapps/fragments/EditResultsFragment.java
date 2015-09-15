@@ -539,7 +539,7 @@ public class EditResultsFragment extends Fragment
     		}
     		else
     		{
-    			hepCText.setText(new String(Integer.toString(results.getViralLoad())));
+    			hepCText.setText(new String(Integer.toString(results.getHepCViralLoad())));
     			hepCText.setEnabled(true);
     			hepCCheckBox.setChecked(false);
     		}

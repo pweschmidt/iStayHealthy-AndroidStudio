@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:padding="6dip"
+  android:stretchColumns="1"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  	<TableRow 
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<ImageView android:id="@+id/medListImage"
+		  android:contentDescription="@string/view"		        
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+	      android:layout_gravity="center_vertical|center_horizontal"		
+		  android:focusableInTouchMode="false"
+		  android:focusable="false"/>   
+		   
+		  <TableLayout android:id="@+id/medListTable"
+			  android:layout_marginLeft="2dip"
+			  android:layout_gravity="center_vertical|center_horizontal"		
+			  android:layout_marginTop="3dip"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content">	  
+		  	<TableRow 
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content">
+			  <TextView 
+			  	android:id="@+id/startDate"
+		       	android:focusableInTouchMode="false"
+		       	android:focusable="false"	  
+			   	android:gravity="left"
+			   	android:textSize="10dip"
+			   	android:textStyle="italic"
+			   	android:textColor="@color/darkdarkgray"			   	
+			   	android:layout_width="wrap_content"
+			   	android:layout_height="wrap_content"/>
+			</TableRow>	  	
+		  	<TableRow 
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content">
+			  <TextView android:id="@+id/medName"
+		       android:focusableInTouchMode="false"
+		       android:focusable="false"	  
+			   android:gravity="left"
+			   android:textColor="@color/textcolour"
+			   android:textSize="14dip"
+			   android:textStyle="bold"			   
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"/>
+			</TableRow>	  	
+		  	<TableRow 
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content">
+			  <TextView android:id="@+id/drugContent"
+		       android:focusableInTouchMode="false"
+		       android:focusable="false"	  
+			   android:gravity="left"
+			   android:textSize="9dip"
+               android:singleLine="false"
+               android:ellipsize="marquee"	    
+			   android:textColor="@color/darkred"
+			   android:textStyle="bold|italic"			   
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"/>
+			</TableRow>	  	
+		  	<TableRow 
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content">
+			  <TextView android:id="@+id/drugForms"
+		       android:focusableInTouchMode="false"
+		       android:focusable="false"	  
+			   android:gravity="left"
+			   android:textSize="10dip"			   
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"/>
+			</TableRow>	  	
+		  </TableLayout>
+	<ImageView android:id="@+id/editOtherMedImage"
+      android:contentDescription="@string/view"		        
+	  android:paddingRight="6dip"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_gravity="center_vertical|center_horizontal"		
+	  android:focusableInTouchMode="false"
+	  android:focusable="false"
+	  android:src="@drawable/nextitem"/>    
+	</TableRow>
+</TableLayout>
+<!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/med_list_item.xml -->

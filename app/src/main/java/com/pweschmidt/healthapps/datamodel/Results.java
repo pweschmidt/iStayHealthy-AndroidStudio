@@ -46,12 +46,20 @@ public class Results extends MedicalEvent implements Parcelable
 	private float liverAlanineDirectBilirubin;
 	private float liverGammaGlutamylTranspeptidase;
 	private float weight;
-	
+	public boolean hasViralLoad;
+	public boolean hasHepCViralLoad;
 	
 	public Results(){
+		setDefaults();
+	}
+
+	private void setDefaults()
+	{
 		setTime((new java.util.Date()).getTime());
 		cd4Percent = (float)0.0;
-		cd4Count = viralLoad = hepCViralLoad = 0;
+		cd4Count = 0;
+		viralLoad =  -1;
+		hepCViralLoad = -1;
 		glucose = totalCholesterol = LDL = HDL = triglyceride = (float)0.0;
 		heartRate = systole = diastole = 0;
 		oxygenLevel = (float)0.0;
@@ -65,9 +73,12 @@ public class Results extends MedicalEvent implements Parcelable
 		liverAlanineTotalBilirubin = (float)0.0;
 		liverAlanineDirectBilirubin = (float)0.0;
 		liverGammaGlutamylTranspeptidase = (float)0.0;
+		hasHepCViralLoad = hasViralLoad = false;
+
 	}
 
 	public Results(Uri data) {
+		setDefaults();
 		String scheme = data.getScheme();
 		String host = data.getHost();
 		String path = data.getPath();
@@ -97,12 +108,13 @@ public class Results extends MedicalEvent implements Parcelable
 						} else if (key.equalsIgnoreCase("cd4Percent")) {
 							cd4Percent = Float.parseFloat(value);
 						} else if (key.equalsIgnoreCase("viralload")) {
+							hasViralLoad = true;
 							if (value.equalsIgnoreCase("undetecable") || value.startsWith("undetectable")) {
 								viralLoad = 0;
 							} else {
 								viralLoad = Integer.parseInt(value);
 							}
-						} else if (key.equalsIgnoreCase("risk")) {
+						} else if (key.equalsIgnoreCase("risk") || (key.equalsIgnoreCase("cardiacRisk"))) {
 							cardiacRiskFactor = Float.parseFloat(value);
 						} else if (key.equalsIgnoreCase("cholesterol")) {
 							totalCholesterol = Float.parseFloat(value);
@@ -113,6 +125,7 @@ public class Results extends MedicalEvent implements Parcelable
 						} else if (key.equalsIgnoreCase("glucose")) {
 							glucose = Float.parseFloat(value);
 						} else if (key.equalsIgnoreCase("hepCViralLoad")) {
+							hasHepCViralLoad = true;
 							if (value.equalsIgnoreCase("undetectable") || value.startsWith("undetectable")) {
 								hepCViralLoad = 0;
 							} else {
@@ -132,6 +145,17 @@ public class Results extends MedicalEvent implements Parcelable
 								time = date.getTime();
 							}
 
+						}
+						else if (key.equalsIgnoreCase("bloodPressure"))
+						{
+							StringTokenizer bpTokenizer = new StringTokenizer(value, "-");
+							if(2 == bpTokenizer.countTokens())
+							{
+								String bpItem = bpTokenizer.nextToken();
+								systole = Integer.parseInt(bpItem);
+								bpItem = bpTokenizer.nextToken();
+								diastole = Integer.parseInt(bpItem);
+							}
 						}
 					}
 				}
@@ -267,12 +291,24 @@ public class Results extends MedicalEvent implements Parcelable
 	 * 
 	 * @param viralLoad
 	 */
-	public void setViralLoad(int viralLoad){this.viralLoad = viralLoad;}
+	public void setViralLoad(int viralLoad){
+		this.viralLoad = viralLoad;
+		if (0 <= viralLoad)
+		{
+			this.hasViralLoad = true;
+		}
+	}
 	/**
 	 * 
 	 * @param hepCViralLoad
 	 */
-	public void setHepCViralLoad(int hepCViralLoad){this.hepCViralLoad = hepCViralLoad;}
+	public void setHepCViralLoad(int hepCViralLoad){
+		this.hepCViralLoad = hepCViralLoad;
+		if(0 <= hepCViralLoad)
+		{
+			this.hasHepCViralLoad = true;
+		}
+	}
 	/**
 	 * 
 	 * @param glucose

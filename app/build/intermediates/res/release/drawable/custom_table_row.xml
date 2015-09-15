@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:constantSize="true"
+	android:variablePadding="true">
+     <item android:state_pressed="true"
+         android:background="@color/lightlightgray"/>
+     <item android:state_focused="true"
+         android:background="@color/lightlightgray"/>
+     <item android:state_selected="true"
+         android:background="@color/lightlightgray"/>
+     <item android:background="@null"/>     
+</selector><!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/custom_table_row.xml -->
