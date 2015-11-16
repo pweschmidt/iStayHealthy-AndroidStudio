@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="22.0.0"><source path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/res"/></dataSet><dataSet config="main"><source path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res"><file name="phaseout" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/anim/phaseout.xml" qualifiers="" type="anim"/><file name="transition" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/anim/transition.xml" qualifiers="" type="anim"/><file name="addselector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/addselector.xml" qualifiers="" type="drawable"/><file name="backselector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/backselector.xml" qualifiers="" type="drawable"/><file name="backup" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/backup.png" qualifiers="" type="drawable"/><file name="banner" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/banner.xml" qualifiers="" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/bannerflat.png" qualifiers="" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/bannerselected.png" qualifiers="" type="drawable"/><file name="charttab" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/charttab.xml" qualifiers="" type="drawable"/><file name="clocktab" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/clocktab.xml" qualifiers="" type="drawable"/><file name="combitab" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/combitab.xml" qualifiers="" type="drawable"/><file name="crosstab" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/crosstab.xml" qualifiers="" type="drawable"/><file name="custom_button" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/custom_button.xml" qualifiers="" type="drawable"/><file name="custom_call_button" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/custom_call_button.xml" qualifiers="" type="drawable"/><file name="custom_delete_button" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/custom_delete_button.xml" qualifiers="" type="drawable"/><file name="custom_table_row" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/custom_table_row.xml" qualifiers="" type="drawable"/><file name="email" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/email.png" qualifiers="" type="drawable"/><file name="empty" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/empty.png" qualifiers="" type="drawable"/><file name="listab" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/listab.xml" qualifiers="" type="drawable"/><file name="lock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/lock.png" qualifiers="" type="drawable"/><file name="menu_button" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/menu_button.xml" qualifiers="" type="drawable"/><file name="pozbanner2" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/pozbanner2.png" qualifiers="" type="drawable"/><file name="roundedshape" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/roundedshape.xml" qualifiers="" type="drawable"/><file name="saveselector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/saveselector.xml" qualifiers="" type="drawable"/><file name="searchselector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/searchselector.xml" qualifiers="" type="drawable"/><file name="tab_focused" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/tab_focused.xml" qualifiers="" type="drawable"/><file name="tab_indicator" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/tab_indicator.xml" qualifiers="" type="drawable"/><file name="tab_pressed" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/tab_pressed.xml" qualifiers="" type="drawable"/><file name="tab_selected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/tab_selected.xml" qualifiers="" type="drawable"/><file name="tab_unselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/tab_unselected.xml" qualifiers="" type="drawable"/><file name="tablerow_selector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/tablerow_selector.xml" qualifiers="" type="drawable"/><file name="toolselector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/toolselector.xml" qualifiers="" type="drawable"/><file name="trashselector" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable/trashselector.xml" qualifiers="" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-hdpi/bannerflat.png" qualifiers="de-hdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-hdpi/bannerselected.png" qualifiers="de-hdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-hdpi-v5/bannerflat.png" qualifiers="de-hdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-hdpi-v5/bannerselected.png" qualifiers="de-hdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-ldpi/bannerflat.png" qualifiers="de-ldpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-ldpi/bannerselected.png" qualifiers="de-ldpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-ldpi-v5/bannerflat.png" qualifiers="de-ldpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-ldpi-v5/bannerselected.png" qualifiers="de-ldpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-mdpi/bannerflat.png" qualifiers="de-mdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-mdpi/bannerselected.png" qualifiers="de-mdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-mdpi-v5/bannerflat.png" qualifiers="de-mdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-de-mdpi-v5/bannerselected.png" qualifiers="de-mdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-hdpi/bannerflat.png" qualifiers="en-hdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-hdpi/bannerselected.png" qualifiers="en-hdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-hdpi-v5/bannerflat.png" qualifiers="en-hdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-hdpi-v5/bannerselected.png" qualifiers="en-hdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-ldpi/bannerflat.png" qualifiers="en-ldpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-ldpi/bannerselected.png" qualifiers="en-ldpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-ldpi-v5/bannerflat.png" qualifiers="en-ldpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-ldpi-v5/bannerselected.png" qualifiers="en-ldpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-mdpi/bannerflat.png" qualifiers="en-mdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-mdpi/bannerselected.png" qualifiers="en-mdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-mdpi-v5/bannerflat.png" qualifiers="en-mdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-en-mdpi-v5/bannerselected.png" qualifiers="en-mdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-hdpi/bannerflat.png" qualifiers="es-hdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-hdpi/bannerselected.png" qualifiers="es-hdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-hdpi-v5/bannerflat.png" qualifiers="es-hdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-hdpi-v5/bannerselected.png" qualifiers="es-hdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-ldpi/bannerflat.png" qualifiers="es-ldpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-ldpi/bannerselected.png" qualifiers="es-ldpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-ldpi-v5/bannerflat.png" qualifiers="es-ldpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-ldpi-v5/bannerselected.png" qualifiers="es-ldpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-mdpi/bannerflat.png" qualifiers="es-mdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-mdpi/bannerselected.png" qualifiers="es-mdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-mdpi-v5/bannerflat.png" qualifiers="es-mdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-es-mdpi-v5/bannerselected.png" qualifiers="es-mdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-hdpi/bannerflat.png" qualifiers="fr-hdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-hdpi/bannerselected.png" qualifiers="fr-hdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-hdpi-v5/bannerflat.png" qualifiers="fr-hdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-hdpi-v5/bannerselected.png" qualifiers="fr-hdpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-ldpi/bannerflat.png" qualifiers="fr-ldpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-ldpi/bannerselected.png" qualifiers="fr-ldpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-ldpi-v5/bannerflat.png" qualifiers="fr-ldpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-ldpi-v5/bannerselected.png" qualifiers="fr-ldpi-v5" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-mdpi/bannerflat.png" qualifiers="fr-mdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-mdpi/bannerselected.png" qualifiers="fr-mdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-mdpi-v5/bannerflat.png" qualifiers="fr-mdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-fr-mdpi-v5/bannerselected.png" qualifiers="fr-mdpi-v5" type="drawable"/><file name="about" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/about.png" qualifiers="hdpi" type="drawable"/><file name="aboutselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/aboutselected.png" qualifiers="hdpi" type="drawable"/><file name="accounts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/accounts.png" qualifiers="hdpi" type="drawable"/><file name="accountsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/accountsselected.png" qualifiers="hdpi" type="drawable"/><file name="addalarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/addalarm.png" qualifiers="hdpi" type="drawable"/><file name="addalarmselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/addalarmselected.png" qualifiers="hdpi" type="drawable"/><file name="additem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/additem.png" qualifiers="hdpi" type="drawable"/><file name="additemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/additemselected.png" qualifiers="hdpi" type="drawable"/><file name="alarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/alarm.png" qualifiers="hdpi" type="drawable"/><file name="alarms" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/alarms.png" qualifiers="hdpi" type="drawable"/><file name="alarmsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/alarmsselected.png" qualifiers="hdpi" type="drawable"/><file name="appointments" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/appointments.png" qualifiers="hdpi" type="drawable"/><file name="aptivus" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/aptivus.png" qualifiers="hdpi" type="drawable"/><file name="atripla" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/atripla.png" qualifiers="hdpi" type="drawable"/><file name="back" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/back.png" qualifiers="hdpi" type="drawable"/><file name="backselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/backselected.png" qualifiers="hdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/bannerflat.png" qualifiers="hdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/bannerselected.png" qualifiers="hdpi" type="drawable"/><file name="call" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/call.png" qualifiers="hdpi" type="drawable"/><file name="callselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/callselected.png" qualifiers="hdpi" type="drawable"/><file name="camera" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/camera.png" qualifiers="hdpi" type="drawable"/><file name="cameraselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/cameraselected.png" qualifiers="hdpi" type="drawable"/><file name="celsentri" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/celsentri.png" qualifiers="hdpi" type="drawable"/><file name="charts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/charts.png" qualifiers="hdpi" type="drawable"/><file name="chartselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/chartselected.png" qualifiers="hdpi" type="drawable"/><file name="clinic" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/clinic.png" qualifiers="hdpi" type="drawable"/><file name="clock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/clock.png" qualifiers="hdpi" type="drawable"/><file name="clockselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/clockselected.png" qualifiers="hdpi" type="drawable"/><file name="combi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/combi.png" qualifiers="hdpi" type="drawable"/><file name="combiselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/combiselected.png" qualifiers="hdpi" type="drawable"/><file name="combismall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/combismall.png" qualifiers="hdpi" type="drawable"/><file name="combivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/combivir.png" qualifiers="hdpi" type="drawable"/><file name="complera" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/complera.png" qualifiers="hdpi" type="drawable"/><file name="contentemail" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/contentemail.png" qualifiers="hdpi" type="drawable"/><file name="contentemailselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/contentemailselected.png" qualifiers="hdpi" type="drawable"/><file name="crixivan" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/crixivan.png" qualifiers="hdpi" type="drawable"/><file name="cross" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/cross.png" qualifiers="hdpi" type="drawable"/><file name="crosselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/crosselected.png" qualifiers="hdpi" type="drawable"/><file name="daklinza" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/daklinza.png" qualifiers="hdpi" type="drawable"/><file name="didanosine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/didanosine.png" qualifiers="hdpi" type="drawable"/><file name="download" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/download.png" qualifiers="hdpi" type="drawable"/><file name="downloadselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/downloadselected.png" qualifiers="hdpi" type="drawable"/><file name="dropbox" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/dropbox.png" qualifiers="hdpi" type="drawable"/><file name="edit" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/edit.png" qualifiers="hdpi" type="drawable"/><file name="editselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/editselected.png" qualifiers="hdpi" type="drawable"/><file name="edurant" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/edurant.png" qualifiers="hdpi" type="drawable"/><file name="empty" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/empty.png" qualifiers="hdpi" type="drawable"/><file name="emtriva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/emtriva.png" qualifiers="hdpi" type="drawable"/><file name="endcall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/endcall.png" qualifiers="hdpi" type="drawable"/><file name="endcallselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/endcallselected.png" qualifiers="hdpi" type="drawable"/><file name="epivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/epivir.png" qualifiers="hdpi" type="drawable"/><file name="evotaz" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/evotaz.png" qualifiers="hdpi" type="drawable"/><file name="feedback" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/feedback.png" qualifiers="hdpi" type="drawable"/><file name="fuzeon" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/fuzeon.png" qualifiers="hdpi" type="drawable"/><file name="icon" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/icon.png" qualifiers="hdpi" type="drawable"/><file name="incivek" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/incivek.png" qualifiers="hdpi" type="drawable"/><file name="intelence" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/intelence.png" qualifiers="hdpi" type="drawable"/><file name="invirase" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/invirase.png" qualifiers="hdpi" type="drawable"/><file name="isentress" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/isentress.png" qualifiers="hdpi" type="drawable"/><file name="kaletra" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/kaletra.png" qualifiers="hdpi" type="drawable"/><file name="kivexa" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/kivexa.png" qualifiers="hdpi" type="drawable"/><file name="lamivudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/lamivudine.png" qualifiers="hdpi" type="drawable"/><file name="lexiva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/lexiva.png" qualifiers="hdpi" type="drawable"/><file name="list" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/list.png" qualifiers="hdpi" type="drawable"/><file name="listselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/listselected.png" qualifiers="hdpi" type="drawable"/><file name="missed" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/missed.png" qualifiers="hdpi" type="drawable"/><file name="missedsmall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/missedsmall.png" qualifiers="hdpi" type="drawable"/><file name="nextitem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/nextitem.png" qualifiers="hdpi" type="drawable"/><file name="nextitemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/nextitemselected.png" qualifiers="hdpi" type="drawable"/><file name="norvir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/norvir.png" qualifiers="hdpi" type="drawable"/><file name="notsecure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/notsecure.png" qualifiers="hdpi" type="drawable"/><file name="notsecureselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/notsecureselected.png" qualifiers="hdpi" type="drawable"/><file name="olysio" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/olysio.png" qualifiers="hdpi" type="drawable"/><file name="pegasys" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/pegasys.png" qualifiers="hdpi" type="drawable"/><file name="pegintron" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/pegintron.png" qualifiers="hdpi" type="drawable"/><file name="person" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/person.png" qualifiers="hdpi" type="drawable"/><file name="personselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/personselected.png" qualifiers="hdpi" type="drawable"/><file name="pozbanner2" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/pozbanner2.png" qualifiers="hdpi" type="drawable"/><file name="previousitem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/previousitem.png" qualifiers="hdpi" type="drawable"/><file name="previousitemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/previousitemselected.png" qualifiers="hdpi" type="drawable"/><file name="prezcobix" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/prezcobix.png" qualifiers="hdpi" type="drawable"/><file name="prezista" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/prezista.png" qualifiers="hdpi" type="drawable"/><file name="procedure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/procedure.png" qualifiers="hdpi" type="drawable"/><file name="redcrossflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/redcrossflat.png" qualifiers="hdpi" type="drawable"/><file name="refresh" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/refresh.png" qualifiers="hdpi" type="drawable"/><file name="refreshselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/refreshselected.png" qualifiers="hdpi" type="drawable"/><file name="remove" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/remove.png" qualifiers="hdpi" type="drawable"/><file name="removeselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/removeselected.png" qualifiers="hdpi" type="drawable"/><file name="rescriptor" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/rescriptor.png" qualifiers="hdpi" type="drawable"/><file name="retrovir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/retrovir.png" qualifiers="hdpi" type="drawable"/><file name="reyataz" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/reyataz.png" qualifiers="hdpi" type="drawable"/><file name="ribasphere" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/ribasphere.png" qualifiers="hdpi" type="drawable"/><file name="right" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/right.png" qualifiers="hdpi" type="drawable"/><file name="save" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/save.png" qualifiers="hdpi" type="drawable"/><file name="saveselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/saveselected.png" qualifiers="hdpi" type="drawable"/><file name="search" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/search.png" qualifiers="hdpi" type="drawable"/><file name="searchselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/searchselected.png" qualifiers="hdpi" type="drawable"/><file name="secure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/secure.png" qualifiers="hdpi" type="drawable"/><file name="secureselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/secureselected.png" qualifiers="hdpi" type="drawable"/><file name="sendnow" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/sendnow.png" qualifiers="hdpi" type="drawable"/><file name="sendnowselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/sendnowselected.png" qualifiers="hdpi" type="drawable"/><file name="settings" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/settings.png" qualifiers="hdpi" type="drawable"/><file name="settingsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/settingsselected.png" qualifiers="hdpi" type="drawable"/><file name="sideeffects" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/sideeffects.png" qualifiers="hdpi" type="drawable"/><file name="sovaldi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/sovaldi.png" qualifiers="hdpi" type="drawable"/><file name="stavudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/stavudine.png" qualifiers="hdpi" type="drawable"/><file name="stop" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/stop.png" qualifiers="hdpi" type="drawable"/><file name="stribild" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/stribild.png" qualifiers="hdpi" type="drawable"/><file name="sunvepra" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/sunvepra.png" qualifiers="hdpi" type="drawable"/><file name="sustiva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/sustiva.png" qualifiers="hdpi" type="drawable"/><file name="telzir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/telzir.png" qualifiers="hdpi" type="drawable"/><file name="tivicay" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/tivicay.png" qualifiers="hdpi" type="drawable"/><file name="tools" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/tools.png" qualifiers="hdpi" type="drawable"/><file name="toolsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/toolsselected.png" qualifiers="hdpi" type="drawable"/><file name="trash" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/trash.png" qualifiers="hdpi" type="drawable"/><file name="trashselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/trashselected.png" qualifiers="hdpi" type="drawable"/><file name="triomune" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/triomune.png" qualifiers="hdpi" type="drawable"/><file name="triumeq" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/triumeq.png" qualifiers="hdpi" type="drawable"/><file name="trizivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/trizivir.png" qualifiers="hdpi" type="drawable"/><file name="truvada" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/truvada.png" qualifiers="hdpi" type="drawable"/><file name="tybost" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/tybost.png" qualifiers="hdpi" type="drawable"/><file name="victrelis" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/victrelis.png" qualifiers="hdpi" type="drawable"/><file name="videx" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/videx.png" qualifiers="hdpi" type="drawable"/><file name="viracept" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/viracept.png" qualifiers="hdpi" type="drawable"/><file name="viramune" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/viramune.png" qualifiers="hdpi" type="drawable"/><file name="viread" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/viread.png" qualifiers="hdpi" type="drawable"/><file name="vitekta" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/vitekta.png" qualifiers="hdpi" type="drawable"/><file name="wrong" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/wrong.png" qualifiers="hdpi" type="drawable"/><file name="zerit" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/zerit.png" qualifiers="hdpi" type="drawable"/><file name="ziagen" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/ziagen.png" qualifiers="hdpi" type="drawable"/><file name="zidovudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi/zidovudine.png" qualifiers="hdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/bannerflat.png" qualifiers="hdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/bannerselected.png" qualifiers="hdpi-v5" type="drawable"/><file name="charts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/charts.png" qualifiers="hdpi-v5" type="drawable"/><file name="chartselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/chartselected.png" qualifiers="hdpi-v5" type="drawable"/><file name="clock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/clock.png" qualifiers="hdpi-v5" type="drawable"/><file name="clockselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/clockselected.png" qualifiers="hdpi-v5" type="drawable"/><file name="combi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/combi.png" qualifiers="hdpi-v5" type="drawable"/><file name="combiselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/combiselected.png" qualifiers="hdpi-v5" type="drawable"/><file name="cross" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/cross.png" qualifiers="hdpi-v5" type="drawable"/><file name="crosselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/crosselected.png" qualifiers="hdpi-v5" type="drawable"/><file name="list" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/list.png" qualifiers="hdpi-v5" type="drawable"/><file name="listselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-hdpi-v5/listselected.png" qualifiers="hdpi-v5" type="drawable"/><file name="about" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/about.png" qualifiers="ldpi" type="drawable"/><file name="accounts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/accounts.png" qualifiers="ldpi" type="drawable"/><file name="accountsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/accountsselected.png" qualifiers="ldpi" type="drawable"/><file name="addalarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/addalarm.png" qualifiers="ldpi" type="drawable"/><file name="addalarmselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/addalarmselected.png" qualifiers="ldpi" type="drawable"/><file name="additem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/additem.png" qualifiers="ldpi" type="drawable"/><file name="additemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/additemselected.png" qualifiers="ldpi" type="drawable"/><file name="alarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/alarm.png" qualifiers="ldpi" type="drawable"/><file name="alarms" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/alarms.png" qualifiers="ldpi" type="drawable"/><file name="alarmsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/alarmsselected.png" qualifiers="ldpi" type="drawable"/><file name="appointments" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/appointments.png" qualifiers="ldpi" type="drawable"/><file name="aptivus" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/aptivus.png" qualifiers="ldpi" type="drawable"/><file name="atripla" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/atripla.png" qualifiers="ldpi" type="drawable"/><file name="back" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/back.png" qualifiers="ldpi" type="drawable"/><file name="backselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/backselected.png" qualifiers="ldpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/bannerflat.png" qualifiers="ldpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/bannerselected.png" qualifiers="ldpi" type="drawable"/><file name="call" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/call.png" qualifiers="ldpi" type="drawable"/><file name="callselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/callselected.png" qualifiers="ldpi" type="drawable"/><file name="camera" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/camera.png" qualifiers="ldpi" type="drawable"/><file name="cameraselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/cameraselected.png" qualifiers="ldpi" type="drawable"/><file name="celsentri" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/celsentri.png" qualifiers="ldpi" type="drawable"/><file name="charts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/charts.png" qualifiers="ldpi" type="drawable"/><file name="chartselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/chartselected.png" qualifiers="ldpi" type="drawable"/><file name="clinic" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/clinic.png" qualifiers="ldpi" type="drawable"/><file name="clock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/clock.png" qualifiers="ldpi" type="drawable"/><file name="clockselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/clockselected.png" qualifiers="ldpi" type="drawable"/><file name="combi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/combi.png" qualifiers="ldpi" type="drawable"/><file name="combiselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/combiselected.png" qualifiers="ldpi" type="drawable"/><file name="combismall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/combismall.png" qualifiers="ldpi" type="drawable"/><file name="combivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/combivir.png" qualifiers="ldpi" type="drawable"/><file name="complera" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/complera.png" qualifiers="ldpi" type="drawable"/><file name="contentemail" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/contentemail.png" qualifiers="ldpi" type="drawable"/><file name="contentemailselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/contentemailselected.png" qualifiers="ldpi" type="drawable"/><file name="crixivan" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/crixivan.png" qualifiers="ldpi" type="drawable"/><file name="cross" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/cross.png" qualifiers="ldpi" type="drawable"/><file name="crosselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/crosselected.png" qualifiers="ldpi" type="drawable"/><file name="daklinza" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/daklinza.png" qualifiers="ldpi" type="drawable"/><file name="didanosine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/didanosine.png" qualifiers="ldpi" type="drawable"/><file name="download" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/download.png" qualifiers="ldpi" type="drawable"/><file name="downloadselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/downloadselected.png" qualifiers="ldpi" type="drawable"/><file name="dropbox" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/dropbox.png" qualifiers="ldpi" type="drawable"/><file name="edit" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/edit.png" qualifiers="ldpi" type="drawable"/><file name="editselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/editselected.png" qualifiers="ldpi" type="drawable"/><file name="edurant" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/edurant.png" qualifiers="ldpi" type="drawable"/><file name="email" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/email.png" qualifiers="ldpi" type="drawable"/><file name="empty" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/empty.png" qualifiers="ldpi" type="drawable"/><file name="emtriva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/emtriva.png" qualifiers="ldpi" type="drawable"/><file name="endcall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/endcall.png" qualifiers="ldpi" type="drawable"/><file name="endcallselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/endcallselected.png" qualifiers="ldpi" type="drawable"/><file name="epivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/epivir.png" qualifiers="ldpi" type="drawable"/><file name="evotaz" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/evotaz.png" qualifiers="ldpi" type="drawable"/><file name="feedback" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/feedback.png" qualifiers="ldpi" type="drawable"/><file name="fuzeon" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/fuzeon.png" qualifiers="ldpi" type="drawable"/><file name="icon" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/icon.png" qualifiers="ldpi" type="drawable"/><file name="incivek" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/incivek.png" qualifiers="ldpi" type="drawable"/><file name="intelence" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/intelence.png" qualifiers="ldpi" type="drawable"/><file name="invirase" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/invirase.png" qualifiers="ldpi" type="drawable"/><file name="isentress" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/isentress.png" qualifiers="ldpi" type="drawable"/><file name="kaletra" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/kaletra.png" qualifiers="ldpi" type="drawable"/><file name="kivexa" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/kivexa.png" qualifiers="ldpi" type="drawable"/><file name="lamivudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/lamivudine.png" qualifiers="ldpi" type="drawable"/><file name="lexiva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/lexiva.png" qualifiers="ldpi" type="drawable"/><file name="list" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/list.png" qualifiers="ldpi" type="drawable"/><file name="listselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/listselected.png" qualifiers="ldpi" type="drawable"/><file name="missed" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/missed.png" qualifiers="ldpi" type="drawable"/><file name="missedsmall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/missedsmall.png" qualifiers="ldpi" type="drawable"/><file name="nextitem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/nextitem.png" qualifiers="ldpi" type="drawable"/><file name="nextitemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/nextitemselected.png" qualifiers="ldpi" type="drawable"/><file name="norvir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/norvir.png" qualifiers="ldpi" type="drawable"/><file name="notsecure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/notsecure.png" qualifiers="ldpi" type="drawable"/><file name="notsecureselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/notsecureselected.png" qualifiers="ldpi" type="drawable"/><file name="olysio" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/olysio.png" qualifiers="ldpi" type="drawable"/><file name="pegasys" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/pegasys.png" qualifiers="ldpi" type="drawable"/><file name="pegintron" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/pegintron.png" qualifiers="ldpi" type="drawable"/><file name="person" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/person.png" qualifiers="ldpi" type="drawable"/><file name="personselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/personselected.png" qualifiers="ldpi" type="drawable"/><file name="pozbanner2" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/pozbanner2.png" qualifiers="ldpi" type="drawable"/><file name="previousitem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/previousitem.png" qualifiers="ldpi" type="drawable"/><file name="previousitemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/previousitemselected.png" qualifiers="ldpi" type="drawable"/><file name="prezcobix" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/prezcobix.png" qualifiers="ldpi" type="drawable"/><file name="prezista" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/prezista.png" qualifiers="ldpi" type="drawable"/><file name="procedure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/procedure.png" qualifiers="ldpi" type="drawable"/><file name="redcrossflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/redcrossflat.png" qualifiers="ldpi" type="drawable"/><file name="refresh" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/refresh.png" qualifiers="ldpi" type="drawable"/><file name="refreshselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/refreshselected.png" qualifiers="ldpi" type="drawable"/><file name="remove" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/remove.png" qualifiers="ldpi" type="drawable"/><file name="removeselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/removeselected.png" qualifiers="ldpi" type="drawable"/><file name="rescriptor" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/rescriptor.png" qualifiers="ldpi" type="drawable"/><file name="retrovir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/retrovir.png" qualifiers="ldpi" type="drawable"/><file name="reyataz" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/reyataz.png" qualifiers="ldpi" type="drawable"/><file name="ribasphere" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/ribasphere.png" qualifiers="ldpi" type="drawable"/><file name="right" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/right.png" qualifiers="ldpi" type="drawable"/><file name="save" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/save.png" qualifiers="ldpi" type="drawable"/><file name="saveselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/saveselected.png" qualifiers="ldpi" type="drawable"/><file name="search" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/search.png" qualifiers="ldpi" type="drawable"/><file name="searchselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/searchselected.png" qualifiers="ldpi" type="drawable"/><file name="secure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/secure.png" qualifiers="ldpi" type="drawable"/><file name="secureselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/secureselected.png" qualifiers="ldpi" type="drawable"/><file name="sendnow" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/sendnow.png" qualifiers="ldpi" type="drawable"/><file name="sendnowselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/sendnowselected.png" qualifiers="ldpi" type="drawable"/><file name="settings" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/settings.png" qualifiers="ldpi" type="drawable"/><file name="settingsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/settingsselected.png" qualifiers="ldpi" type="drawable"/><file name="sideeffects" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/sideeffects.png" qualifiers="ldpi" type="drawable"/><file name="sovaldi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/sovaldi.png" qualifiers="ldpi" type="drawable"/><file name="stavudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/stavudine.png" qualifiers="ldpi" type="drawable"/><file name="stop" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/stop.png" qualifiers="ldpi" type="drawable"/><file name="stribild" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/stribild.png" qualifiers="ldpi" type="drawable"/><file name="sunvepra" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/sunvepra.png" qualifiers="ldpi" type="drawable"/><file name="sustiva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/sustiva.png" qualifiers="ldpi" type="drawable"/><file name="telzir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/telzir.png" qualifiers="ldpi" type="drawable"/><file name="tivicay" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/tivicay.png" qualifiers="ldpi" type="drawable"/><file name="tools" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/tools.png" qualifiers="ldpi" type="drawable"/><file name="toolsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/toolsselected.png" qualifiers="ldpi" type="drawable"/><file name="trash" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/trash.png" qualifiers="ldpi" type="drawable"/><file name="trashselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/trashselected.png" qualifiers="ldpi" type="drawable"/><file name="triomune" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/triomune.png" qualifiers="ldpi" type="drawable"/><file name="triumeq" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/triumeq.png" qualifiers="ldpi" type="drawable"/><file name="trizivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/trizivir.png" qualifiers="ldpi" type="drawable"/><file name="truvada" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/truvada.png" qualifiers="ldpi" type="drawable"/><file name="tybost" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/tybost.png" qualifiers="ldpi" type="drawable"/><file name="victrelis" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/victrelis.png" qualifiers="ldpi" type="drawable"/><file name="videx" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/videx.png" qualifiers="ldpi" type="drawable"/><file name="viracept" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/viracept.png" qualifiers="ldpi" type="drawable"/><file name="viramune" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/viramune.png" qualifiers="ldpi" type="drawable"/><file name="viread" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/viread.png" qualifiers="ldpi" type="drawable"/><file name="vitekta" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/vitekta.png" qualifiers="ldpi" type="drawable"/><file name="wrong" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/wrong.png" qualifiers="ldpi" type="drawable"/><file name="zerit" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/zerit.png" qualifiers="ldpi" type="drawable"/><file name="ziagen" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/ziagen.png" qualifiers="ldpi" type="drawable"/><file name="zidovudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi/zidovudine.png" qualifiers="ldpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/bannerflat.png" qualifiers="ldpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/bannerselected.png" qualifiers="ldpi-v5" type="drawable"/><file name="charts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/charts.png" qualifiers="ldpi-v5" type="drawable"/><file name="chartselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/chartselected.png" qualifiers="ldpi-v5" type="drawable"/><file name="clock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/clock.png" qualifiers="ldpi-v5" type="drawable"/><file name="clockselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/clockselected.png" qualifiers="ldpi-v5" type="drawable"/><file name="combi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/combi.png" qualifiers="ldpi-v5" type="drawable"/><file name="combiselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/combiselected.png" qualifiers="ldpi-v5" type="drawable"/><file name="cross" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/cross.png" qualifiers="ldpi-v5" type="drawable"/><file name="crosselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/crosselected.png" qualifiers="ldpi-v5" type="drawable"/><file name="list" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/list.png" qualifiers="ldpi-v5" type="drawable"/><file name="listselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-ldpi-v5/listselected.png" qualifiers="ldpi-v5" type="drawable"/><file name="about" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/about.png" qualifiers="mdpi" type="drawable"/><file name="accounts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/accounts.png" qualifiers="mdpi" type="drawable"/><file name="accountsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/accountsselected.png" qualifiers="mdpi" type="drawable"/><file name="addalarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/addalarm.png" qualifiers="mdpi" type="drawable"/><file name="addalarmselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/addalarmselected.png" qualifiers="mdpi" type="drawable"/><file name="additem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/additem.png" qualifiers="mdpi" type="drawable"/><file name="additemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/additemselected.png" qualifiers="mdpi" type="drawable"/><file name="alarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/alarm.png" qualifiers="mdpi" type="drawable"/><file name="alarms" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/alarms.png" qualifiers="mdpi" type="drawable"/><file name="alarmsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/alarmsselected.png" qualifiers="mdpi" type="drawable"/><file name="appointments" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/appointments.png" qualifiers="mdpi" type="drawable"/><file name="aptivus" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/aptivus.png" qualifiers="mdpi" type="drawable"/><file name="atripla" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/atripla.png" qualifiers="mdpi" type="drawable"/><file name="back" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/back.png" qualifiers="mdpi" type="drawable"/><file name="backselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/backselected.png" qualifiers="mdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/bannerflat.png" qualifiers="mdpi" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/bannerselected.png" qualifiers="mdpi" type="drawable"/><file name="call" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/call.png" qualifiers="mdpi" type="drawable"/><file name="callselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/callselected.png" qualifiers="mdpi" type="drawable"/><file name="camera" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/camera.png" qualifiers="mdpi" type="drawable"/><file name="cameraselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/cameraselected.png" qualifiers="mdpi" type="drawable"/><file name="celsentri" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/celsentri.png" qualifiers="mdpi" type="drawable"/><file name="charts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/charts.png" qualifiers="mdpi" type="drawable"/><file name="chartselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/chartselected.png" qualifiers="mdpi" type="drawable"/><file name="clinic" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/clinic.png" qualifiers="mdpi" type="drawable"/><file name="clock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/clock.png" qualifiers="mdpi" type="drawable"/><file name="clockselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/clockselected.png" qualifiers="mdpi" type="drawable"/><file name="combi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/combi.png" qualifiers="mdpi" type="drawable"/><file name="combiselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/combiselected.png" qualifiers="mdpi" type="drawable"/><file name="combismall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/combismall.png" qualifiers="mdpi" type="drawable"/><file name="combivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/combivir.png" qualifiers="mdpi" type="drawable"/><file name="complera" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/complera.png" qualifiers="mdpi" type="drawable"/><file name="contentemail" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/contentemail.png" qualifiers="mdpi" type="drawable"/><file name="contentemailselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/contentemailselected.png" qualifiers="mdpi" type="drawable"/><file name="crixivan" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/crixivan.png" qualifiers="mdpi" type="drawable"/><file name="cross" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/cross.png" qualifiers="mdpi" type="drawable"/><file name="crosselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/crosselected.png" qualifiers="mdpi" type="drawable"/><file name="daklinza" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/daklinza.png" qualifiers="mdpi" type="drawable"/><file name="didanosine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/didanosine.png" qualifiers="mdpi" type="drawable"/><file name="download" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/download.png" qualifiers="mdpi" type="drawable"/><file name="downloadselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/downloadselected.png" qualifiers="mdpi" type="drawable"/><file name="dropbox" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/dropbox.png" qualifiers="mdpi" type="drawable"/><file name="edit" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/edit.png" qualifiers="mdpi" type="drawable"/><file name="editselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/editselected.png" qualifiers="mdpi" type="drawable"/><file name="edurant" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/edurant.png" qualifiers="mdpi" type="drawable"/><file name="empty" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/empty.png" qualifiers="mdpi" type="drawable"/><file name="emtriva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/emtriva.png" qualifiers="mdpi" type="drawable"/><file name="endcall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/endcall.png" qualifiers="mdpi" type="drawable"/><file name="endcallselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/endcallselected.png" qualifiers="mdpi" type="drawable"/><file name="epivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/epivir.png" qualifiers="mdpi" type="drawable"/><file name="evotaz" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/evotaz.png" qualifiers="mdpi" type="drawable"/><file name="feedback" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/feedback.png" qualifiers="mdpi" type="drawable"/><file name="fuzeon" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/fuzeon.png" qualifiers="mdpi" type="drawable"/><file name="icon" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/icon.png" qualifiers="mdpi" type="drawable"/><file name="incivek" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/incivek.png" qualifiers="mdpi" type="drawable"/><file name="intelence" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/intelence.png" qualifiers="mdpi" type="drawable"/><file name="invirase" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/invirase.png" qualifiers="mdpi" type="drawable"/><file name="isentress" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/isentress.png" qualifiers="mdpi" type="drawable"/><file name="kaletra" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/kaletra.png" qualifiers="mdpi" type="drawable"/><file name="kivexa" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/kivexa.png" qualifiers="mdpi" type="drawable"/><file name="lamivudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/lamivudine.png" qualifiers="mdpi" type="drawable"/><file name="lexiva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/lexiva.png" qualifiers="mdpi" type="drawable"/><file name="list" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/list.png" qualifiers="mdpi" type="drawable"/><file name="listselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/listselected.png" qualifiers="mdpi" type="drawable"/><file name="missed" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/missed.png" qualifiers="mdpi" type="drawable"/><file name="missedsmall" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/missedsmall.png" qualifiers="mdpi" type="drawable"/><file name="nextitem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/nextitem.png" qualifiers="mdpi" type="drawable"/><file name="nextitemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/nextitemselected.png" qualifiers="mdpi" type="drawable"/><file name="norvir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/norvir.png" qualifiers="mdpi" type="drawable"/><file name="notsecure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/notsecure.png" qualifiers="mdpi" type="drawable"/><file name="notsecureselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/notsecureselected.png" qualifiers="mdpi" type="drawable"/><file name="olysio" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/olysio.png" qualifiers="mdpi" type="drawable"/><file name="pegasys" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/pegasys.png" qualifiers="mdpi" type="drawable"/><file name="pegintron" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/pegintron.png" qualifiers="mdpi" type="drawable"/><file name="person" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/person.png" qualifiers="mdpi" type="drawable"/><file name="personselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/personselected.png" qualifiers="mdpi" type="drawable"/><file name="pozbanner2" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/pozbanner2.png" qualifiers="mdpi" type="drawable"/><file name="previousitem" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/previousitem.png" qualifiers="mdpi" type="drawable"/><file name="previousitemselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/previousitemselected.png" qualifiers="mdpi" type="drawable"/><file name="prezcobix" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/prezcobix.png" qualifiers="mdpi" type="drawable"/><file name="prezista" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/prezista.png" qualifiers="mdpi" type="drawable"/><file name="procedure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/procedure.png" qualifiers="mdpi" type="drawable"/><file name="redcrossflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/redcrossflat.png" qualifiers="mdpi" type="drawable"/><file name="refresh" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/refresh.png" qualifiers="mdpi" type="drawable"/><file name="refreshselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/refreshselected.png" qualifiers="mdpi" type="drawable"/><file name="remove" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/remove.png" qualifiers="mdpi" type="drawable"/><file name="removeselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/removeselected.png" qualifiers="mdpi" type="drawable"/><file name="rescriptor" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/rescriptor.png" qualifiers="mdpi" type="drawable"/><file name="retrovir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/retrovir.png" qualifiers="mdpi" type="drawable"/><file name="reyataz" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/reyataz.png" qualifiers="mdpi" type="drawable"/><file name="ribasphere" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/ribasphere.png" qualifiers="mdpi" type="drawable"/><file name="right" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/right.png" qualifiers="mdpi" type="drawable"/><file name="save" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/save.png" qualifiers="mdpi" type="drawable"/><file name="saveselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/saveselected.png" qualifiers="mdpi" type="drawable"/><file name="search" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/search.png" qualifiers="mdpi" type="drawable"/><file name="searchselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/searchselected.png" qualifiers="mdpi" type="drawable"/><file name="secure" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/secure.png" qualifiers="mdpi" type="drawable"/><file name="secureselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/secureselected.png" qualifiers="mdpi" type="drawable"/><file name="sendnow" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/sendnow.png" qualifiers="mdpi" type="drawable"/><file name="sendnowselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/sendnowselected.png" qualifiers="mdpi" type="drawable"/><file name="settings" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/settings.png" qualifiers="mdpi" type="drawable"/><file name="settingsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/settingsselected.png" qualifiers="mdpi" type="drawable"/><file name="sideeffects" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/sideeffects.png" qualifiers="mdpi" type="drawable"/><file name="sovaldi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/sovaldi.png" qualifiers="mdpi" type="drawable"/><file name="stavudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/stavudine.png" qualifiers="mdpi" type="drawable"/><file name="stop" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/stop.png" qualifiers="mdpi" type="drawable"/><file name="stribild" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/stribild.png" qualifiers="mdpi" type="drawable"/><file name="sunvepra" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/sunvepra.png" qualifiers="mdpi" type="drawable"/><file name="sustiva" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/sustiva.png" qualifiers="mdpi" type="drawable"/><file name="telzir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/telzir.png" qualifiers="mdpi" type="drawable"/><file name="tivicay" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/tivicay.png" qualifiers="mdpi" type="drawable"/><file name="tools" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/tools.png" qualifiers="mdpi" type="drawable"/><file name="toolsselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/toolsselected.png" qualifiers="mdpi" type="drawable"/><file name="trash" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/trash.png" qualifiers="mdpi" type="drawable"/><file name="trashselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/trashselected.png" qualifiers="mdpi" type="drawable"/><file name="triomune" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/triomune.png" qualifiers="mdpi" type="drawable"/><file name="triumeq" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/triumeq.png" qualifiers="mdpi" type="drawable"/><file name="trizivir" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/trizivir.png" qualifiers="mdpi" type="drawable"/><file name="truvada" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/truvada.png" qualifiers="mdpi" type="drawable"/><file name="tybost" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/tybost.png" qualifiers="mdpi" type="drawable"/><file name="victrelis" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/victrelis.png" qualifiers="mdpi" type="drawable"/><file name="videx" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/videx.png" qualifiers="mdpi" type="drawable"/><file name="viracept" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/viracept.png" qualifiers="mdpi" type="drawable"/><file name="viramune" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/viramune.png" qualifiers="mdpi" type="drawable"/><file name="viread" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/viread.png" qualifiers="mdpi" type="drawable"/><file name="vitekta" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/vitekta.png" qualifiers="mdpi" type="drawable"/><file name="wrong" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/wrong.png" qualifiers="mdpi" type="drawable"/><file name="zerit" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/zerit.png" qualifiers="mdpi" type="drawable"/><file name="ziagen" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/ziagen.png" qualifiers="mdpi" type="drawable"/><file name="zidovudine" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi/zidovudine.png" qualifiers="mdpi" type="drawable"/><file name="bannerflat" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/bannerflat.png" qualifiers="mdpi-v5" type="drawable"/><file name="bannerselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/bannerselected.png" qualifiers="mdpi-v5" type="drawable"/><file name="charts" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/charts.png" qualifiers="mdpi-v5" type="drawable"/><file name="chartselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/chartselected.png" qualifiers="mdpi-v5" type="drawable"/><file name="clock" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/clock.png" qualifiers="mdpi-v5" type="drawable"/><file name="clockselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/clockselected.png" qualifiers="mdpi-v5" type="drawable"/><file name="combi" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/combi.png" qualifiers="mdpi-v5" type="drawable"/><file name="combiselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/combiselected.png" qualifiers="mdpi-v5" type="drawable"/><file name="cross" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/cross.png" qualifiers="mdpi-v5" type="drawable"/><file name="crosselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/crosselected.png" qualifiers="mdpi-v5" type="drawable"/><file name="list" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/list.png" qualifiers="mdpi-v5" type="drawable"/><file name="listselected" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/drawable-mdpi-v5/listselected.png" qualifiers="mdpi-v5" type="drawable"/><file name="add_alarm" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/add_alarm.xml" qualifiers="" type="layout"/><file name="add_effects" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/add_effects.xml" qualifiers="" type="layout"/><file name="add_hiv_drugs" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/add_hiv_drugs.xml" qualifiers="" type="layout"/><file name="add_missed" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/add_missed.xml" qualifiers="" type="layout"/><file name="add_othermeds" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/add_othermeds.xml" qualifiers="" type="layout"/><file name="addclinic" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/addclinic.xml" qualifiers="" type="layout"/><file name="addprocedures" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/addprocedures.xml" qualifiers="" type="layout"/><file name="alert_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/alert_list_item.xml" qualifiers="" type="layout"/><file name="alerts_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/alerts_fragment.xml" qualifiers="" type="layout"/><file name="alertslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/alertslist.xml" qualifiers="" type="layout"/><file name="androidbackup" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/androidbackup.xml" qualifiers="" type="layout"/><file name="bannerview" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/bannerview.xml" qualifiers="" type="layout"/><file name="chart_landscape" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/chart_landscape.xml" qualifiers="" type="layout"/><file name="clinic_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/clinic_list_item.xml" qualifiers="" type="layout"/><file name="contactslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/contactslist.xml" qualifiers="" type="layout"/><file name="currentmeds_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/currentmeds_fragment.xml" qualifiers="" type="layout"/><file name="dashboard" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/dashboard.xml" qualifiers="" type="layout"/><file name="dashboard_custom_page_view" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/dashboard_custom_page_view.xml" qualifiers="" type="layout"/><file name="dateheaderview" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/dateheaderview.xml" qualifiers="" type="layout"/><file name="dropboxbackup" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/dropboxbackup.xml" qualifiers="" type="layout"/><file name="dynamic_result_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/dynamic_result_fragment.xml" qualifiers="" type="layout"/><file name="edit_previous" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/edit_previous.xml" qualifiers="" type="layout"/><file name="editresult" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/editresult.xml" qualifiers="" type="layout"/><file name="editresult_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/editresult_fragment.xml" qualifiers="" type="layout"/><file name="edittitlebar" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/edittitlebar.xml" qualifiers="" type="layout"/><file name="effects_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/effects_fragment.xml" qualifiers="" type="layout"/><file name="effects_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/effects_item.xml" qualifiers="" type="layout"/><file name="effectslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/effectslist.xml" qualifiers="" type="layout"/><file name="fragmenttitlebar" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/fragmenttitlebar.xml" qualifiers="" type="layout"/><file name="generalmed" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/generalmed.xml" qualifiers="" type="layout"/><file name="gloss_layout" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/gloss_layout.xml" qualifiers="" type="layout"/><file name="list_fragment_layout" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/list_fragment_layout.xml" qualifiers="" type="layout"/><file name="loginscreen" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/loginscreen.xml" qualifiers="" type="layout"/><file name="main" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/main.xml" qualifiers="" type="layout"/><file name="maintitlebar" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/maintitlebar.xml" qualifiers="" type="layout"/><file name="med_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/med_list_item.xml" qualifiers="" type="layout"/><file name="med_manager_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/med_manager_fragment.xml" qualifiers="" type="layout"/><file name="medlist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/medlist.xml" qualifiers="" type="layout"/><file name="missed_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/missed_fragment.xml" qualifiers="" type="layout"/><file name="missedlist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/missedlist.xml" qualifiers="" type="layout"/><file name="missedmed_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/missedmed_list_item.xml" qualifiers="" type="layout"/><file name="missedreason_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/missedreason_item.xml" qualifiers="" type="layout"/><file name="modify_alarms" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/modify_alarms.xml" qualifiers="" type="layout"/><file name="modify_hiv_drugs" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/modify_hiv_drugs.xml" qualifiers="" type="layout"/><file name="modify_othermeds" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/modify_othermeds.xml" qualifiers="" type="layout"/><file name="modifyclinic" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/modifyclinic.xml" qualifiers="" type="layout"/><file name="modifyprocedures" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/modifyprocedures.xml" qualifiers="" type="layout"/><file name="othermed_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/othermed_list_item.xml" qualifiers="" type="layout"/><file name="othermedslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/othermedslist.xml" qualifiers="" type="layout"/><file name="pagecontroller" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/pagecontroller.xml" qualifiers="" type="layout"/><file name="previous_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/previous_fragment.xml" qualifiers="" type="layout"/><file name="previous_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/previous_list_item.xml" qualifiers="" type="layout"/><file name="previouslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/previouslist.xml" qualifiers="" type="layout"/><file name="procedures_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/procedures_list_item.xml" qualifiers="" type="layout"/><file name="procedureslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/procedureslist.xml" qualifiers="" type="layout"/><file name="result_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/result_list_item.xml" qualifiers="" type="layout"/><file name="results_fragment" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/results_fragment.xml" qualifiers="" type="layout"/><file name="resultslist" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/resultslist.xml" qualifiers="" type="layout"/><file name="selecteffects" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/selecteffects.xml" qualifiers="" type="layout"/><file name="setdate" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/setdate.xml" qualifiers="" type="layout"/><file name="setpassword" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/setpassword.xml" qualifiers="" type="layout"/><file name="sideeffect_list_item" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/sideeffect_list_item.xml" qualifiers="" type="layout"/><file name="subtitlebar" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/subtitlebar.xml" qualifiers="" type="layout"/><file name="tab_layout" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/tab_layout.xml" qualifiers="" type="layout"/><file name="tools" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/tools.xml" qualifiers="" type="layout"/><file name="viewpagercontroller" path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/viewpagercontroller.xml" qualifiers="" type="layout"/><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/colors.xml" qualifiers=""><color name="darkergray">#cccccc</color><color name="background">#fdfff0</color><color name="darkred">#cc0000</color><color name="lightgray">#dddddd</color><color name="darkyellow">#ff9800</color><color name="chartbackground">#ffffff</color><color name="darkdarkgray">#666666</color><color name="darkblue">#000066</color><color name="darkgray">#999999</color><color name="darkgreen">#006600</color><color name="textcolour">#3366cc</color><color name="cd4colour">#ffff66</color><color name="lightlightgray">#eeeeee</color><color name="buttonbackground">#000099</color><color name="viralloadcolour">#ff0066</color><color name="selectedPageColour">#00ccff</color></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/fontSizes.xml" qualifiers=""><dimen name="bitmapYOffset">15sp</dimen><dimen name="legendExpTextSize">8sp</dimen><dimen name="smallTextSize">8sp</dimen><dimen name="roundness">10sp</dimen><dimen name="titleSize">16sp</dimen><dimen name="smallExpTextSize">7sp</dimen><dimen name="chartInset">2sp</dimen><dimen name="textStrokeWidth">1sp</dimen><dimen name="chartMarginLeft">29sp</dimen><dimen name="textOffset">3sp</dimen><dimen name="chartMarginTop">25sp</dimen><dimen name="legendTextSize">10sp</dimen><dimen name="chartInsetOffset">2sp</dimen><dimen name="majorTickLength">9sp</dimen><dimen name="tickWidth">1sp</dimen><dimen name="chartMarginBottom">25sp</dimen><dimen name="strokeWidth">2sp</dimen><dimen name="smallTitleSize">12sp</dimen><dimen name="chartMarginRight">27sp</dimen></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/glossary.xml" qualifiers=""><string name="answerthree">The amount of HIV virus in blood (measured as per unit blood mm3).</string><string name="answerone">
+        CD4 (T4 helper) cells are immune cells.\n 
+        The count is measured per unit (mm3) of blood\n 
+        and indicates the health of the immune system.\n 
+        The normal range is between 500 - 1500.
+    </string><string name="faqeight">
+	    What is Adherence?\n
+	    And why is it important that I take my drugs regularly?
+	</string><string name="faqtwo">What is CD4\u0025?</string><string name="faqone">What is CD4 Count?</string><string name="answerseven">
+	    When HIV infects a cell it \'reprogrammes\' the cell to produce new virus copies.\n 
+	    This typically leads to the death of the infected cell.\n 
+	    HIV drugs prevent the virus from multiplying within the infected cell.
+	</string><string name="faqsix">What anti-HIV drugs are available?</string><string name="faqfour">What does \'Undetectable\' mean?</string><string name="faqthree">What is Viral Load?</string><string name="answerfive">
+	    Current guidelines recommend the start of treatment \n 
+	    when the CD4 count is persistently at or below 350.
+	</string><string name="faqseven">How do anti-HIV drugs work?</string><string name="answerfour">
+        Undetectable refers to a very low count of HIV virus in blood.\n 
+        The threshold for \'undetectable\' depends on the Viral Load test\n 
+        and may range from 50 to ca 200.\n 
+        Undetectable does not mean\n the virus has left the body.
+    </string><string name="faqfive">When to start HIV treatment?</string><string name="answereight">
+	    Anti HIV medication needs to be taken regularly - typically within +/- 1 hour \n 
+	    of the specified time. Sticking to the drug regime is called \'adherence\'. \n
+	    It is important to avoid the virus from becoming resistant to the medication.
+	</string><string name="answersix">
+	    A whole range of different drug types are available \n 
+	    and new ones are developed all the time. The 5 main types are:\n 
+	    protease inhibitors, NRTI (nukes), NNRTI (non-nukes),\n 
+	    fusion/entry inhibitors and integrase inhibitors. \n 
+	    Often patients are prescribed drugs that combine more than 1 type (e.g. Atripla).
+	</string><string name="answertwo">
+	    The ratio between 2 different immune cells\n, 
+	    T4 (helper CD4) and T8(killer CD8) cells.\n 
+	    The ratio is given in \u0025. The CD4\u0025 value indicates\n 
+	    the health of the immune system.\n 
+	    CD4\u0025 tends to fluctuate less than CD4 count .\n 
+	    The normal range is between 20-40\u0025.
+	</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/links.xml" qualifiers=""><string name="testing">http://www.poz.com/hiv_testing.shtml</string><string name="prevention">http://www.poz.com/archive/2008_Mar_2168.shtml</string><string name="medslist">http://www.aidsmeds.com/list.shtml</string><string name="officialinfo">http://aids.gov/hiv-aids-basics/</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/medications.xml" qualifiers=""><string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array><string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array><string name="EntryDrugs">Entry Inhibitors</string><string name="IntegraseDrugs">Integrase Inhibitors</string><string name="Booster">Boosters/Interferon</string><string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirine:NNRTI</item>
+    	<item>intelence:Intelence:Etravirine:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva/Stocrin:Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapine:NNRTI</item>
+    </string-array><string name="PIDrugs">Protease Inhibitors (PI)</string><string name="NRTIDrugs">Nucleoside Reverse Transcriptase Inhibitors (NRTI)</string><string name="combinationtablets">Combination Tablets</string><string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
+    </string-array><string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabine, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudine, Lamivudine:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabine, Rilpivirine, Tenofovir:NRTI, NRTI, NRTI</item>
+        <item>evotaz:Evotaz:Atazanavir, Cobicistat:PI, Booster</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+        <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
+    	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
+    	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
+    	<item>stribild:Stribild:Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    </string-array><string name="NNRTIDrugs">non-Nucleoside Reverse Transcriptase Inhibitors (NNRTI)</string><string-array name="NRTI">
+    	<item>didanosine:Didanosine:Didanosine (generic):NRTI</item>
+    	<item>emtriva:Emtriva:Emtricitabine:NRTI</item>
+    	<item>epivir:Epivir:Lamivudine:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudine:NRTI</item>
+    	<item>stavudine:Stavudine:Stavudine (generic):NRTI</item>
+    	<item>videx:Videx:Didanosine:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudine:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    	<item>zidovudine:Zidovudine:Zidovudine (generic):NRTI</item>
+    </string-array><string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array><string name="OtherInhibitors">Other Inhibitors</string><string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva/Telzir:Fosamprenavir:PI</item>
+    	<item>olysio:Olysio:Simeprevir:PI</item>
+        <item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/missedReasons.xml" qualifiers=""><string-array name="AllMissedReason">
+	    <item>Forgotten</item>
+	    <item>Ran out of meds</item>
+	    <item>Could not take the meds</item>
+	    <item>Did not want to take the meds</item>
+	    <item>No particular reason</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/mystyle.xml" qualifiers=""><style name="CustomThemePortrait" parent="android:Theme.Light">
+	    <item name="android:windowBackground">@color/background</item>
+	    <item name="android:colorBackground">@color/background</item>
+	</style><style name="CustomeThemeLandscape" parent="android:Theme.Light.NoTitleBar">
+		<item name="android:windowBackground">@color/chartbackground</item>
+		<item name="android:colorBackground">@color/chartbackground</item>
+	</style></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/screen.xml" qualifiers=""><string name="screenType" translatable="false">phone</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/sideEffects.xml" qualifiers=""><string-array name="Fuzeon">
+        <item/>        
+    </string-array><string-array name="Truvada">
+        <item/>        
+    </string-array><string-array name="Invirase">
+        <item/>        
+    </string-array><string-array name="Aptivus">
+        <item/>        
+    </string-array><string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array><string-array name="Prezista">
+        <item/>        
+    </string-array><string-array name="Edurant">
+        <item/>        
+    </string-array><string-array name="Zerit">
+        <item/>        
+    </string-array><string-array name="Trizivir">
+        <item/>        
+    </string-array><string-array name="Lexiva">
+        <item/>        
+    </string-array><string-array name="Crixivan">
+        <item/>        
+    </string-array><string-array name="AllSideEffects">
+		<item>Headache</item>
+		<item>Fatigue</item>
+		<item>Nausea</item>
+		<item>Diarrhoea</item>
+		<item>Vomiting</item>
+		<item>Fever</item>
+		<item>Skin rash</item>
+		<item>Lactic acidosis</item>
+		<item>Hypersensitivity reaction</item>
+		<item>Cardiovascular problems</item>
+		<item>Jaundice</item>
+		<item>Kidney stones</item>
+		<item>Dizziness</item>
+		<item>Insomnia</item>
+		<item>Vivid dreams</item>
+		<item>Impaired concentration</item>
+		<item>Memory loss</item>
+		<item>Depression</item>
+		<item>Liver damage (hepatitis)</item>
+		<item>Problems during pregnancy</item>
+		<item>Skin pigmentation on palms, soles</item>
+		<item>Muscle pain</item>
+		<item>Nail discoloration</item>
+		<item>Lipodystrophy</item>
+		<item>Peripheral neuropathy</item>
+		<item>Pancreatitis</item>
+		<item>Liver damage</item>
+		<item>Gout</item>
+		<item>Lesions on lips, genitals</item>
+		<item>Red swollen or puffy skin</item>
+		<item>Hardened skin</item>
+		<item>Cysts, nodules</item>
+		<item>Pneumonia</item>
+		<item>Abscess</item>
+		<item>Toxic epidermal necrolysis (TEN)</item>
+		<item>Blisters</item>
+		<item>Oral lesions</item>
+		<item>Dry skin</item>
+		<item>Abnormal nail growth</item>
+    </string-array><string-array name="Viracept">
+        <item/>        
+    </string-array><string-array name="Combivir">
+        <item/>        
+    </string-array><string-array name="Ziagen">
+        <item/>        
+    </string-array><string-array name="Celsentri">
+        <item/>        
+    </string-array><string-array name="Videx">
+        <item/>        
+    </string-array><string-array name="Epivir">
+        <item/>        
+    </string-array><string-array name="Kaletra">
+        <item/>        
+    </string-array><string-array name="Sustiva">
+        <item/>        
+    </string-array><string-array name="Retrovir">
+        <item/>        
+    </string-array><string-array name="Emtriva">
+        <item/>        
+    </string-array><string-array name="Stavudine">
+        <item/>        
+    </string-array><string-array name="Intelence">
+        <item/>        
+    </string-array><string-array name="Viramune">
+        <item/>        
+    </string-array><string-array name="Norvir">
+        <item/>        
+    </string-array><string-array name="Zidovudine">
+        <item/>        
+    </string-array><string-array name="Didanosine">
+        <item/>        
+    </string-array><string-array name="Reyataz">
+        <item/>        
+    </string-array><string-array name="Stribild">
+        <item/>        
+    </string-array><string-array name="Rescriptor">
+        <item/>        
+    </string-array><string-array name="Kivexa">
+        <item/>        
+    </string-array><string-array name="Complera">
+        <item/>        
+    </string-array><string-array name="Atripla">
+        <item/>        
+    </string-array><string-array name="Viread">
+        <item/>        
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values/strings.xml" qualifiers=""><string name="UsePassword">Use Password?</string><string name="TreatmentEnd">Treatment End</string><string name="EnterDose">Enter Dose in [mg]</string><string name="DeleteMissedMeds">Delete All Missed Meds?</string><string name="editSideEffect">Describe Side Effect</string><string name="DisconnectDropbox">Disconnect from Dropbox</string><string name="cardiacRisk">Cardiac Risk</string><string name="No">No</string><string name="sugar">Blood Sugar</string><string name="SetRepeats">Set Repeats</string><string name="Dropbox">Dropbox</string><string name="CD4">CD4 </string><string name="NoResultsListed">No Results Listed</string><string name="SideEffects">Side Effects</string><string name="EnterName">Enter Name</string><string name="Procedure">Procedure</string><string name="medicationtracker">Medication Tracker</string><string name="everytwodays">Every 2 days?</string><string name="AllResults">All</string><string name="passworddisabled">Password disabled</string><string name="Back">Back</string><string name="AddClinic">Add Clinic</string><string name="effectList">From List</string><string name="IncorrectPassword">Inconsistent password. Re-enter</string><string name="version">iStayHealthy v3.1.5</string><string name="SavePassword">Save Password</string><string name="undetectablequery">undetectable?</string><string name="vibratequery">Vibrate?</string><string name="CD4Percent">CD4 %</string><string name="onlyonce">Only Once</string><string name="Clinics">Clinics</string><string name="showresult">Show Results</string><string name="PasswordText">Password</string><string name="wrongPassword">Wrong Password. Try again</string><string name="GoToWeb">Go to Website</string><string name="DeleteSideEffects">Delete All Side Effects?</string><string name="pressure">Blood Pressure</string><string name="Minor">Minor</string><string name="EditHIVDrugs">Edit Drugs</string><string name="EditResults">Edit Results</string><string name="systole">Systole</string><string name="ClinicWeb">Web-site</string><string name="loading">Loading...</string><string name="info">Info</string><string name="Major">Major</string><string name="LDL">Cholesterol(LDL)</string><string name="EditAlert">Edit Alert</string><string name="DefaultAlertLabelt">iStayHealthy</string><string name="AddResults">Add Results</string><string name="ConsultantName">Consultant</string><string name="BloodResults">Bloods</string><string name="confirmmeds">Confirm I took my meds?</string><string name="diabetic">Diabetic?</string><string name="Select">Select</string><string name="cholesterolRatio">Cholesterol Ratio</string><string name="ListOfMeds">List of HIV Medications</string><string name="Backup">Backup</string><string name="Confirm">Confirm</string><string name="login">Login</string><string name="AddProcedure">Illness/Surgery</string><string name="bannerURL">http://www.poz.com</string><string name="recurring">recurring</string><string name="redcells">Red Cell Count</string><string name="general">General</string><string name="HDL">Cholesterol(HDL)</string><string name="Delete">Delete</string><string name="off">Off</string><string name="Tintabee">Tintabee</string><string name="HIVDrugs">Antiviral Drugs</string><string name="DisconnectTintabee">Disconnect from Tintabee</string><string name="download">Restoring data. Please wait.</string><string name="ConnectTintabee">Connect to Tintabee</string><string name="settime">Set Time</string><string name="HepCViralLoad">HepC Viral L.</string><string name="ClinicName">Clinic Name</string><string name="ClinicID">Clinic ID</string><string name="Default">Default</string><string name="EditOtherMeds">Edit Other Meds</string><string name="MissedMedications">Missed</string><string name="More">More</string><string name="AddAlert">Add Alert</string><string name="app_name">iStayHealthy</string><string name="TreatmentStart">Treatment Start</string><string name="ModifyClinic">Clinic</string><string name="undetectable">undetectable</string><string name="Save">Save</string><string name="Repeats">Repeats</string><string name="Missedquery">Missed your medication?</string><string name="sendFeedback">Comments?</string><string name="fromTinabee">Download</string><string name="Tri">Cholesterol(tri.)</string><string name="TooShortPassword">Password too short. Re-enter</string><string name="upload">Backing up. Please wait.</string><string name="ChangeRepeats">Change Repeats</string><string name="deleteentry">Delete Entry?</string><string name="everythreedays">Every 3 days?</string><string name="Password">Set Password</string><string name="EmergencyPhone">Emergency</string><string name="Results">Results</string><string name="Alerts">Alerts</string><string name="tookmeds">I took my meds</string><string name="noneListed">none listed</string><string name="forgotPassword">Forgot Password? Click here</string><string name="importData">Import Data?</string><string name="SetLabel">Set Label</string><string-array name="repeats">
+    	<item>Every 24 hours</item>
+    	<item>Every 12 hours</item>
+    	<item>Every 8 hours</item>
+    	<item>Every 6 hours</item>
+    	<item>Never</item>
+    </string-array><string name="Illness">Illness</string><string name="ClinicEmail">Email</string><string name="rate">Heart Rate</string><string name="chartname">Chartview in Landscape Mode</string><string name="ViralLoad">Viral Load</string><string name="lexicon">Glossary</string><string name="CD4Count">CD4  Count</string><string name="OtherResults">Other</string><string name="OtherMeds">Other Medication</string><string name="ClinicPhone">Phone</string><string name="DefaultAlertMessage">Take your meds</string><string name="ConnectDropbox">Connect to Dropbox</string><string name="emailResults">E-mail Results</string><string name="Yes">Yes</string><string name="Email">Email Clinic</string><string name="whitecells">White Cell Count</string><string name="SetDate">Set Date</string><string name="Clear">Clear</string><string name="platelet">Platelets</string><string name="passwordenabled">Password enabled</string><string name="perday">Every Day?</string><string name="Android">Backup/Restore</string><string name="forgotmeds">I did not take my meds</string><string name="toTinabee">Upload</string><string name="ChangeDate">Change Date</string><string name="SetSound">Set Sound</string><string name="Cancel">Cancel</string><string name="notapplicable">n/a</string><string name="SetMessage">Set Message</string><string name="Sound">Sound</string><string name="on">On</string><string name="button">ImageButton</string><string name="AddOtherMeds">Add Other Meds</string><string name="Serious">Serious</string><string name="haemo">Haemoglobulin</string><string name="weight">Weight</string><string name="Charts">Charts</string><string name="none">None</string><string name="Extras">Extras</string><string name="ImportResults">Import Results</string><string name="und">und.</string><string name="unique">once only</string><string name="PreviousMeds">Previous Medications</string><string name="HIVResults">HIV</string><string name="diastole">Diastole</string><string name="ChangeSound">Change Sound</string><string name="view">ImageView</string><string name="smoking">Smoker?</string><string name="ChangeDose">Change Dosis</string><string name="ModifyProcedure"> Edit Illness/Surgery</string><string name="Restore">Restore</string><string name="cholesterol">Cholesterol</string><string name="CallClinic">Call</string><string name="CallEmergency">Call Emergency</string><string name="ChangeName">Change Name</string><string name="Edit">Edit</string><string name="AddHIVDrugs">Add Drugs</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-de/glossary.xml" qualifiers="de"><string name="faqfour">Was bedeutet "nicht nachweisbar"?</string><string name="answereight">
+	    HIV Viren mutieren häufig und relativ schnell.\n
+	    Um zu verhindern dass die Viren behandlungsresistent werden,\n
+	    müssen HIV Medikamente regelmässig eingenommen werden.\n
+	    Tabletten wie z.B. Atripla sollten alle 24 Stunden einmal eingenommen werden,\n
+	    wobei die Einnahmezeit sich nicht um mehr als +/- 1 Stunde verschieben sollte.
+	</string><string name="faqfive">Wann sollte man mit HIV Therapie beginnen?</string><string name="faqeight">Warum ist es wichtig HIV Medikation regelmässig zu nehmen?</string><string name="answerone">
+        CD4 (T4 Helfer) Zellen sind Immunzellen.\n 
+        Die Anzahl wird pro (mm3) Blut angegeben und ist ein wichtiger Hinweis\n 
+        für den Gesundheitszustand des Immunsystems.\n 
+        Normalwerte liegen typischerweise zwischen 500 - 1500.
+    </string><string name="faqone">Was bedeutet der CD4 Zellen Befund?</string><string name="answerfive">
+	    Die Richtlinien dafür können sich von Land zu Land unterscheiden.\n
+	    Allerdings wird in der Regel empfohlen bei kontinuierlichen\n
+	    CD4 Zellen Werten von 350 oder drunter mit der Therapie zu beginnen.
+	</string><string name="answersix">
+	    Heutzutage gibt es eine ganze Reihe von HIV Medikamenten\n
+	    und neuere kommen ständig hinzu. In der Regel besteht die HIV Therapie\n
+	    aus einer Kombination von typischerweise 3 verschiedenen Medikamenten.\n
+	    Man kann die Einzelmedikamente grob in 5 Klassen unterteilen:\n
+	    Protease Hemmer, NRTI , NNRTI , Fusions/Eintrittshemmer Integrasehemmer.\n
+	    Einige Präparate wie z.B. Atripla vereinen alle Medikamente\n
+	    in einer Tablette (Kombinationstablette).
+	</string><string name="faqseven">Wie funktionieren HIV Medikamente?</string><string name="answerfour">
+        Nicht nachweisbar bedeutet eine geringe HIV Viruslast.\n
+        Der Schwellenwert hängt vom Testverfahren ab und kann z.B.\n
+        zwischen 50 und ca 200 liegen.\n
+        Wichtig: trotz nicht nachweisbarer Viruslast ist HIV immer noch im Körper.</string><string name="faqsix">Was für HIV Therapien stehen zur Verfügung?</string><string name="faqtwo">Was bedeutet CD4\u0025?</string><string name="faqthree">Was bedeutet die Viruslast?</string><string name="answertwo">
+	    CD4\u0025 Werte spiegeln das zahlenmässige Verhältnis zwischen\n
+	    2 wichtigen Immunzelltypen, T4 Helfer (CD4) und T8 Killer (CD8) Zellen.\n
+	    Wie der CD4 Zellenwert gibt der CD4\u0025 einen Hinweis auf den Zustand\n
+	    des Immunsystems . Der Normalbereich liegt zwischen 20-40\u0025.
+	</string><string name="answerseven">
+	    Vom HIV Virus befallene Zellen werden derart "umprogrammiert",\n
+	    dass sie neue HIV Kopien erzeugen. Meistens führt das zur Zerstörung\n
+	    der befallenen Zelle. HIV Medikamente stören gezielt die Prozesse,\n
+	    die zum "Umprogrammieren" oder zur Erzeugung neuer HIV Viren führen.
+	</string><string name="answerthree">Anzahl von HIV Viruskopien im Blut (gemessen pro mm3).</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-de/links.xml" qualifiers="de"><string name="testing">http://www.aidshilfe.de/de/sich-schuetzen/hiv/aids/hiv-test</string><string name="medslist">http://www.aidshilfe.de/de/leben-mit-hiv/medizinische-infos/medikamente</string><string name="officialinfo">http://www.aidshilfe.de/de/adressen</string><string name="prevention">http://www.aidshilfe.de/de/sich-schuetzen/hiv/aids/safer-sex</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-de/medications.xml" qualifiers="de"><string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array><string name="IntegraseDrugs">Integrase-Inhibitoren</string><string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva(US)/Telzir(EU):Fosamprenavir:PI</item>
+        <item>olysio:Olysio:Simeprevir:PI</item>
+    	<item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array><string name="NRTIDrugs">Nukleosidanaloge/Nukleotidanaloge Reverse-Transkriptase-Inhibitoren (NRTI)</string><string name="combinationtablets">Kombinationspräparate</string><string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
+    </string-array><string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array><string name="EntryDrugs">Entry-Inhibitoren</string><string name="OtherInhibitors">Allg. Hemmer</string><string name="Booster">Boosters/Interferon</string><string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array><string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirin:NNRTI</item>
+    	<item>intelence:Intelence:Etravirin:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva(EU)/Stocrin(US):Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapin:NNRTI</item>
+    </string-array><string name="PIDrugs">Protease-Inhibitoren (PI)</string><string-array name="NRTI">
+    	<item>emtriva:Emtriva:Emtricitabin:NRTI</item>
+    	<item>epivir:Epivir:Lamivudin:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudin:NRTI</item>
+    	<item>videx:Videx:Didanosin:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudin:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    </string-array><string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabin, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudin, Lamivudin:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabin, Rilpivirin, Tenofovir:NNRTI, NRTI, NRTI</item>
+        <item>evotaz:Evotaz:Atazanavir, Cobicistat:PI, Booster</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+        <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
+    	<item>trizivir:Trizivir:Zidovudin, Lamivudin, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabin, Tenofovir:NRTI, NRTI</item>
+    	<item>stribild:Stribild(US):Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    	</string-array><string name="NNRTIDrugs">Nicht-Nukleosidale Reverse-Transkriptase-Inhibitoren (NNRTI)</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-de/missedReasons.xml" qualifiers="de"><string-array name="AllMissedReason">
+	    <item>Vergessen</item>
+	    <item>Keine Med. mehr</item>
+	    <item>Konnte Med. nicht einnehmen</item>
+	    <item>Wollte Med. nicht einnehmen</item>
+	    <item>Kein besonderer Grund</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-de/sideEffects.xml" qualifiers="de"><string-array name="Sustiva">
+        <item/>        
+    </string-array><string-array name="Viramune">
+        <item/>        
+    </string-array><string-array name="Zidovudine">
+        <item/>        
+    </string-array><string-array name="Invirase">
+        <item/>        
+    </string-array><string-array name="Didanosine">
+        <item/>        
+    </string-array><string-array name="Stavudine">
+        <item/>        
+    </string-array><string-array name="Viracept">
+        <item/>        
+    </string-array><string-array name="Prezista">
+        <item/>        
+    </string-array><string-array name="Norvir">
+        <item/>        
+    </string-array><string-array name="Trizivir">
+        <item/>        
+    </string-array><string-array name="Ziagen">
+        <item/>        
+    </string-array><string-array name="Retrovir">
+        <item/>        
+    </string-array><string-array name="Aptivus">
+        <item/>        
+    </string-array><string-array name="Complera">
+        <item/>        
+    </string-array><string-array name="Atripla">
+        <item/>        
+    </string-array><string-array name="Intelence">
+        <item/>        
+    </string-array><string-array name="Celsentri">
+        <item/>        
+    </string-array><string-array name="Combivir">
+        <item/>        
+    </string-array><string-array name="AllSideEffects">
+		<item>Kopfschmerz</item>
+		<item>Müdigkeit</item>
+		<item>Übelkeit</item>
+		<item>Durchfall</item>
+		<item>Übergeben</item>
+		<item>Fieber</item>
+		<item>Hautausschlag</item>
+		<item>Lactic acidosis</item>
+		<item>Übersensibilität</item>
+		<item>Herz und Kreislauf</item>
+		<item>Gelbsucht</item>
+		<item>Nierensteine</item>
+		<item>Schwindel</item>
+		<item>Schlaflosigkeit</item>
+		<item>Lebhafte Träume</item>
+		<item>Konzentrationslos</item>
+		<item>Gedächtnisschwund</item>
+		<item>Depression</item>
+		<item>Leberschaden (Hepatitis)</item>
+		<item>Schwangerschaftsprobleme</item>
+		<item>Hautverfärbung (Hände, Füsse)</item>
+		<item>Muskelschmerzen</item>
+		<item>Verfärbung der Nägel</item>
+		<item>Lipoatrophie</item>
+		<item>Periphäre Neuropathie</item>
+		<item>Pankreatitis</item>
+		<item>Leberschaden</item>
+		<item>Gicht</item>
+		<item>Entzündung an Lippen, Genitalien</item>
+		<item>Hautschwellungen, entzündungen</item>
+		<item>Gehärtete Haut</item>
+		<item>Zysten</item>
+		<item>Lungenentzündung</item>
+		<item>Abszess</item>
+		<item>Toxic epidermal necrolysis (TEN)</item>
+		<item>Blasenbildung</item>
+		<item>Entzündungen im Mundbereich</item>
+		<item>Trockene Haut</item>
+		<item>Abnormaler Nagelwuchs</item>
+    </string-array><string-array name="Epivir">
+        <item/>        
+    </string-array><string-array name="Zerit">
+        <item/>        
+    </string-array><string-array name="Reyataz">
+        <item/>        
+    </string-array><string-array name="Edurant">
+        <item/>        
+    </string-array><string-array name="Rescriptor">
+        <item/>        
+    </string-array><string-array name="Truvada">
+        <item/>        
+    </string-array><string-array name="Kivexa">
+        <item/>        
+    </string-array><string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array><string-array name="Videx">
+        <item/>        
+    </string-array><string-array name="Crixivan">
+        <item/>        
+    </string-array><string-array name="Lexiva">
+        <item/>        
+    </string-array><string-array name="Fuzeon">
+        <item/>        
+    </string-array><string-array name="Emtriva">
+        <item/>        
+    </string-array><string-array name="Kaletra">
+        <item/>        
+    </string-array><string-array name="Viread">
+        <item/>        
+    </string-array><string-array name="Stribild">
+        <item/>        
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-de/strings.xml" qualifiers="de"><string name="Select">Auswählen</string><string name="everytwodays">Alle 2 Tage?</string><string name="Illness">Krankheit</string><string name="Delete">Löschen</string><string name="pressure">Blutdruck</string><string name="CD4Percent">CD4 %</string><string name="AddOtherMeds">Neues\nMedikament</string><string name="Dropbox">Dropbox</string><string name="SetMessage">Text einstellen</string><string name="Edit">Bearbeiten</string><string name="ChangeDate">Datum ändern</string><string name="haemo">Haemoglobulin</string><string name="ImportResults">Werte\nImportieren</string><string name="medicationtracker">Medikamentenmonitor</string><string name="EnterDose">Dosis in [mg]</string><string name="sugar">Blutzucker</string><string name="DefaultAlertMessage">Medikamente einnehmen!</string><string name="More">Mehr</string><string name="PreviousMeds">Alte Medikamente</string><string name="SavePassword">Kennwort Sichern</string><string name="AddAlert">Neuer\nWecker</string><string name="lexicon">Glossar</string><string name="platelet">Platelets</string><string name="SetDate">Datumseingabe</string><string name="on">An</string><string name="EditHIVDrugs">Therapie\nBearbeiten</string><string name="cardiacRisk">Herzrisiko</string><string name="TooShortPassword">Kennwort is zu kurz. Nochmal versuchen!</string><string name="toTinabee">Daten Hochladen</string><string name="general">General</string><string name="ConsultantName">Arzt</string><string name="ConnectDropbox">Dropbox Verbindung</string><string name="UsePassword">Kennwort benutzen?</string><string name="undetectable">nicht nachw.</string><string name="Default">Standard</string><string name="effectList">Aus Liste</string><string name="Android">Sichern/Wiederherstellen</string><string name="SetSound">Sound einstellen</string><string name="CD4">CD4 </string><string name="fromTinabee">Daten Runterladen</string><string name="Tintabee">Tintabee</string><string name="download">Daten wieder herstellen. Bitte warten.</string><string name="TreatmentEnd">Behandlungsende</string><string name="login">Anmelden</string><string name="undetectablequery">nicht nachweisbar?</string><string name="DeleteSideEffects">Alle Nebeneffekte löschen?</string><string name="Repeats">Wiederholung</string><string name="Save">Speichern</string><string name="cholesterolRatio">Chol. Verhältnis</string><string name="HIVResults">HIV</string><string name="LDL">Cholesterin(LDL)</string><string name="HepCViralLoad">HepC Viruslast</string><string name="Major">Ernsthaft</string><string name="BloodResults">Blutw.</string><string name="confirmmeds">Med.Einnahme bestätigen?</string><string name="forgotPassword">Kennwort vergessen? Hier klicken.</string><string name="ClinicID">Kranken ID</string><string name="IncorrectPassword">Falsche Kennwörter. Nochmal versuchen!</string><string name="SetLabel">Titel einstellen</string><string name="Back">Zurück</string><string name="unique">einmalig</string><string name="tookmeds">Ich habe meine Medikamente eingenommen.</string><string name="ConnectTintabee">Tintabee Verbindung</string><string name="off">Aus</string><string name="showresult">Werte anzeigen</string><string name="AddHIVDrugs">Neue \nTherapie</string><string name="diastole">Diastole</string><string name="CallClinic">Anrufen</string><string name="loading">Laden...</string><string name="app_name">iStayHealthy</string><string name="sendFeedback">Kommentare?</string><string name="Confirm">Bestätigen</string><string name="systole">Systole</string><string name="ChangeName">Namen Ändern</string><string name="EditResults">Werte\nBearbeiten</string><string name="DeleteMissedMeds">Alle versäumten Medikamente löschen?</string><string name="diabetic">Diabetiker?</string><string name="OtherMeds">Medikamente</string><string name="wrongPassword">Kennwort ist falsch. Nochmal versuchen</string><string name="Procedure">Op/Eingriff</string><string name="ChangeSound">Sound ändern</string><string name="Sound">Sound</string><string-array name="repeats">
+    	<item>Every 24 hours</item>
+    	<item>Every 12 hours</item>
+    	<item>Every 8 hours</item>
+    	<item>Every 6 hours</item>
+    	<item>Never</item>
+    </string-array><string name="CallEmergency">Notruf</string><string name="recurring">wiederholend</string><string name="ViralLoad">Viruslast</string><string name="DefaultAlertLabelt">iStayHealthy</string><string name="version">iStayHealthy v3.1.5</string><string name="ClinicEmail">Email</string><string name="ChangeRepeats">Wiederholung ändern</string><string name="whitecells">Weisse Blutkörper</string><string name="cholesterol">Cholesterin</string><string name="everythreedays">Alle 3 Tage?</string><string name="CD4Count">CD4  </string><string name="ClinicWeb">Webseite</string><string name="Charts">Überblick</string><string name="DisconnectDropbox">Dropbox Verbindung Trennen</string><string name="EnterName">Name</string><string name="Extras">Extras</string><string name="PasswordText">Kennwort</string><string name="EditOtherMeds">Medikament\nBearbeiten</string><string name="ClinicPhone">Tel.</string><string name="onlyonce">Einmalig?</string><string name="HIVDrugs">Antivirale Therapie</string><string name="DisconnectTintabee">Tintabee Verbindung trennen</string><string name="Serious">Schwer</string><string name="Cancel">Abbrechen</string><string name="passwordenabled">Kennwort aktiviert</string><string name="redcells">Rote Blutkörper</string><string name="view">ImageView</string><string name="Results">Werte</string><string name="editSideEffect">Nebenwirkung beschreiben</string><string name="smoking">Raucher?</string><string name="AddProcedure">Krankheit/Op</string><string name="Missedquery">Medikament vergessen?</string><string name="AddClinic">Neuer Arzt</string><string name="OtherResults">Allg.</string><string name="AllResults">Alles</string><string name="AddResults">Neue\nWerte</string><string name="ChangeDose">Dosis Ändern</string><string name="SideEffects">Nebeneffekte</string><string name="forgotmeds">Ich habe meine Medikamente nicht eingenommen.</string><string name="No">Nein</string><string name="deleteentry">Eintrag löschen?</string><string name="perday">täglich</string><string name="Restore">Herunterladen</string><string name="Clear">Löschen</string><string name="Backup">Backup</string><string name="Tri">Cholesterin(tri.)</string><string name="rate">Puls</string><string name="HDL">Cholesterin(HDL)</string><string name="ClinicName">Praxis Name</string><string name="Alerts">Wecker</string><string name="notapplicable">n/a</string><string name="EditAlert">Wecker\nBearbeiten</string><string name="bannerURL">http://www.aidshilfe.de</string><string name="Password">Kennwort</string><string name="importData">Daten Importieren?</string><string name="passworddisabled">Kennwort deaktiviert</string><string name="NoResultsListed">Keine Werte in Liste</string><string name="chartname">Chartview in Landscape Mode</string><string name="und">n.n..</string><string name="ModifyProcedure">Krankheit/Op. Bearbeiten</string><string name="info">Info</string><string name="ListOfMeds">Liste der HIV Medikamente</string><string name="upload">Datensicherung. Bitte warten</string><string name="button">ImageButton</string><string name="GoToWeb">Zur Webseite</string><string name="MissedMedications">Versäumt</string><string name="emailResults">Daten versenden</string><string name="vibratequery">Vibrieren?</string><string name="Minor">Leicht</string><string name="Yes">Ja</string><string name="Email">Praxis emailen</string><string name="settime">Zeit Einstellen</string><string name="Clinics">Praxen</string><string name="SetRepeats">Wiederholung einstellen</string><string name="ModifyClinic">Arzt/Klinik</string><string name="EmergencyPhone">Notruf</string><string name="TreatmentStart">Behandlungsbeginn</string><string name="noneListed">Keine Einträge</string><string name="weight">Gewicht</string><string name="none">None</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en/glossary.xml" qualifiers="en"><string name="answersix">
+	    A whole range of different drug types are available \n 
+	    and new ones are developed all the time. The 5 main types are:\n 
+	    protease inhibitors, NRTI (nukes), NNRTI (non-nukes),\n 
+	    fusion/entry inhibitors and integrase inhibitors. \n 
+	    Often patients are prescribed drugs that combine more than 1 type (e.g. Atripla).
+	</string><string name="faqseven">How do anti-HIV drugs work?</string><string name="answertwo">
+	    The ratio between 2 different immune cells\n, 
+	    T4 (helper CD4) and T8(killer CD8) cells.\n 
+	    The ratio is given in \u0025. The CD4\u0025 value indicates\n 
+	    the health of the immune system.\n 
+	    CD4\u0025 tends to fluctuate less than CD4 count .\n 
+	    The normal range is between 20-40\u0025.
+	</string><string name="faqsix">What anti-HIV drugs are available?</string><string name="answerseven">
+	    When HIV infects a cell it \'reprogrammes\' the cell to produce new virus copies.\n 
+	    This typically leads to the death of the infected cell.\n 
+	    HIV drugs prevent the virus from multiplying within the infected cell.
+	</string><string name="faqone">What is CD4 Count?</string><string name="faqthree">What is Viral Load?</string><string name="answerfour">
+        Undetectable refers to a very low count of HIV virus in blood.\n 
+        The threshold for \'undetectable\' depends on the Viral Load test\n 
+        and may range from 50 to ca 200.\n 
+        Undetectable does not mean\n the virus has left the body.
+    </string><string name="answerone">
+        CD4 (T4 helper) cells are immune cells.\n 
+        The count is measured per unit (mm3) of blood\n 
+        and indicates the health of the immune system.\n 
+        The normal range is between 500 - 1500.
+    </string><string name="faqfour">What does \'Undetectable\' mean?</string><string name="answereight">
+	    Anti HIV medication needs to be taken regularly - typically within +/- 1 hour \n 
+	    of the specified time. Sticking to the drug regime is called \'adherence\'. \n
+	    It is important to avoid the virus from becoming resistant to the medication.
+	</string><string name="faqfive">When to start HIV treatment?</string><string name="faqeight">
+	    What is Adherence?\n
+	    And why is it important that I take my drugs regularly?
+	</string><string name="answerfive">
+	    Current guidelines recommend the start of treatment \n 
+	    when the CD4 count is persistently at or below 350.
+	</string><string name="faqtwo">What is CD4\u0025?</string><string name="answerthree">The amount of HIV virus in blood (measured as per unit blood mm3).</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en/links.xml" qualifiers="en"><string name="testing">http://www.poz.com/hiv_testing.shtml</string><string name="prevention">http://www.poz.com/archive/2008_Mar_2168.shtml</string><string name="medslist">http://www.aidsmeds.com/list.shtml</string><string name="officialinfo">http://aids.gov/hiv-aids-basics/</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en/medications.xml" qualifiers="en"><string name="OtherInhibitors">Other Inhibitors</string><string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array><string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva/Telzir:Fosamprenavir:PI</item>
+        <item>olysio:Olysio:Simeprevir:PI</item>
+    	<item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array><string name="PIDrugs">Protease Inhibitors (PI)</string><string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabine, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudine, Lamivudine:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabine, Rilpivirine, Tenofovir:NNRTI, NRTI, NRTI</item>
+        <item>evotaz:Evotaz:Atazanavir, Cobicistat:PI, Booster</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+        <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
+    	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
+    	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
+    	<item>stribild:Stribild:Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    	</string-array><string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
+    </string-array><string-array name="NRTI">
+    	<item>didanosine:Didanosine:Didanosine (generic):NRTI</item>
+    	<item>emtriva:Emtriva:Emtricitabine:NRTI</item>
+    	<item>epivir:Epivir:Lamivudine:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudine:NRTI</item>
+    	<item>stavudine:Stavudine:Stavudine (generic):NRTI</item>
+    	<item>videx:Videx:Didanosine:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudine:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    	<item>zidovudine:Zidovudine:Zidovudine (generic):NRTI</item>
+    </string-array><string name="NRTIDrugs">Nucleoside Reverse Transcriptase Inhibitors (NRTI)</string><string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array><string name="combinationtablets">Combination Tablets</string><string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirine:NNRTI</item>
+    	<item>intelence:Intelence:Etravirine:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva/Stocrin:Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapine:NNRTI</item>
+    </string-array><string name="EntryDrugs">Entry Inhibitors</string><string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array><string name="Booster">Boosters/Interferon</string><string name="NNRTIDrugs">non-Nucleoside Reverse Transcriptase Inhibitors (NNRTI)</string><string name="IntegraseDrugs">Integrase Inhibitors</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en/missedReasons.xml" qualifiers="en"><string-array name="AllMissedReason">
+	    <item>Forgotten</item>
+	    <item>Ran out of meds</item>
+	    <item>Could not take the meds</item>
+	    <item>Did not want to take the meds</item>
+	    <item>No particular reason</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en/sideEffects.xml" qualifiers="en"><string-array name="Trizivir">
+        <item/>        
+    </string-array><string-array name="Fuzeon">
+        <item/>        
+    </string-array><string-array name="Combivir">
+        <item/>        
+    </string-array><string-array name="Ziagen">
+        <item/>        
+    </string-array><string-array name="Intelence">
+        <item/>        
+    </string-array><string-array name="Viracept">
+        <item/>        
+    </string-array><string-array name="Lexiva">
+        <item/>        
+    </string-array><string-array name="Emtriva">
+        <item/>        
+    </string-array><string-array name="Zerit">
+        <item/>        
+    </string-array><string-array name="Videx">
+        <item/>        
+    </string-array><string-array name="Invirase">
+        <item/>        
+    </string-array><string-array name="Stribild">
+        <item/>        
+    </string-array><string-array name="Rescriptor">
+        <item/>        
+    </string-array><string-array name="Aptivus">
+        <item/>        
+    </string-array><string-array name="Norvir">
+        <item/>        
+    </string-array><string-array name="Crixivan">
+        <item/>        
+    </string-array><string-array name="Viramune">
+        <item/>        
+    </string-array><string-array name="Epivir">
+        <item/>        
+    </string-array><string-array name="Sustiva">
+        <item/>        
+    </string-array><string-array name="Zidovudine">
+        <item/>        
+    </string-array><string-array name="Viread">
+        <item/>        
+    </string-array><string-array name="Prezista">
+        <item/>        
+    </string-array><string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array><string-array name="Kivexa">
+        <item/>        
+    </string-array><string-array name="Didanosine">
+        <item/>        
+    </string-array><string-array name="Retrovir">
+        <item/>        
+    </string-array><string-array name="Stavudine">
+        <item/>        
+    </string-array><string-array name="Reyataz">
+        <item/>        
+    </string-array><string-array name="Truvada">
+        <item/>        
+    </string-array><string-array name="Edurant">
+        <item/>        
+    </string-array><string-array name="Complera">
+        <item/>        
+    </string-array><string-array name="Atripla">
+        <item/>        
+    </string-array><string-array name="Celsentri">
+        <item/>        
+    </string-array><string-array name="Kaletra">
+        <item/>        
+    </string-array><string-array name="AllSideEffects">
+		<item>Headache</item>
+		<item>Fatigue</item>
+		<item>Nausea</item>
+		<item>Diarrhoea</item>
+		<item>Vomiting</item>
+		<item>Fever</item>
+		<item>Skin rash</item>
+		<item>Lactic acidosis</item>
+		<item>Hypersensitivity reaction</item>
+		<item>Cardiovascular problems</item>
+		<item>Jaundice</item>
+		<item>Kidney stones</item>
+		<item>Dizziness</item>
+		<item>Insomnia</item>
+		<item>Vivid dreams</item>
+		<item>Impaired concentration</item>
+		<item>Memory loss</item>
+		<item>Depression</item>
+		<item>Liver damage (hepatitis)</item>
+		<item>Problems during pregnancy</item>
+		<item>Skin pigmentation on palms, soles</item>
+		<item>Muscle pain</item>
+		<item>Nail discoloration</item>
+		<item>Lipodystrophy</item>
+		<item>Peripheral neuropathy</item>
+		<item>Pancreatitis</item>
+		<item>Liver damage</item>
+		<item>Gout</item>
+		<item>Lesions on lips, genitals</item>
+		<item>Red swollen or puffy skin</item>
+		<item>Hardened skin</item>
+		<item>Cysts, nodules</item>
+		<item>Pneumonia</item>
+		<item>Abscess</item>
+		<item>Toxic epidermal necrolysis (TEN)</item>
+		<item>Blisters</item>
+		<item>Oral lesions</item>
+		<item>Dry skin</item>
+		<item>Abnormal nail growth</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en/strings.xml" qualifiers="en"><string name="undetectablequery">undetectable?</string><string name="ChangeSound">Change Sound</string><string name="cholesterolRatio">Cholesterol Ratio</string><string name="CD4">CD4 </string><string name="Default">Default</string><string name="Alerts">Alerts</string><string name="version">iStayHealthy v3.1.5</string><string name="ClinicName">Clinic Name</string><string name="Confirm">Confirm</string><string name="diabetic">Diabetic?</string><string name="ConnectDropbox">Connect to Dropbox</string><string name="ClinicEmail">Email</string><string name="ClinicWeb">Web-site</string><string name="TreatmentEnd">Treatment End</string><string name="ConsultantName">Consultant</string><string name="AddResults">Add Results</string><string name="systole">Systole</string><string name="noneListed">none listed</string><string name="HIVResults">HIV</string><string name="general">General</string><string name="none">None</string><string name="Android">Backup/Restore</string><string name="ChangeName">Change Name</string><string name="Password">Set Password</string><string name="deleteentry">Delete Entry?</string><string-array name="repeats">
+    	<item>Every 24 hours</item>
+    	<item>Every 12 hours</item>
+    	<item>Every 8 hours</item>
+    	<item>Every 6 hours</item>
+    	<item>Never</item>
+    </string-array><string name="GoToWeb">Go to Website</string><string name="AddClinic">Add Clinic</string><string name="Serious">Serious</string><string name="Delete">Delete</string><string name="Select">Select</string><string name="redcells">Red Cell Count</string><string name="cardiacRisk">Cardiac Risk</string><string name="cholesterol">Cholesterol</string><string name="passwordenabled">Password enabled</string><string name="Results">Results</string><string name="OtherResults">Other</string><string name="SetMessage">Set Message</string><string name="EditOtherMeds">Edit Other Meds</string><string name="LDL">Cholesterol(LDL)</string><string name="EnterDose">Enter Dose in [mg]</string><string name="MissedMedications">Missed</string><string name="loading">Loading...</string><string name="TreatmentStart">Treatment Start</string><string name="vibratequery">Vibrate?</string><string name="forgotmeds">I did not take my meds</string><string name="info">Info</string><string name="EnterName">Enter Name</string><string name="sugar">Blood Sugar</string><string name="sendFeedback">Comments?</string><string name="Repeats">Repeats</string><string name="Major">Major</string><string name="SideEffects">Side Effects</string><string name="notapplicable">n/a</string><string name="SetLabel">Set Label</string><string name="Email">Email Clinic</string><string name="off">Off</string><string name="Sound">Sound</string><string name="CallEmergency">Call Emergency</string><string name="button">ImageButton</string><string name="No">No</string><string name="chartname">Chartview in Landscape Mode</string><string name="AddOtherMeds">Add Other Meds</string><string name="SetRepeats">Set Repeats</string><string name="EditAlert">Edit Alert</string><string name="recurring">recurring</string><string name="platelet">Platelets</string><string name="app_name">iStayHealthy</string><string name="Dropbox">Dropbox</string><string name="BloodResults">Bloods</string><string name="ListOfMeds">List of HIV Medications</string><string name="Cancel">Cancel</string><string name="ImportResults">Import Results</string><string name="Save">Save</string><string name="everytwodays">Every 2 days?</string><string name="Clinics">Clinics</string><string name="confirmmeds">Confirm I took my meds?</string><string name="Backup">Backup</string><string name="fromTinabee">Download</string><string name="Missedquery">Missed your medication?</string><string name="HDL">Cholesterol(HDL)</string><string name="More">More</string><string name="DisconnectTintabee">Disconnect from Tintabee</string><string name="whitecells">White Cell Count</string><string name="Tintabee">Tintabee</string><string name="Charts">Charts</string><string name="on">On</string><string name="perday">Every Day?</string><string name="unique">once only</string><string name="login">Login</string><string name="DefaultAlertLabelt">iStayHealthy</string><string name="und">und.</string><string name="PreviousMeds">Previous Medications</string><string name="Yes">Yes</string><string name="everythreedays">Every 3 days?</string><string name="HepCViralLoad">HepC Viral L.</string><string name="Tri">Cholesterol(tri.)</string><string name="SavePassword">Save Password</string><string name="CD4Count">CD4  </string><string name="Edit">Edit</string><string name="forgotPassword">Forgot Password? Click here</string><string name="ClinicID">Clinic ID</string><string name="ChangeDate">Change Date</string><string name="toTinabee">Upload</string><string name="Restore">Restore</string><string name="wrongPassword">Wrong Password. Try again</string><string name="smoking">Smoker?</string><string name="UsePassword">Use Password?</string><string name="AddHIVDrugs">Add Drugs</string><string name="effectList">From List</string><string name="PasswordText">Password</string><string name="medicationtracker">Medication Tracker</string><string name="haemo">Haemoglobulin</string><string name="DeleteSideEffects">Delete All Side Effects?</string><string name="Back">Back</string><string name="diastole">Diastole</string><string name="EditHIVDrugs">Edit Drugs</string><string name="rate">Heart Rate</string><string name="AddAlert">Add Alert</string><string name="tookmeds">I took my meds</string><string name="DisconnectDropbox">Disconnect from Dropbox</string><string name="pressure">Blood Pressure</string><string name="IncorrectPassword">Inconsistent password. Re-enter</string><string name="passworddisabled">Password disabled</string><string name="ViralLoad">Viral Load</string><string name="upload">Backing up. Please wait.</string><string name="onlyonce">Only Once</string><string name="ChangeDose">Change Dosis</string><string name="CallClinic">Call</string><string name="TooShortPassword">Password too short. Re-enter</string><string name="Illness">Illness</string><string name="emailResults">E-mail Results</string><string name="view">ImageView</string><string name="EmergencyPhone">Emergency</string><string name="CD4Percent">CD4 %</string><string name="settime">Set Time</string><string name="undetectable">undetectable</string><string name="AllResults">All</string><string name="lexicon">Glossary</string><string name="DefaultAlertMessage">Take your meds</string><string name="EditResults">Edit Results</string><string name="OtherMeds">Other Medication</string><string name="ClinicPhone">Phone</string><string name="SetSound">Set Sound</string><string name="Extras">Extras</string><string name="ConnectTintabee">Connect to Tintabee</string><string name="Minor">Minor</string><string name="AddProcedure">Illness/Surgery</string><string name="ModifyProcedure"> Edit Illness/Surgery</string><string name="SetDate">Set Date</string><string name="NoResultsListed">No Results Listed</string><string name="ModifyClinic">Clinic</string><string name="editSideEffect">Describe side effect</string><string name="HIVDrugs">Antiviral Drugs</string><string name="importData">Import Data?</string><string name="bannerURL">http://www.poz.com</string><string name="showresult">Show Results</string><string name="Clear">Clear</string><string name="Procedure">Procedure</string><string name="download">Restoring data. Please wait.</string><string name="ChangeRepeats">Change Repeats</string><string name="DeleteMissedMeds">Delete All Missed Meds?</string><string name="weight">Weight</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-en-rGB/links.xml" qualifiers="en-rGB"><string name="testing">http://www.aidsmap.com/hiv-basics/Testing/page/1412439</string><string name="prevention">http://www.aidsmap.com/hiv-basics/Transmission/page/1412438/</string><string name="officialinfo">http://www.aidsmap.com/hiv-basics</string><string name="medslist">http://i-base.info/guides/category/arvs</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-es/glossary.xml" qualifiers="es"><string name="answersix">
+	    Una gran variedad de distintos fármacos se encuentra disponible\n
+	    y siempre están desarrollándose nuevos fármacos.\n
+	    Los 5 tipos principales son:\n
+	    los inhibidores de la proteasa, los NRTI (nucleótidos), los NNRTI (no nucleótidos),\n
+	    los inhibidores de fusión/entrada y los inhibidores de la integrasa.\n
+	    A menudo, a los pacientes se les receta fármacos que combinan\n
+	    más de un tipo (por ej. Atripla).
+	</string><string name="answerfive">
+	    Las pautas actuales recomiendan iniciar el tratamiento cuando el\n
+	    recuento de CD4 sea menor o igual a 350 de forma persistente.
+	</string><string name="faqseven">¿Cómo funcionan los fármacos para combatir el VIH?</string><string name="faqeight">
+	    ¿Qué es la adherencia y por qué es importante\n
+	    que tome mis medicamentos regularmente?</string><string name="faqfive">¿Cuándo comenzar un tratamiento para VIH?</string><string name="faqsix">¿Qué fármacos hay disponibles para combatir el VIH?</string><string name="faqthree">¿Qué es la carga viral?</string><string name="answerthree">
+        La cantidad de virus de VIH en sangre (se mide en unidades por mm3 de sangre).
+    </string><string name="answertwo">
+	    La proporción entre dos células inmunológicos diferentes,\n
+	    las células T4 (ayudas de los CD4) y las T8 (CD8 asesinos).\n
+	    La proporción se expresa en \u0025. El valor en porcentaje de CD4\n
+	    indica el estado de salud del sistema inmunológico.\n
+	    El porcentaje de CD4 suele fluctuar menos que el recuento de CD4.\n
+	    El rango normal se encuentra entre 20 y 40\u0025.
+	</string><string name="answerfour">
+        Indetectable se refiere a un recuento muy bajo de virus de VIH en sangre.\n
+        El umbral para que sea \'indetectable\' depende del examen de la carga viral\n
+        y puede variar entre 50 a cerca de 200.\n 
+        Indetectable no significa que el virus no se encuentre en el cuerpo.
+    </string><string name="answerseven">
+	    Cuando el VIH infecta una célula \'reprograma\' la célula para\n
+	    que produzca nuevas copias del virus. Esto típicamente produce\n
+	    la muerte de la célula infectada. Los fármacos para el VIH evitan\n
+	    que el virus se multiplique dentro de la célula infectada.
+	</string><string name="faqfour">¿Qué significa \'indetectable\'?</string><string name="faqone">¿Qué es el recuento de CD4?</string><string name="answereight">
+	    El medicamento para combatir el VIH debe tomarse regularmente,\n
+	    en general con una diferencia máxima de +/- 1 hora de la hora indicada.\n
+	    Respetar el régimen del fármaco se domina \'adherencia\'.\n
+	    Es importante para evitar que el virus se torne resistente al medicamento.
+	</string><string name="answerone">
+        Las células CD4 (ayudas de T4) son células inmunológicas.\n
+        El recuento se mide por unidad (mm3) de sangre e indica el estado\n
+        de salud del sistema inmunológico.\n
+        El rango normal se encuentra entre 500 – 1500 mm3.
+    </string><string name="faqtwo">¿Qué es el porcentaje de CD4?</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-es/links.xml" qualifiers="es"><string name="officialinfo">http://www.aidsmap.com/es</string><string name="testing">http://www.aidsmap.com/es</string><string name="prevention">http://www.aidsmap.com/es</string><string name="medslist">http://www.aidsmap.com/v634746756360000000/file/1051858/ARV_drug_chart_Spanish.pdf</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-es/medications.xml" qualifiers="es"><string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array><string name="IntegraseDrugs">Inhibidor de la integrasa</string><string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabine, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudine, Lamivudine:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabine, Rilpivirine, Tenofovir:NNRTI, NRTI, NRTI</item>
+        <item>evotaz:Evotaz:Atazanavir, Cobicistat:PI, Booster</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+        <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
+    	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
+    	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
+    	<item>stribild:Stribild(US):Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    	</string-array><string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva/Telzir:Fosamprenavir:PI</item>
+        <item>olysio:Olysio:Simeprevir:PI</item>
+    	<item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array><string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
+    </string-array><string name="OtherInhibitors">Otros Inhibidores</string><string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array><string name="NRTIDrugs">Inhibidor de la transcriptasa inversa análogo de los nucleósidos (NRTI)</string><string name="NNRTIDrugs">Inhibidor de la transcriptasa inversa no análogo de los nucleósidos (NNRTI)</string><string-array name="NRTI">
+    	<item>didanosine:Didanosine:Didanosine (generic):NRTI</item>
+    	<item>emtriva:Emtriva:Emtricitabine:NRTI</item>
+    	<item>epivir:Epivir:Lamivudine:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudine:NRTI</item>
+    	<item>stavudine:Stavudine:Stavudine (generic):NRTI</item>
+    	<item>videx:Videx:Didanosine:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudine:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    	<item>zidovudine:Zidovudine:Zidovudine (generic):NRTI</item>
+    </string-array><string name="combinationtablets">Combinaciones farmacéuticas</string><string name="PIDrugs">Inhibidor de la proteasa (PI)</string><string name="Booster">Amplificador/Interferón</string><string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirine:NNRTI</item>
+    	<item>intelence:Intelence:Etravirine:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva/Stocrin:Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapine:NNRTI</item>
+    </string-array><string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array><string name="EntryDrugs">Inhibidor de la entrada y la fusión</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-es/missedReasons.xml" qualifiers="es"><string-array name="AllMissedReason">
+	    <item>¿Has olvidado</item>
+	    <item>Sin medicamento</item>
+	    <item>No podía tomar la Medicación</item>
+	    <item>No quería tomar los Medicamentos</item>
+	    <item>Ninguna Razón en particular</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-es/sideEffects.xml" qualifiers="es"><string-array name="Retrovir">
+        <item/>        
+    </string-array><string-array name="Edurant">
+        <item/>        
+    </string-array><string-array name="Trizivir">
+        <item/>        
+    </string-array><string-array name="Celsentri">
+        <item/>        
+    </string-array><string-array name="Videx">
+        <item/>        
+    </string-array><string-array name="Rescriptor">
+        <item/>        
+    </string-array><string-array name="Invirase">
+        <item/>        
+    </string-array><string-array name="Combivir">
+        <item/>        
+    </string-array><string-array name="Prezista">
+        <item/>        
+    </string-array><string-array name="Kivexa">
+        <item/>        
+    </string-array><string-array name="Crixivan">
+        <item/>        
+    </string-array><string-array name="Norvir">
+        <item/>        
+    </string-array><string-array name="Truvada">
+        <item/>        
+    </string-array><string-array name="Stavudine">
+        <item/>        
+    </string-array><string-array name="Zerit">
+        <item/>        
+    </string-array><string-array name="Kaletra">
+        <item/>        
+    </string-array><string-array name="Viramune">
+        <item/>        
+    </string-array><string-array name="Emtriva">
+        <item/>        
+    </string-array><string-array name="Atripla">
+        <item/>        
+    </string-array><string-array name="Reyataz">
+        <item/>        
+    </string-array><string-array name="Complera">
+        <item/>        
+    </string-array><string-array name="Fuzeon">
+        <item/>        
+    </string-array><string-array name="Lexiva">
+        <item/>        
+    </string-array><string-array name="Epivir">
+        <item/>        
+    </string-array><string-array name="Viread">
+        <item/>        
+    </string-array><string-array name="Zidovudine">
+        <item/>        
+    </string-array><string-array name="Intelence">
+        <item/>        
+    </string-array><string-array name="Ziagen">
+        <item/>        
+    </string-array><string-array name="Viracept">
+        <item/>        
+    </string-array><string-array name="AllSideEffects">
+		<item>Dolor de cabeza</item>
+		<item>Fatiga</item>
+		<item>Náusea</item>
+		<item>Diarrea</item>
+		<item>Vómitos</item>
+		<item>Fiebre</item>
+		<item>Erupción Cutánea</item>
+		<item>Acidosis Láctica</item>
+		<item>Hipersensibilidad</item>
+		<item>Problemas Cardiovasculares</item>
+		<item>Ictericia</item>
+		<item>Cálculos Renales</item>
+		<item>Mareo</item>
+		<item>Insomnio</item>
+		<item>Sueños Vívidos</item>
+		<item>Deterioro de la Concentración</item>
+		<item>Pérdida de la Memoria</item>
+		<item>Depresión</item>
+		<item>Daño Hepático (hepatitis)</item>
+		<item>Problemas durante Embarazo</item>
+		<item>Pigmentación de la piel en palmas, soles</item>
+		<item>Dolor Muscular</item>
+		<item>Decoloración de Uñas</item>
+		<item>Lipodistrofia</item>
+		<item>Neuropatía Periférica</item>
+		<item>Pancreatitis</item>
+		<item>Daño Hepático</item>
+		<item>Gota</item>
+		<item>Lesiones en Labios, Genitales</item>
+		<item>Piel enrojecida inflamada o hinchada</item>
+		<item>Piel endurecida</item>
+		<item>Quistes, Nódulos</item>
+		<item>Neumonía</item>
+		<item>Absceso</item>
+		<item>Necrólisis epidérmica tóxica (NET)</item>
+		<item>Ampollas</item>
+		<item>Lesiones orales</item>
+		<item>Piel seca</item>
+		<item>Crecimiento de Uñas anormales</item>
+    </string-array><string-array name="Aptivus">
+        <item/>        
+    </string-array><string-array name="Stribild">
+        <item/>        
+    </string-array><string-array name="Sustiva">
+        <item/>        
+    </string-array><string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array><string-array name="Didanosine">
+        <item/>        
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-es/strings.xml" qualifiers="es"><string name="ModifyProcedure"> Ajustar Enfermedad/Cirugía</string><string name="rate">Ritmo Cardíaco</string><string name="ViralLoad">Carga Viral</string><string name="EditAlert">Ajustar\nAlarma</string><string name="confirmmeds">¿Confirmar usted tomó tus medicinas?</string><string name="BloodResults">Sangre</string><string name="haemo">Hemoglobulina</string><string name="passwordenabled">Contraseña Activada</string><string name="SavePassword">Guardar Contraseña</string><string name="fromTinabee">Restaurar</string><string name="TreatmentStart">Iniciar Terapia</string><string name="sugar">Azúcar</string><string name="cholesterol">Colesterol</string><string name="Sound">Sonido</string><string name="Alerts">Alarmas</string><string name="TooShortPassword">Contraseña es muy corta! Inténtalo de nuevo</string><string name="PreviousMeds">Medicación Previa</string><string name="Clinics">Clínica</string><string name="redcells">Glóbulos Rojos</string><string name="EnterName">Ingrese Nombre</string><string name="No">No</string><string name="bannerURL">http://www.poz.com/latino</string><string name="Delete">Eliminar</string><string name="Extras">Extras</string><string name="DefaultAlertMessage">tomar la medicación</string><string name="More">Más</string><string name="Save">Guardar</string><string name="EditResults">Editar\nResultado</string><string name="platelet">Plaqueta</string><string name="ImportResults">Importar\nResultado</string><string name="AddResults">Añadir\nResultado</string><string name="settime">Ajustar la Hora</string><string name="onlyonce">¿Sola vez?</string><string name="chartname">Chartview in Landscape Mode</string><string name="noneListed">Ninguno</string><string name="ChangeSound">Change Sound</string><string name="version">iStayHealthy v3.1.5</string><string name="Major">Mayor</string><string name="LDL">Colesterol(LDL)</string><string name="ConnectDropbox">Conectar a Dropbox</string><string name="info">Info</string><string name="forgotmeds">Yo no tomo medicamentos</string><string name="systole">Sístole</string><string name="lexicon">Glosario</string><string name="ModifyClinic">Ajustar Clínica</string><string name="medicationtracker">Medicamentos Seguidor</string><string name="HIVDrugs">Fármacos Antiviral</string><string name="upload">Copiar. Por favor espere.</string><string name="pressure">Presión Arterial</string><string name="DisconnectTintabee">Disconnect from Tintabee</string><string name="IncorrectPassword">Contraseña incorrecta! Inténtalo de nuevo</string><string name="diastole">Diástole</string><string name="AddAlert">Añadir\nAlarma</string><string name="Charts">Summario</string><string name="SetSound">Editar Sonido</string><string name="OtherMeds">Otros Fármacos</string><string name="Edit">Editar</string><string name="Default">Defecto</string><string name="Password">Ajustar Contraseña</string><string name="SetDate">Ajustar la Fecha</string><string name="EmergencyPhone">Emergencia</string><string name="SideEffects">Efectos\nAdversos</string><string name="none">Ninguno</string><string name="view">ImageView</string><string name="on">On</string><string name="ChangeDate">Cambiar la Fecha</string><string name="wrongPassword">Contraseña incorrecta! Inténtalo de nuevo</string><string name="Select">Seleccionar</string><string name="Tri">Colesterol(tri.)</string><string name="toTinabee">Copiar</string><string name="everytwodays">¿Cada 2 días?</string><string name="MissedMedications">Fecha Omitida</string><string name="importData">¿Importar Datos?</string><string name="Yes">Sí</string><string name="ChangeDose">Ajustar Dosis</string><string name="loading">Carga...</string><string name="DisconnectDropbox">Desconectar DropBox</string><string name="Minor">Menor</string><string name="HepCViralLoad">Car./Vir. HepC</string><string name="CallEmergency">Telefonear Emergencia</string><string name="ConnectTintabee">Connect to Tintabee</string><string name="ClinicID">Su ID</string><string name="everythreedays">¿Cada 3 días?</string><string name="passworddisabled">Contraseña Desactivada</string><string name="EditHIVDrugs">Ajustar\nFármacos</string><string name="ClinicEmail">Email</string><string name="weight">Peso</string><string name="EnterDose">Ingrese en [mg]</string><string name="login">Iniciar Sesión</string><string name="PasswordText">Contraseña</string><string name="AddClinic">Añadir Clínica</string><string name="Backup">Copia</string><string name="CallClinic">Telefonear</string><string name="undetectable">indetectable</string><string name="ConsultantName">Médico</string><string name="AddHIVDrugs">Añadir\nFármacos</string><string name="SetMessage">Set Message</string><string name="Illness">Enfermedad</string><string name="UsePassword">¿Permitir?</string><string name="ChangeRepeats">Change Repeats</string><string name="undetectablequery">¿indetectable?</string><string name="Dropbox">Dropbox</string><string name="recurring">periódico</string><string name="Repeats">Repeats</string><string name="AddOtherMeds">Añadir\nFármacos</string><string name="smoking">¿Fumador??</string><string name="Missedquery">¿Fecha Omitida?</string><string name="Clear">Eliminar</string><string name="vibratequery">¿Vibrar?</string><string name="off">Off</string><string name="tookmeds">Tomé mi medicación</string><string name="app_name">iStayHealthy</string><string name="Android">Copiar/Restaurar</string><string name="ChangeName">Ajustar Nombre</string><string name="effectList">De Lista</string><string name="CD4">CD4 </string><string name="emailResults">Resultados\npor Email</string><string name="Tintabee">Tintabee</string><string name="diabetic">¿Diabética?</string><string name="showresult">Mostrar Resultados</string><string name="download">Restaurar. Por favor espere.</string><string name="AddProcedure">Enfermedad/Cirugía</string><string name="SetRepeats">Set Repeats</string><string-array name="repeats">
+    	<item>Every 24 hours</item>
+    	<item>Every 12 hours</item>
+    	<item>Every 8 hours</item>
+    	<item>Every 6 hours</item>
+    	<item>Never</item>
+    </string-array><string name="HIVResults">VIH</string><string name="Procedure">Cirugía</string><string name="HDL">Colesterol(HDL)</string><string name="CD4Count">CD4  </string><string name="und">ind.</string><string name="DefaultAlertLabelt">iStayHealthy</string><string name="Results">Resultados</string><string name="Back">Atrás</string><string name="ClinicName">Clínica</string><string name="OtherResults">Otro</string><string name="deleteentry">¿Suprimir?</string><string name="Email">Email Clínica</string><string name="forgotPassword">¿Olvidó su contraseña? Click aquí</string><string name="cardiacRisk">Riesgo Cardíaco</string><string name="general">General</string><string name="cholesterolRatio">Relación de Colesterol</string><string name="Cancel">Cancelar</string><string name="button">ImageButton</string><string name="GoToWeb">Visitar el Web</string><string name="ListOfMeds">Fármacos actuales contra el VIH</string><string name="perday">¿por día?</string><string name="editSideEffect">Decribe Efectos Adversos</string><string name="CD4Percent">CD4 %</string><string name="notapplicable">n/a</string><string name="DeleteMissedMeds">¿Eliminar los Farmacos se perdió?</string><string name="TreatmentEnd">Terapia Final</string><string name="Confirm">Confirmar</string><string name="DeleteSideEffects">¿Eliminar Efectos Adversos?</string><string name="AllResults">Todo</string><string name="Serious">Grave</string><string name="sendFeedback">¿Comentarios?</string><string name="ClinicWeb">Web</string><string name="ClinicPhone">Teléfono</string><string name="SetLabel">Ingrese nombre</string><string name="NoResultsListed">No Results Listed</string><string name="EditOtherMeds">Ajustar\nFármacos</string><string name="unique">una sola vez</string><string name="Restore">Restaurar</string><string name="whitecells">Glóbulos Blancos</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/glossary.xml" qualifiers="fr"><string name="answerthree">
+        Le nombre de virus VIH dans le sang (mesuré en mm3 par unité de sang).
+    </string><string name="faqfive">Quand débuter le traitement VIH ?</string><string name="answerfive">
+	    Selon les conseils actuels, il faut débuter un traitement lorsque\n
+	    le taux de CD4 est continuellement à ou en-dessous de 350.
+	</string><string name="answersix">
+	    Un large éventail de différentes catégories de médicaments est disponible,\n
+	    et de nouveaux médicaments sont constamment développés.\n
+	    Les 5 plus grandes catégories sont :\n
+	    les inhibiteurs de protéase (PI), NRTI (nucléotidiques), NNRTI (non nucléosidiques),\n
+	    inhibiteurs de fusion/d\'entrée et les inhibiteurs d\'intégrase.\n
+	    Souvent, les patients ont des prescriptions de médicaments\n
+	    qui associent plus d\'1 catégorie (exemple : Atripla).
+	</string><string name="faqeight">
+	    Que-est-que l\'Adhésion ?\n
+	    Et pourquoi est-il important que je prenne mes médicaments régulièrement?
+	</string><string name="faqseven">Comment agissent les médicaments anti-VIH ?</string><string name="answertwo">
+	    C\'est le rapport entre 2 cellules immunitaires différentes,\n
+	    les cellules T4 (CD4) et T8 (CD8). Le rapport est donné en \u0025.\n
+	    La valeur en  \u0025 du CD4 indique l\'état de santé\n 
+	    du système immunitaire. Le \u0025  du CD4 tend à moins\n
+	    fluctuer que le taux de CD4.  Un pourcentage normal se situe entre 20 et 40 \u0025.</string><string name="faqthree">Qu\'est-ce qu\'une Charge Virale ?</string><string name="faqtwo">Qu\'est-ce que le CD4\u0025 ?</string><string name="answerseven">
+	    Lorsque le VIH contamine une cellule, il "reprogramme"\n
+	    la cellule pour qu\'elle reproduise de nouvelles copies du virus.\n
+	    Cela mène habituellement à la mort de la cellule contaminée.\n
+	    Les médicaments contre le VIH empêchent le virus de se multiplier au sein\n
+	    de la cellule contaminée.
+	</string><string name="answerfour">
+        Indéctelable se réfère à un taux très faible de virus VIH dans le sang.\n
+        Le seuil nécessaire pour la qualification "d'indécelable"\n
+        dépend du test de Charge Virale et peut aller de 50 à ca 200.\n
+        Indéctelable ne signifie pas que le virus a quitté le corps.
+    </string><string name="faqsix">Quels médicaments anti-VIH sont disponibles ?</string><string name="faqfour">Que signifie "Indécelable" ?</string><string name="faqone">Qu\'est-ce que le Taux de CD4 ?</string><string name="answerone">
+        Les cellules CD4 (ou T4) sont des cellules immunitaires.\n
+        Le taux est mesuré par millimètre de cube de sang (mm3) et indique\n
+        l\'état de santé du système immunitaire.\n
+        Un taux normal est compris entre 500 et 1500 mm3.
+    </string><string name="answereight">
+	    La médication contre le VIH doit être prise régulièrement,\n
+	    habituellement entre plus ou moins 1 heure par rapport à l\'heure fixée.\n
+	    S\'en tenir à la prescription des médicaments s\'appelle "adhésion".\n
+	    Il est important d\'éviter que le virus devienne résistant à la médication.
+	</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/links.xml" qualifiers="fr"><string name="officialinfo">http://www.aidsmap.com/translations/fr/Le-BAba-du-VIH-The-basics/page/1330873/</string><string name="testing">http://www.aidsmap.com/translations/fr/Le-BAba-du-VIH-The-basics/page/1330873/</string><string name="medslist">http://www.aidsmap.com/v634746760450000000/file/1051857/ARV_drugchart_FRE_Dec2011_Web.pdf</string><string name="prevention">http://www.aidsmap.com/translations/fr/Le-BAba-du-VIH-The-basics/page/1330873/</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/medications.xml" qualifiers="fr"><string-array name="EntryInhibitors">
+    	<item>celsentri:Celsentri/Selzentry(US):Maraviroc:Entry Inhibitor</item>
+    	<item>fuzeon:Fuzeon:Enfuvirtide:Entry Inhibitor</item>
+    </string-array><string-array name="ProteaseInhibitors">
+    	<item>aptivus:Aptivus:Tipranavir:PI</item>
+    	<item>crixivan:Crixivan:Indinavir:PI</item>
+        <item>incivek:Incivek:Telaprevir:PI</item>
+    	<item>invirase:Invirase:Saquinavir:PI</item>
+    	<item>lexiva:Lexiva/Telzir:Fosamprenavir:PI</item>
+        <item>olysio:Olysio:Simeprevir:PI</item>
+    	<item>prezista:Prezista:Darunavir:PI</item>
+    	<item>reyataz:Reyataz:Atazanavir:PI</item>
+        <item>sunvepra:Sunvepra:Asunepravir:PI</item>
+        <item>victrelis:Victrelis:Boceprevir:PI</item>
+    	<item>viracept:Viracept:Nelfinavir:PI</item>
+    </string-array><string-array name="Boosters">
+        <item>norvir:Norvir:Ritonavir:Booster</item>
+        <item>pegintron:PegIntron:Peg Inteferon alfa-2b:Interferon</item>
+        <item>pegasys:Pegasys:Peg Interferon alfa-2a:Interferon</item>
+        <item>tybost:Tybost:Cobicistat:Booster</item>
+
+    </string-array><string name="Booster">Amplificateur/Interféron</string><string name="OtherInhibitors">Autres Inhibiteurs</string><string name="NNRTIDrugs">Inhibiteurs Non Nucléosidiques de la Transcriptase Inverse(NNRTI)</string><string name="NRTIDrugs">Inhibiteurs nucléosidiques de la Transcriptase Inverse(NRTI)</string><string name="IntegraseDrugs">Inhibiteurs d’Intégrase</string><string-array name="CombiMeds">
+    	<item>atripla:Atripla:Efavirenz, Emtricitabine, Tenofovir:NNRTI, NRTI, NRTI</item>
+    	<item>combivir:Combivir:Zidovudine, Lamivudine:NRTI, NRTI</item>
+    	<item>complera:Complera/Eviplera:Emtricitabine, Rilpivirine, Tenofovir:NNRTI, NRTI, NRTI</item>
+        <item>evotaz:Evotaz:Atazanavir, Cobicistat:PI, Booster</item>
+    	<item>kaletra:Kaletra/Aluvia:Lopinavir/Ritonavir:PI, PI</item>
+    	<item>kivexa:Kivexa/Epzicom:Abacavir, Lamivudine:NRTI, NRTI</item>
+        <item>prezcobix:Prezcobix:Rezolsta, Darunavir, Cobocostat:PI, Booster</item>
+    	<item>trizivir:Trizivir:Zidovudine, Lamivudine, Abacavir:NRTI, NRTI, NRTI</item>
+        <item>triumeq:Triumeq:Dolutegravir, Lamivudine, Abacavir:Integrase Inh, NRTI, NRTI</item>
+    	<item>truvada:Truvada:Emtricitabine, Tenofovir:NRTI, NRTI</item>
+    	<item>combivir:Zidovudine/Lamivudine:Zidovudine,Lamivudine (generic):NRTI, NRTI</item>
+    	<item>stribild:Stribild(US):Elvitegravir, Cobicistat, Truvada: Integrase Inh, Booster, NRTI, NRTI</item>
+    </string-array><string-array name="IntegraseInhibitors">
+    	<item>isentress:Isentress:Raltegravir:Integrase Inhibitor</item>
+    	<item>tivicay:Tivicay:Dolutegravir:Integrase Inhibitor</item>
+        <item>vitekta:Vitekta:Elvitegravir:Integrase Inhibitor</item>
+    </string-array><string name="PIDrugs">Inhibiteurs de Protéase (PI)</string><string name="EntryDrugs">Inhibiteurs de Fusions/d’Entrée</string><string-array name="OtherInhibitors">
+        <item>ribasphere:Ribasphere:Ribavirin:RI</item>
+        <item>sovaldi:Sovaldi:Sofosbuvir:RI</item>
+        <item>daklinza:Daklinza:Daclatasvir:RI</item>
+    </string-array><string-array name="NRTI">
+    	<item>didanosine:Didanosine:Didanosine (generic):NRTI</item>
+    	<item>emtriva:Emtriva:Emtricitabine:NRTI</item>
+    	<item>epivir:Epivir:Lamivudine:NRTI</item>
+    	<item>retrovir:Retrovir:Zidovudine:NRTI</item>
+    	<item>stavudine:Stavudine:Stavudine (generic):NRTI</item>
+    	<item>videx:Videx:Didanosine:NRTI</item>
+    	<item>viread:Viread:Tenofovir:NRTI</item>
+    	<item>zerit:Zerit:Stavudine:NRTI</item>
+    	<item>ziagen:Ziagen:Abacavir:NRTI</item>
+    	<item>zidovudine:Zidovudine:Zidovudine (generic):NRTI</item>
+    </string-array><string-array name="NNRTI">
+    	<item>edurant:Edurant:Rilpivirine:NNRTI</item>
+    	<item>intelence:Intelence:Etravirine:NNRTI</item>
+    	<item>rescriptor:Rescriptor:Delavirdine:NNRTI</item>
+    	<item>sustiva:Sustiva/Stocrin:Efavirenz:NNRTI</item>
+    	<item>viramune:Viramune XR:Nevirapine:NNRTI</item>
+    </string-array><string name="combinationtablets">Comprimés anti-VIH</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/missedReasons.xml" qualifiers="fr"><string-array name="AllMissedReason">
+	    <item>Oublié</item>
+	    <item>Sans Médicaments</item>
+	    <item>Impossible de prendre Médicament</item>
+	    <item>Ne voulais pas prendre Médicaments</item>
+	    <item>Aucune Raison particulière</item>
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/sideEffects.xml" qualifiers="fr"><string-array name="Edurant">
+        <item/>        
+    </string-array><string-array name="Crixivan">
+        <item/>        
+    </string-array><string-array name="Ziagen">
+        <item/>        
+    </string-array><string-array name="Complera">
+        <item/>        
+    </string-array><string-array name="Viramune">
+        <item/>        
+    </string-array><string-array name="Viracept">
+        <item/>        
+    </string-array><string-array name="AllSideEffects">
+		<item>Mal de tête</item>
+		<item>Fatigue</item>
+		<item>Nausée</item>
+		<item>Diarrhée</item>
+		<item>Vomissement</item>
+		<item>Fièvre</item>
+		<item>Eruption Cutanée</item>
+		<item>Lactic acidosis</item>
+		<item>Réaction d\'Hypersensibilité</item>
+		<item>Problèmes Cardiovasculaires</item>
+		<item>Jaunisse</item>
+		<item>Calculs Rénaux</item>
+		<item>Vertiges</item>
+		<item>Insomnie</item>
+		<item>Rêves Vifs</item>
+		<item>Troubles de la Concentration</item>
+		<item>Perte de Mémoire</item>
+		<item>Dépression</item>
+		<item>Dommages au Foie (Hépatite)</item>
+		<item>Problèmes pendant la Grossesse</item>
+		<item>Pigmentation de la Peau sur Paumes, Semelles</item>
+		<item>Douleurs Musculaires</item>
+		<item>Décoloration des Ongles</item>
+		<item>Lipodystrophie</item>
+		<item>Neuropathie périphérique</item>
+		<item>Pancréatite</item>
+		<item>Dommages au Foie</item>
+		<item>Goutte</item>
+		<item>Lésions sur Lèvres, Organes génitaux</item>
+		<item>Rouge Peau enflée ou gonflée</item>
+		<item>Durcissement de la Peau</item>
+		<item>Kystes, Nodules</item>
+		<item>Pneumonie</item>
+		<item>Abcès</item>
+		<item>Syndrome de Lyell (TEN)</item>
+		<item>Cloques</item>
+		<item>Lésions Buccales</item>
+		<item>Peau sèche</item>
+		<item>Croissance anormale des Ongles</item>
+    </string-array><string-array name="Norvir">
+        <item/>        
+    </string-array><string-array name="Retrovir">
+        <item/>        
+    </string-array><string-array name="Zerit">
+        <item/>        
+    </string-array><string-array name="Emtriva">
+        <item/>        
+    </string-array><string-array name="Isentress">
+        <item>Nausea</item>        
+        <item>Headache</item>        
+        <item>Muscle pain</item>        
+        </string-array><string-array name="Reyataz">
+        <item/>        
+    </string-array><string-array name="Intelence">
+        <item/>        
+    </string-array><string-array name="Sustiva">
+        <item/>        
+    </string-array><string-array name="Invirase">
+        <item/>        
+    </string-array><string-array name="Rescriptor">
+        <item/>        
+    </string-array><string-array name="Truvada">
+        <item/>        
+    </string-array><string-array name="Celsentri">
+        <item/>        
+    </string-array><string-array name="Lexiva">
+        <item/>        
+    </string-array><string-array name="Kaletra">
+        <item/>        
+    </string-array><string-array name="Prezista">
+        <item/>        
+    </string-array><string-array name="Combivir">
+        <item/>        
+    </string-array><string-array name="Aptivus">
+        <item/>        
+    </string-array><string-array name="Zidovudine">
+        <item/>        
+    </string-array><string-array name="Didanosine">
+        <item/>        
+    </string-array><string-array name="Fuzeon">
+        <item/>        
+    </string-array><string-array name="Atripla">
+        <item/>        
+    </string-array><string-array name="Stavudine">
+        <item/>        
+    </string-array><string-array name="Stribild">
+        <item/>        
+    </string-array><string-array name="Videx">
+        <item/>        
+    </string-array><string-array name="Epivir">
+        <item/>        
+    </string-array><string-array name="Viread">
+        <item/>        
+    </string-array><string-array name="Kivexa">
+        <item/>        
+    </string-array><string-array name="Trizivir">
+        <item/>        
+    </string-array></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr/strings.xml" qualifiers="fr"><string name="ConnectTintabee">Connecter à Tintabee</string><string name="version">iStayHealthy v3.1.5</string><string name="Clinics">Cliniques</string><string name="info">Info</string><string name="ChangeName">Modifier Nom</string><string name="ClinicPhone">Téléphone</string><string name="CD4Percent">CD4 %</string><string-array name="repeats">
+    	<item>Every 24 hours</item>
+    	<item>Every 12 hours</item>
+    	<item>Every 8 hours</item>
+    	<item>Every 6 hours</item>
+    	<item>Never</item>
+    </string-array><string name="Clear">Supprimer</string><string name="redcells">Globules rouges</string><string name="passwordenabled">Mot de passe permis</string><string name="login">Connecter</string><string name="DisconnectTintabee">Séparer de Tintabee</string><string name="AllResults">Tous</string><string name="Backup">Sauvegarde</string><string name="CallEmergency">D\'Urgence</string><string name="CallClinic">Téléphoner</string><string name="Email">Envoyer l\'email</string><string name="cholesterolRatio">Rapport Cholestérol</string><string name="diastole">Diastole</string><string name="DefaultAlertMessage">Prendre vos Médicaments</string><string name="SetMessage">Régler Texte</string><string name="forgotPassword">Mot de passe oublié? Cliquez ici</string><string name="loading">Chargement...</string><string name="Sound">Son</string><string name="ClinicWeb">Web</string><string name="fromTinabee">Télécharger</string><string name="editSideEffect">Décrirons les effet indésirable</string><string name="ChangeDate">Changer la Date</string><string name="ImportResults">Importer\nRésultats</string><string name="SideEffects">Effets\nIndésirables</string><string name="Cancel">Annuler</string><string name="perday">Par Jour?</string><string name="SetRepeats">Régler Répète</string><string name="OtherResults">Autre</string><string name="IncorrectPassword">Mot de passe erroné.Réessayez</string><string name="Delete">Supprimer</string><string name="Default">Défaut</string><string name="TooShortPassword">Mot de passe est trop court.Réessayez</string><string name="smoking">Fumeur?</string><string name="EditOtherMeds">Modifier\nMédicaments</string><string name="pressure">Pression Artérielle</string><string name="whitecells">Globules blancs</string><string name="recurring">récurrents</string><string name="Back">Retour</string><string name="unique">uniques</string><string name="CD4">CD4 </string><string name="EditHIVDrugs">Modifier\nMéd.</string><string name="AddClinic">Ajouter Clinique</string><string name="effectList">De la Liste</string><string name="sugar">Sucre</string><string name="Tri">Cholestérol(tri.)</string><string name="passworddisabled">Mot de passe désactivé</string><string name="Dropbox">Dropbox</string><string name="deleteentry">Supprimer?</string><string name="everytwodays">Tous les 2 jours?</string><string name="notapplicable">p/a</string><string name="AddResults">Ajouter\nRésultats</string><string name="More">Plus</string><string name="Minor">Mineur</string><string name="TreatmentStart">Débuter Thérapie</string><string name="Edit">Modifier</string><string name="rate">Rythme Card.</string><string name="importData">Importer Données?</string><string name="NoResultsListed">Aucun Résultats</string><string name="Procedure">Chirurgie</string><string name="SetLabel">Régler Texte</string><string name="BloodResults">Sang</string><string name="on">On</string><string name="everythreedays">Tous les 3 jours?</string><string name="Results">Résultats</string><string name="OtherMeds">Médicaments</string><string name="HDL">Cholestérol(HDL)</string><string name="HepCViralLoad">Char./Vir. HepC</string><string name="cholesterol">Cholestérol</string><string name="AddAlert">Ajouter\nAlerte</string><string name="EmergencyPhone">Tel. d\'Urgence</string><string name="ClinicName">Clinique</string><string name="Charts">Summaire</string><string name="PasswordText">Mot de passe</string><string name="undetectablequery">indétectable?</string><string name="ChangeSound">Modifier Son</string><string name="EditResults">Modifier\nRésultats</string><string name="view">ImageView</string><string name="No">No</string><string name="Confirm">Confirmer</string><string name="settime">Régler l\'Heure</string><string name="ModifyProcedure">Editer Maladie/Chirurgie</string><string name="off">Off</string><string name="Select">Sélectionner</string><string name="emailResults">Résultats\npar Email</string><string name="LDL">Cholestérol(LDL)</string><string name="HIVResults">VIH</string><string name="AddOtherMeds">Ajouter\nMédicaments</string><string name="EnterName">Nom</string><string name="ViralLoad">Charge Viral</string><string name="Missedquery">Médicaments\nManqués?</string><string name="systole">Systole</string><string name="AddProcedure">Maladie/Chirurgie</string><string name="platelet">Plaquettes</string><string name="CD4Count">CD4  </string><string name="DisconnectDropbox">Séparer de DropBox</string><string name="bannerURL">http://www.poz.com</string><string name="ClinicID">Votre ID</string><string name="ChangeRepeats">Modifier Répète</string><string name="DeleteMissedMeds">Supprimer tous les Médicaments manqué??</string><string name="Serious">Grave</string><string name="forgotmeds">Je n\'ai pas pris mes Méd\'s.</string><string name="Yes">Oui</string><string name="Major">Majeur</string><string name="upload">Sauvegarde. S\'il vous plaît attendre</string><string name="Illness">Maladie</string><string name="Alerts">Alertes</string><string name="showresult">Montrent Résultats</string><string name="SetSound">Son</string><string name="Android">Sauvegarder/Rétablir</string><string name="cardiacRisk">Risque Cardiaque</string><string name="toTinabee">Transférer</string><string name="MissedMedications">Manqués</string><string name="haemo">Hemoglobulin</string><string name="chartname">Chartview in Landscape Mode</string><string name="tookmeds">J\'ai pris mes Méd\'s.</string><string name="EnterDose">Dose en [mg]</string><string name="ModifyClinic">Editer Clinique</string><string name="ConsultantName">Docteur</string><string name="weight">Poids</string><string name="HIVDrugs">Médication Antiviral</string><string name="vibratequery">Vibrer?</string><string name="diabetic">Diabétique?</string><string name="Restore">Rétablir</string><string name="confirmmeds">Confirmer que je prenais Méd\'s.?</string><string name="Extras">Suppléments</string><string name="general">Méd. Générale</string><string name="Repeats">Récurrents</string><string name="SavePassword">Enregistrer Mot de Passe</string><string name="DeleteSideEffects">Supprimer tous les Effets indésirables?</string><string name="download">Restauration. S\'il vous plaît attendre.</string><string name="PreviousMeds">Méd. précédente</string><string name="onlyonce">Seule Fois?</string><string name="wrongPassword">Mot de passe erroné.Réessayez</string><string name="EditAlert">Modifier\nAlerte</string><string name="Tintabee">Tintabee</string><string name="DefaultAlertLabelt">iStayHealthy</string><string name="noneListed">none listed</string><string name="button">ImageButton</string><string name="und">ind.</string><string name="sendFeedback">Suggestions?</string><string name="ChangeDose">Modifier Dose</string><string name="undetectable">indétectable</string><string name="ClinicEmail">Email</string><string name="Save">Enregistrer</string><string name="Password">Mot de passe</string><string name="AddHIVDrugs">Ajouter\nMédications</string><string name="none">Aucun</string><string name="lexicon">Glossaire</string><string name="medicationtracker">Moniteur Méd\'s.</string><string name="app_name">iStayHealthy</string><string name="GoToWeb">Allez au Web</string><string name="ConnectDropbox">Connecter à Dropbox</string><string name="SetDate">Régler la Date</string><string name="UsePassword">Activer?</string><string name="TreatmentEnd">Fin de Thérapie</string><string name="ListOfMeds">Médication VIH</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-fr-rCA/links.xml" qualifiers="fr-rCA"><string name="testing">http://www.catie.ca/fr/prevention/depistage-diagnostic</string><string name="medslist">http://www.catie.ca/fr/guides-pratiques/traitement-antiretroviral/annexes/b</string><string name="officialinfo">http://www.catie.ca/fr/essentiel</string><string name="prevention">http://www.catie.ca/fr/prevention</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-small/screen.xml" qualifiers="small"><string name="screenType" translatable="false">smallphone</string></file><file path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/values-sw600dp/screen.xml" qualifiers="sw600dp"><string name="screenType" translatable="false">tablet</string></file></source><source path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/generated/res/rs/debug"/><source path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/debug/res"/></dataSet><mergedItems/></merger>

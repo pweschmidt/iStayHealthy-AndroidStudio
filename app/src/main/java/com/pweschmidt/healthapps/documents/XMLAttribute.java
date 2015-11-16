@@ -52,6 +52,10 @@ public class XMLAttribute {
 	 */
 	public String toXMLString()
     {
+        if(null == value)
+        {
+            return " ";
+        }
         value = XMLAttribute.getEscapedXMLString(value);
 		String xml = name + "=\"" + value + "\" ";
 		return xml;
@@ -59,6 +63,10 @@ public class XMLAttribute {
 
     public static String getEscapedXMLString(String unescapedString)
     {
+        if (null == unescapedString)
+        {
+            return "";
+        }
         String escaped = unescapedString.replaceAll(XMLAttribute.ampersand, XMLAttribute.xmlAmp);
         escaped = escaped.replaceAll(XMLAttribute.lt,XMLAttribute.xmlLt);
         escaped = escaped.replaceAll(XMLAttribute.gt,XMLAttribute.xmlGt);

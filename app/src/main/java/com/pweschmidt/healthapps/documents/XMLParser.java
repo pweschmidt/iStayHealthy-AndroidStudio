@@ -1,28 +1,36 @@
 package com.pweschmidt.healthapps.documents;
 
-import com.pweschmidt.healthapps.datamodel.*;
-import java.net.URL;
-import java.io.*;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import android.util.Log;
+import android.content.ContentValues;
+import android.content.Context;
+
+import com.pweschmidt.healthapps.datamodel.Contacts;
+import com.pweschmidt.healthapps.datamodel.Medication;
+import com.pweschmidt.healthapps.datamodel.MissedMedication;
+import com.pweschmidt.healthapps.datamodel.OtherMedication;
+import com.pweschmidt.healthapps.datamodel.PreviousMedication;
+import com.pweschmidt.healthapps.datamodel.Procedures;
+import com.pweschmidt.healthapps.datamodel.Results;
+import com.pweschmidt.healthapps.datamodel.SideEffects;
+import com.pweschmidt.healthapps.iStayHealthyContentProvider;
+import com.pweschmidt.healthapps.iStayHealthyDatabaseSchema;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
 import org.xml.sax.SAXParseException;
 
-import com.pweschmidt.healthapps.*;
-import android.content.*;
-
+import java.io.ByteArrayInputStream;
+import java.net.URL;
 import java.text.ParseException;
-import java.util.*;
 import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 public class XMLParser 
 {
-	private static final String TAG = "XMLParser";
+//	private static final String TAG = "XMLParser";
 	public final SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yy HH:mm:ss");
 	private Context context;
 	private byte[] xmlData;
@@ -46,7 +54,7 @@ public class XMLParser
 	public XMLParser(byte[] xmlBytes, Context context)
 	{
 		this.url = null;
-		Log.d(TAG,"We are about to read in the bytes "+xmlBytes.length);
+//		Log.d(TAG,"We are about to read in the bytes "+xmlBytes.length);
 		this.xmlData = xmlBytes;
 		this.context = context;
 		isTintabee = false;
@@ -65,7 +73,7 @@ public class XMLParser
 	{
 		try
 		{
-			Log.d(TAG,"We are about to parse xml data of content "+xmlData.length);
+//			Log.d(TAG,"We are about to parse xml data of content "+xmlData.length);
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
             db.setErrorHandler(errorHandler);
@@ -74,9 +82,9 @@ public class XMLParser
 //				doc = db.parse(new InputSource(url.openStream()));
 //			else{
 //			}
-                Log.d(TAG,"We are AFTER parsing the data set");
+//                Log.d(TAG,"We are AFTER parsing the data set");
                 doc.getDocumentElement().normalize();
-            Log.d(TAG,"We are AFTER normalising the data set");
+//            Log.d(TAG,"We are AFTER normalising the data set");
 			createResults();
 			createMedication();
 			createMissedMedication();
@@ -100,9 +108,9 @@ public class XMLParser
 			return;
 		}
 		NodeList results = getNodes(doc,"Result");
-		Log.d(TAG,"parse: we have "+results.getLength()+" results");
+//		Log.d(TAG,"parse: we have "+results.getLength()+" results");
 		for(int i = 0 ; i < results.getLength(); ++i){
-			Log.d(TAG,"Result "+i);
+//			Log.d(TAG,"Result "+i);
 			Results result = new Results();
 			Element element = (Element)results.item(i);
 			String guid = getAttributeValue(element, iStayHealthyDatabaseSchema.GUIDTEXT);
@@ -112,7 +120,7 @@ public class XMLParser
 			String resultsDate = getAttributeValue(element, iStayHealthyDatabaseSchema.RESULTSDATE);
 			if(!resultsDate.equals("")){
 				long date = getDateFromDateString(resultsDate);
-				Log.d(TAG,"Date = "+resultsDate);
+//				Log.d(TAG,"Date = "+resultsDate);
 				result.setTime(date);
 			}
 			else
@@ -121,14 +129,14 @@ public class XMLParser
 			}
 			String cd4 = getAttributeValue(element, iStayHealthyDatabaseSchema.CD4);
 			if(!cd4.equals("")){
-				Log.d(TAG,"CD4 count = "+cd4);
+//				Log.d(TAG,"CD4 count = "+cd4);
                 int iCD4;
                 iCD4 = getIntegerFromString(cd4);
                 result.setCD4Count(iCD4);
 			}
 			String cd4Percent = getAttributeValue(element, iStayHealthyDatabaseSchema.CD4PERCENT);
 			if(!cd4Percent.equals("")){
-				Log.d(TAG,"CD4 percent = "+cd4Percent);
+//				Log.d(TAG,"CD4 percent = "+cd4Percent);
                 float fCD4;
                 fCD4 = getFloatFromString(cd4Percent);
 				result.setCD4Percent(fCD4);
@@ -152,7 +160,7 @@ public class XMLParser
 //                    result.setViralLoad(iVL);
 //                }
 			}
-			Log.d(TAG,"after vl");
+//			Log.d(TAG,"after vl");
 			String hepCVl = getAttributeValue(element, iStayHealthyDatabaseSchema.HEPCVIRALLOAD);
 			if(!hepCVl.equals(""))
             {
@@ -162,21 +170,21 @@ public class XMLParser
 			}
 			String glucose = getAttributeValue(element, iStayHealthyDatabaseSchema.GLUCOSE);
 			if(!glucose.equals("")){
-				Log.d(TAG,"Glucose = "+glucose);
+//				Log.d(TAG,"Glucose = "+glucose);
                 float fGlucose;
                 fGlucose = getFloatFromString(glucose);
 				result.setGlucose(fGlucose);
 			}
 			String ldl = getAttributeValue(element, iStayHealthyDatabaseSchema.LDL);
 			if(!ldl.equals("")){
-				Log.d(TAG,"LDL  = "+ldl);
+//				Log.d(TAG,"LDL  = "+ldl);
                 float fLDL;
                 fLDL = getFloatFromString(ldl);
 				result.setLDL(fLDL);
 			}
 			String hdl = getAttributeValue(element, iStayHealthyDatabaseSchema.HDL);
 			if(!hdl.equals("")){
-				Log.d(TAG,"HDL  = "+hdl);
+//				Log.d(TAG,"HDL  = "+hdl);
                 float fHDL;
                 fHDL = getFloatFromString(hdl);
 				result.setHDL(fHDL);
@@ -186,23 +194,23 @@ public class XMLParser
                 int iSystole;
                 iSystole = getIntegerFromString(systole);
 				result.setSystole(iSystole);
-				Log.d(TAG,"Systole = "+systole);
+//				Log.d(TAG,"Systole = "+systole);
 			}
 			String diastole = getAttributeValue(element, iStayHealthyDatabaseSchema.DIASTOLE);
 			if(!diastole.equals("")){
                 int iDiastole;
                 iDiastole = getIntegerFromString(diastole);
 				result.setDiastole(iDiastole);
-				Log.d(TAG,"Diastole = "+diastole);
+//				Log.d(TAG,"Diastole = "+diastole);
 			}
 			String rate = getAttributeValue(element, iStayHealthyDatabaseSchema.HEARTRATE);
 			if(!rate.equals("")){
                 int iHR;
                 iHR = getIntegerFromString(rate);
 				result.setHeartRate(iHR);
-				Log.d(TAG,"HeartRate = "+rate);
+//				Log.d(TAG,"HeartRate = "+rate);
 			}
-			Log.d(TAG,"after heartRate");
+//			Log.d(TAG,"after heartRate");
 			
 			String weight = getAttributeValue(element, iStayHealthyDatabaseSchema.WEIGHT);
 			if(!weight.equals("")){
@@ -230,18 +238,18 @@ public class XMLParser
                 int rC = getIntegerFromString(redCells);
                 result.setRedCellCount(rC);
 			}
-			Log.d(TAG,"after redcellcount");
+//			Log.d(TAG,"after redcellcount");
 			String whitecells = getAttributeValue(element, iStayHealthyDatabaseSchema.WHITECELLCOUNT);
 			if(!whitecells.equals(""))
 			{
                 int wC = getIntegerFromString(whitecells);
                 result.setWhiteCellCount(wC);
 			}
-			Log.d(TAG,"WRITING RESULT TO SQL DATABASE");
+//			Log.d(TAG,"WRITING RESULT TO SQL DATABASE");
 			ContentValues values = result.contentValuesForResult();
 //			context.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, values);
 			android.net.Uri uri = context.getContentResolver().insert(iStayHealthyContentProvider.RESULTS_CONTENT_URI, values);
-			Log.d(TAG,"in the XML parsing we added the row to the URI = "+uri.getPath());
+//			Log.d(TAG,"in the XML parsing we added the row to the URI = "+uri.getPath());
 		}
 	}
 	
@@ -254,7 +262,7 @@ public class XMLParser
 			return;
 		}
 		NodeList meds = getNodes(doc,"Medication");
-        Log.d(TAG,"parse: we have "+meds.getLength()+" meds");
+//        Log.d(TAG,"parse: we have "+meds.getLength()+" meds");
 		for(int i = 0 ; i < meds.getLength(); ++i){
 			Element element = (Element)meds.item(i);
 			Medication med = new Medication();
@@ -269,12 +277,12 @@ public class XMLParser
 			}
 			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
-                Log.d(TAG,"name ="+name);
+//                Log.d(TAG,"name ="+name);
 				med.setName(name);
 			}
 			String drug = getAttributeValue(element, iStayHealthyDatabaseSchema.DRUG);
 			if(!drug.equals("")){
-                Log.d(TAG,"drug ="+drug);
+//                Log.d(TAG,"drug ="+drug);
 				med.setDrug(drug);
 			}
 			String form = getAttributeValue(element, iStayHealthyDatabaseSchema.MEDICATIONFORM);
@@ -293,7 +301,7 @@ public class XMLParser
 			return;
 		}
 		NodeList misseds = getNodes(doc, "MissedMedication");
-        Log.d(TAG,"parse: we have "+misseds.getLength()+" missed");
+//        Log.d(TAG,"parse: we have "+misseds.getLength()+" missed");
 		for(int i = 0 ; i < misseds.getLength(); ++i){
 			Element element = (Element)misseds.item(i);
 			MissedMedication missed = new MissedMedication();
@@ -345,12 +353,12 @@ public class XMLParser
 			}
 			String name = getAttributeValue(element, iStayHealthyDatabaseSchema.NAME);
 			if(!name.equals("")){
-                Log.d(TAG,"name ="+name);
+//                Log.d(TAG,"name ="+name);
 				other.setName(name);
 			}
 			String drug = getAttributeValue(element, iStayHealthyDatabaseSchema.DRUG);
 			if(!drug.equals("")){
-                Log.d(TAG,"drug ="+drug);
+ //               Log.d(TAG,"drug ="+drug);
 				other.setDrug(drug);
 			}
 			

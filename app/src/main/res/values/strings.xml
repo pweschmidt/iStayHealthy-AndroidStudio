@@ -162,7 +162,7 @@
     <string name="BloodResults">Bloods</string>
     <string name="OtherResults">Other</string>
     <string name="AllResults">All</string>
-    <string name="version">iStayHealthy v3.1.3</string>
+    <string name="version">iStayHealthy v3.1.6</string>
     <string name="forgotPassword">Forgot Password? Click here</string>
     <string name="editSideEffect">Describe Side Effect</string>
     <string name="effectList">From List</string>
