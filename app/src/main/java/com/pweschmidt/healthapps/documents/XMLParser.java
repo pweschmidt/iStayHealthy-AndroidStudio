@@ -367,10 +367,7 @@ public class XMLParser
 			{
 				other.setDose(Integer.parseInt(dose));
 			}
-			
-			String unit = getAttributeValue(element, "Unit");
-					
-			
+
 			String form = getAttributeValue(element, iStayHealthyDatabaseSchema.MEDICATIONFORM);
 			if(!form.equals("")){
 				other.setMedicationForm(form);

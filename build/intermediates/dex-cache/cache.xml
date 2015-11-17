@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/lib/dropbox-android-sdk-1.6.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
+        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/release/dropbox-android-sdk-1.6.3-40cfcf15c2abc3c5be9b2a348baca2748725e46d.jar" />
+    </item>
+    <item
+        jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1f35f386f533069409791b79affdb3830dcdbe8a.jar" />
+        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/release/internal_impl-22.0.0-aec12c8a139b19f4247201a98e76eb5872c29ffb.jar" />
     </item>
     <item
         jar="/Users/piddie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-4cdfdfa60ba761a5b6d2492d1f792f7d8ff5a273.jar" />
+        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/release/support-annotations-22.0.0-4cdfdfa60ba761a5b6d2492d1f792f7d8ff5a273.jar" />
     </item>
     <item
-        jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/classes-5aa034401aa3dbb56f622af44cc1782794bb6374.jar" />
-    </item>
-    <item
-        jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/lib/dropbox-android-sdk-1.6.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
-        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/dropbox-android-sdk-1.6.3-40cfcf15c2abc3c5be9b2a348baca2748725e46d.jar" />
+        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/release/classes-8958517f6539dc94a3b98246410d5874fb1cbea5.jar" />
     </item>
     <item
         jar="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/lib/json_simple-1.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
-        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/debug/json_simple-1.1-91cfbb2eb0c1d275e04ac2529c2ac184d5b3d0c2.jar" />
+        <dex dex="/Users/piddie/AndroidstudioProjects/iStayHealthy/app/build/intermediates/pre-dexed/release/json_simple-1.1-91cfbb2eb0c1d275e04ac2529c2ac184d5b3d0c2.jar" />
     </item>
 
 </items>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/subtitlebar"/>
+    <include layout="@layout/dateheaderview"/>
+    <ListView
+        android:id="@+id/missedReasonListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />    
+    
+</LinearLayout><!-- From: file:/Users/piddie/AndroidstudioProjects/iStayHealthy/app/src/main/res/layout/add_missed.xml -->

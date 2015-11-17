@@ -54,7 +54,7 @@ public class XMLAttribute {
     {
         if(null == value)
         {
-            return " ";
+            return "";
         }
         value = XMLAttribute.getEscapedXMLString(value);
 		String xml = name + "=\"" + value + "\" ";

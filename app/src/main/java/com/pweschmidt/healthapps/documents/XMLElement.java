@@ -86,7 +86,14 @@ public class XMLElement {
 		Iterator <XMLAttribute> attIterator = attributes.iterator();
 		while(attIterator.hasNext()){
 			XMLAttribute attribute = (XMLAttribute)attIterator.next();
-			elementBuffer.append(attribute.toXMLString());
+			String toString = attribute.toXMLString();
+			if(null != toString)
+			{
+				if (!toString.equals(""))
+				{
+					elementBuffer.append(attribute.toXMLString());
+				}
+			}
 		}
 		elementBuffer.append(CLOSE);
 		elementBuffer.append(NEWLINE);
